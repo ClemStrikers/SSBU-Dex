@@ -1,0 +1,136 @@
+{
+  "id": "75",
+  "name": "Byleth",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le Démon Cendré. Un épéiste 'Distance Demon' qui utilise les 4 Reliques des Héros : l'Épée du Créateur (Haut), la lance Areadbhar (Côté), la hache Aymr (Bas) et l'arc Failnaught (Neutre).",
+  "thumbnail": "byleth_icon.png",
+  "image": "byleth.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "1.5% + 2% + 4.5% / Multi",
+        "description": "Coup de main, coup de pied, coup d'épée (ou rafale de fouet)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13% (Lame) / 9% (Manche)",
+        "description": "Fente glissée (bon burst option)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19% (Pointe) / 13% (Manche)",
+        "description": "Areadbhar (Lance). Portée immense, peut être orienté. Sweetspot au bout."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Épée du Créateur (Fouet). Fouette au-dessus de la tête (Jonglage)."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "23%",
+        "description": "Aymr (Hache). Balayage avant puis arrière. Dégâts de bouclier massifs."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Failnaught",
+        "input": "B",
+        "damage": "12-29% (Charge)",
+        "description": "Tire une flèche d'énergie. Peut être annulé (Shield cancel). Charge max perce tout."
+      },
+      {
+        "name": "Areadbhar",
+        "input": "→ + B",
+        "damage": "17% (Pointe) / 11% (Manche)",
+        "description": "Large coup de lance (Sweetspot au bout). Excellent pour zoner."
+      },
+      {
+        "name": "Sword of the Creator",
+        "input": "↑ + B",
+        "damage": "13% (Total)",
+        "description": "Grappin (Tether). Attrape le bord ou l'ennemi. Spike l'ennemi au-dessus de 50%."
+      },
+      {
+        "name": "Aymr",
+        "input": "↓ + B",
+        "damage": "30% (Sol) / 25% (Air)",
+        "description": "Coup de hache dévastateur. Super Armor pendant la charge. Casse les boucliers."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Multi-hit)",
+        "description": "Tourbillonne avec l'arc Failnaught. Atterrissage actif (Landing hit)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13% (Pointe)",
+        "description": "Estocade avec Areadbhar. Portée excellente."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15% (Pointe)",
+        "description": "Estocade arrière avec Areadbhar. Kill move très puissant si bien espacé."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11.5% (Multi-hit)",
+        "description": "Tourbillon de fouet vers le haut (Ladder combo tool)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "19%",
+        "description": "Coup de hache Aymr vers le bas. Meteor Smash brutal."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Jette en avant (Combo)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "12%",
+        "description": "Jette en arrière (Kill throw à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Jette vers le haut (Combo vers Up Air / Up B)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol (Principal combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "28",
+  "name": "Pit",
+  "series": "Kid Icarus",
+  "isEcho": false,
+  "description": "Le capitaine de la garde de Palutena. Un personnage 'Honnête' : très équilibré, excellente récupération, projectiles contrôlables, et boucliers reflecteurs.",
+  "thumbnail": "pit_icon.png",
+  "image": "pit.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2% + 2% + Multi",
+        "description": "Combo lame double / Rapid Jab"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Coup de tranche en courant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "10% + 5%",
+        "description": "Double coup de lame (bon kill power)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "4% + 2% + 9%",
+        "description": "Trois coups vers le haut (rapide)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Coup avant puis arrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Palutena's Arrow",
+        "input": "B",
+        "damage": "3-9%",
+        "description": "Flèche bleue dirigeable (très maniable)"
+      },
+      {
+        "name": "Upperdash Arm",
+        "input": "→ + B",
+        "damage": "11%",
+        "description": "Uppercut en avançant (Super Armor, réflecteur)"
+      },
+      {
+        "name": "Power of Flight",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "S'envole sur une longue distance"
+      },
+      {
+        "name": "Guardian Orbitars",
+        "input": "↓ + B",
+        "damage": "0%",
+        "description": "Boucliers latéraux (bloquent et reflètent)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8% (Multi)",
+        "description": "Tourbillon de lames devant lui"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "11% (Multi)",
+        "description": "Mulinello avant (bon pour carry hors stage)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Coup d'estoc arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10% (Multi)",
+        "description": "Hélicoptère vers le haut (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10%",
+        "description": "Coup vers le bas (Meteor Smash faible)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Coup de poing avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Suplex arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "11%",
+        "description": "Coup de pied sauté vers le haut (tue à très haut %)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

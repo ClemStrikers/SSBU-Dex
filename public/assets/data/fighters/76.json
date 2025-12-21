@@ -1,0 +1,130 @@
+{
+  "id": "76",
+  "name": "Min Min",
+  "series": "ARMS",
+  "isEcho": false,
+  "description": "La Reine des Ramen. Elle combat avec ses deux bras extensibles indépendants (A pour le gauche, B pour le droit). Le bras droit peut changer d'arme (Ramram, Megawatt, Dragon), modifiant radicalement la portée, la vitesse et la puissance de ses attaques.",
+  "thumbnail": "minmin_icon.png",
+  "image": "minmin.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.5% + 2.5% + 5.5%",
+        "description": "Enchaînement de coups de pied (Kung Fu Combo). Le coup final change si maintenu (Rafale de coups)."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Pied) / 8% (Jambe)",
+        "description": "Coup de pied sauté en avant. Bonne option pour approcher."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash (A / B)",
+        "input": "→ + A (Gauche) / → + B (Droit)",
+        "damage": "Variable selon l'ARMS",
+        "description": "Coup de poing longue portée.\n• Dragon (Gauche/Droit) : 16-20% (Laser: 7-12%)\n• Ramram : 10-12% (Rapide)\n• Megawatt : 19-21% (Lent mais très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Coup de pied retourné (Somersault). Agit comme Réflecteur de projectiles (Frame 6)."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15% (Pieds)",
+        "description": "Grand écart (Split Kick). Frappe des deux côtés, esquive les attaques hautes."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Right Arm Attack",
+        "input": "B (ou → + B)",
+        "damage": "Variable",
+        "description": "Frappe avec le bras droit. Peut être courbé haut/bas.\n• Ramram : 5% (Disque), couvre bien l'espace.\n• Megawatt : 11%, lourd et éjecte fort.\n• Dragon : 8-9%, standard (Laser si Smash chargé)."
+      },
+      {
+        "name": "ARMS Change",
+        "input": "↓ + B",
+        "damage": "0%",
+        "description": "Change l'arme du bras droit (Cycle) :\n1. Ramram (Anneau rapide / Feu)\n2. Megawatt (Boule lourde / Électrique)\n3. Dragon (Standard / Laser)"
+      },
+      {
+        "name": "ARMS Jump / ARMS Hook",
+        "input": "↑ + B",
+        "damage": "0% (Saut) / 12% (Grappin)",
+        "description": "Grand saut au sol. En l'air, utilise un grappin pour s'accrocher au bord (très longue portée)."
+      },
+      {
+        "name": "Power Dragon (Passif)",
+        "input": "Après un Grab",
+        "damage": "Boost Dégâts & Éjection",
+        "description": "Après une projection, le bras gauche (Dragon) devient chargé et inflige plus de dégâts (ex: F-Smash passe à ~22%)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "Variable",
+        "description": "Tourbillonne avec l'arme active.\n• Ramram : 6% (Rapide, Frame 8)\n• Dragon : 8.5% (Portée moyenne)\n• Megawatt : 12% (Lent, couvre large)"
+      },
+      {
+        "name": "Forward/Back Air",
+        "input": "Air →/← + A (ou B)",
+        "damage": "Variable",
+        "description": "Coup de poing allongé (Peut être Smashé en l'air).\n• Ramram : 5% (Tilt) / 10-12% (Smash)\n• Dragon : 8% (Tilt) / 13-16% (Smash)\n• Megawatt : 11% (Tilt) / 19-21% (Smash)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7%",
+        "description": "Petit coup de pied retourné vers le haut. Rapide pour jongler."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Coup de pied plongeant. Meteor Smash puissant au début de l'attaque."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Coup de poing (Active Power Dragon)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "12%",
+        "description": "Projection arrière (Active Power Dragon, tue à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Projection haute et coup de pied (Active Power Dragon)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "13%",
+        "description": "Plaque au sol et frappe (Active Power Dragon)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

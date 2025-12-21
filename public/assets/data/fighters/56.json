@@ -1,0 +1,136 @@
+{
+  "id": "56",
+  "name": "Robin",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le stratège. Il utilise la magie (Tomes) et l'épée Orage (Levin Sword). Ses armes ont une durabilité limitée et doivent se recharger.",
+  "thumbnail": "robin_icon.png",
+  "image": "robin.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2% + 2% + (Fire/Wind)",
+        "description": "Finit par du feu (éjecte) ou du vent (dégâts)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10%",
+        "description": "Coup d'épée simple en avançant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Levin) / 9% (Bronze)",
+        "description": "Coup d'épée électrique (très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Levin) / 8% (Bronze)",
+        "description": "Coup d'épée électrique vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15% (Levin) / 8% (Bronze)",
+        "description": "Frappe le sol et crée des éclairs"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Thunder",
+        "input": "B",
+        "damage": "4-26% (Charge)",
+        "description": "Charge 4 niveaux : Thunder, Elthunder, Arcthunder, Thoron"
+      },
+      {
+        "name": "Arcfire",
+        "input": "→ + B",
+        "damage": "2% xN",
+        "description": "Pilier de feu qui piège l'ennemi (lanceur de combo)"
+      },
+      {
+        "name": "Elwind",
+        "input": "↑ + B",
+        "damage": "6% + 6%",
+        "description": "Deux lames de vent vers le bas (Spike le 1er coup)"
+      },
+      {
+        "name": "Nosferatu",
+        "input": "↓ + B",
+        "damage": "15% (Vole vie)",
+        "description": "Attrape l'ennemi et vole ses PV (Command Grab)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% (Bronze) / 12% (Levin)",
+        "description": "Coup d'épée qui couvre devant et derrière"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (Bronze) / 12% (Levin)",
+        "description": "Large coup d'épée vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "9% (Bronze) / 15% (Levin)",
+        "description": "Coup d'épée arrière (Kill move puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "6% (Bronze) / 13% (Levin)",
+        "description": "Large arc au-dessus (très fort pour jongler)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "7% (Bronze) / 13% (Levin)",
+        "description": "Meteor Smash (seulement avec Levin Sword)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Pousse avec magie"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (tue à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

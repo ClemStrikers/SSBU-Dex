@@ -1,0 +1,142 @@
+{
+  "id": "79_80",
+  "name": "Pyra / Mythra",
+  "series": "Xenoblade Chronicles",
+  "isEcho": false,
+  "description": "L'Aegis légendaire. Deux combattantes en une, interchangeables instantanément via le Spécial Bas.\n• Pyra (Feu) : Puissance brute, excellente portée et éjection, mais lente.\n• Mythra (Lumière) : Vitesse extrême, combos et mécanique 'Foresight' (esquive parfaite), mais tue difficilement.",
+  "thumbnail": "pyramythra_icon.png",
+  "image": "pyramythra.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab (Pyra / Mythra)",
+        "input": "A, A, A",
+        "damage": "Pyra: 3%+2%+5% / Mythra: 2%+2%+4%",
+        "description": "Pyra : Coups lents et puissants. Mythra : Coups rapides avec option 'Rapid Jab' (mitraillette)."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "Pyra: 12.5% / Mythra: 8.5%",
+        "description": "Coup d'épée en courant. Pyra éjecte fort, Mythra permet d'enchaîner (Combo)."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "Pyra: 20% / Mythra: 14%",
+        "description": "Pyra (Flare Smash) : Coup dévastateur (Kill move majeur). Mythra : Rapide mais moins puissant."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "Pyra: 17% / Mythra: 13%",
+        "description": "Coup d'épée au-dessus de la tête. Pyra : Coup unique puissant. Mythra : Multi-hit (jonglage)."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "Pyra: 13.5% / Mythra: 11%",
+        "description": "Balayage rotatif. Pyra frappe fort des deux côtés. Mythra est très rapide (couvre les roulades)."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Flame Nova (Pyra) / Lightning Buster (Mythra)",
+        "input": "B",
+        "damage": "Pyra: ~30% (Max) / Mythra: ~23% (Max)",
+        "description": "Pyra : Tourbillon de feu (chargeable, attire ennemis). Mythra : Série de coups d'épée devant elle (chargeable, portée augmente)."
+      },
+      {
+        "name": "Blazing End (Pyra) / Photon Edge (Mythra)",
+        "input": "→ + B",
+        "damage": "Pyra: ~25% / Mythra: ~17%",
+        "description": "Pyra : Lance l'épée (Projectile stationnaire multi-hit). Mythra : Téléportation et charge horizontale (Vulnérable si bloqué)."
+      },
+      {
+        "name": "Prominence Revolt (Pyra) / Ray of Punishment (Mythra)",
+        "input": "↑ + B",
+        "damage": "Pyra: 13%+12% / Mythra: 8%+15%",
+        "description": "Pyra : Saut et chute brutale (Meteor Smash à la descente). Mythra : Tir de rayons (Chroma Dust si chargé) puis saut."
+      },
+      {
+        "name": "Swap to Mythra / Swap to Pyra",
+        "input": "↓ + B",
+        "damage": "0%",
+        "description": "Change instantanément de personnage. Invincibilité pendant la transformation. Permet des combos 'Switch'."
+      },
+      {
+        "name": "Foresight (Passif Mythra)",
+        "input": "Esquive (Timing parfait)",
+        "damage": "Ralentissement",
+        "description": "Si Mythra esquive au dernier moment, l'adversaire est ralenti et subit des dégâts réduits (similaire au Witch Time)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "Pyra: 10% / Mythra: 8%",
+        "description": "Coup circulaire. Pyra : Coup unique large. Mythra : Multi-hit (excellent combo tool)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "Pyra: 12% / Mythra: 8%",
+        "description": "Coup rotatif avant. Pyra tue, Mythra enchaîne."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "Pyra: 14% / Mythra: 10%",
+        "description": "Coup vertical arrière. Pyra possède un des meilleurs Kill Move aériens."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "Pyra: 11% / Mythra: 9%",
+        "description": "Coup en arc de cercle vers le haut."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "Pyra: 14% / Mythra: 11%",
+        "description": "Coup vers le bas. Pyra : Meteor Smash brutal. Mythra : Pas de meteor, mais bon pour combo."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Jette l'ennemi en avant (Met l'adversaire en situation de Tech-chase pour Mythra)."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "Pyra: 7% / Mythra: 5%",
+        "description": "Jette l'ennemi en arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Jette l'ennemi vers le haut (Ouvre des combos pour Mythra)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "Pyra: 8% / Mythra: 6%",
+        "description": "Plaque au sol. Principal outil de combo pour les deux."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

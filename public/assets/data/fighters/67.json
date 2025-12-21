@@ -1,0 +1,136 @@
+{
+  "id": "67",
+  "name": "King K. Rool",
+  "series": "Donkey Kong",
+  "isEcho": false,
+  "description": "Le roi des Kremlings. Un poids super-lourd qui possède une 'Belly Armor' (armure ventrale) sur certaines attaques, lui permettant d'encaisser les coups sans broncher.",
+  "thumbnail": "kingkrool_icon.png",
+  "image": "kingkrool.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.5% + 2.5% + 7%",
+        "description": "Combo paume, griffe et coup de pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "15% (Clean) / 11% (Late)",
+        "description": "Body Attack (Plaquage ventral avec armure)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19%",
+        "description": "Gant de boxe (portée moyenne, très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Tête) / 10% (Corps)",
+        "description": "Coup de tête sauté puis chute sur le ventre (Armure)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "18% (Corps) / 4% (Choc)",
+        "description": "Saut et écrasement ventral (Armure, saute par-dessus les attaques basses)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Blunderbuss",
+        "input": "B",
+        "damage": "13% (Boulet) / 12% (Aspiration)",
+        "description": "Tire un boulet de canon. Peut ré-aspirer pour le renvoyer."
+      },
+      {
+        "name": "Crownerang",
+        "input": "→ + B",
+        "damage": "9% (Aller) / 7% (Retour)",
+        "description": "Lance sa couronne (Boomerang). Armure au lancer."
+      },
+      {
+        "name": "Propellerpack",
+        "input": "↑ + B",
+        "damage": "3% xN",
+        "description": "S'envole très haut avec une hélice (Hitbox au-dessus)"
+      },
+      {
+        "name": "Gut Check",
+        "input": "↓ + B",
+        "damage": "Reflect (x1.5) / Counter",
+        "description": "Sort son ventre pour contrer ou renvoyer les projectiles"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Armure)",
+        "description": "Gros ventre (Armure, couvre tout le corps)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15.5% (Sweetspot)",
+        "description": "Dropkick puissant (tue tôt)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "19% (Sweetspot)",
+        "description": "Coup de poing revers (Meteor Smash puissant si bien placé)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "14%",
+        "description": "Coup de tête vers le haut (Armure, tue très haut)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12%",
+        "description": "Écrasement pieds (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Jette l'ennemi au sol"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Traîne au sol et lance derrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "16%",
+        "description": "Saute et écrase l'ennemi au sommet (le plus fort du jeu en dégâts)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Enfonce l'ennemi dans le sol (Bury, ouvre des Smashs)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

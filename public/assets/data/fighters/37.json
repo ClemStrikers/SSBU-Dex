@@ -1,0 +1,136 @@
+{
+  "id": "37",
+  "name": "Lucas",
+  "series": "EarthBound",
+  "isEcho": false,
+  "description": "Le garçon de Nowhere Islands. Similaire à Ness mais avec des pouvoirs PK différents (Glace, Amour). Il utilise un serpent (Rope Snake) pour attraper de loin.",
+  "thumbnail": "lucas_icon.png",
+  "image": "lucas.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Coups de pied et PSI"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Poussée PSI magique"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Coup de bâton rapide (reflète projectiles)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "21-26% (Total)",
+        "description": "Explosion PSI massive (très lent, très fort)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "17% x3",
+        "description": "Trois explosions au sol (couvre le bord)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "PK Freeze",
+        "input": "B",
+        "damage": "9-22% (Gèle)",
+        "description": "Projectile de glace dirigeable (gèle et éjecte)"
+      },
+      {
+        "name": "PK Fire",
+        "input": "→ + B",
+        "damage": "9% (Explosion)",
+        "description": "Éclair de feu horizontal (repousse l'ennemi)"
+      },
+      {
+        "name": "PK Thunder",
+        "input": "↑ + B",
+        "damage": "8% (Queue) / 28% (Impact)",
+        "description": "Éclair dirigeable (se propulse avec, multi-hit)"
+      },
+      {
+        "name": "PSI Magnet",
+        "input": "↓ + B",
+        "damage": "8% (Hitbox)",
+        "description": "Absorbe énergie (soigne) et frappe devant"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "2% xN",
+        "description": "Tourbillon PSI (multi-hit)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Coup de pied PSI avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Meteor Smash arrière (très stylé)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Coup de tête PSI"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "3.5% x4",
+        "description": "Coups de pied multiples vers le bas (Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Jette avec PK Love"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Jette derrière avec PSI"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Jette très haut (Kill throw à haut %)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Enterre l'ennemi (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

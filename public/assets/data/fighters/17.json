@@ -1,0 +1,136 @@
+{
+  "id": "17",
+  "name": "Zelda",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "La princesse d'Hyrule qui utilise la magie. Connue pour son Lightning Kick dévastateur et son Fantôme qui contrôle l'espace.",
+  "thumbnail": "zelda_icon.png",
+  "image": "zelda.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, Multi",
+        "damage": "2.5% + Multi",
+        "description": "Décharges magiques rapides"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Poussée magique en avançant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Explosion magique devant elle"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Multi-hit)",
+        "description": "Toupie magique au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Coup de pied bas rapide (envoie horizontalement)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Nayru's Love",
+        "input": "B",
+        "damage": "11%",
+        "description": "Cristal tournant (Reflecteur et invincibilité)"
+      },
+      {
+        "name": "Din's Fire",
+        "input": "→ + B",
+        "damage": "14% (Sweetspot)",
+        "description": "Boule de feu dirigeable qui explose"
+      },
+      {
+        "name": "Farore's Wind",
+        "input": "↑ + B",
+        "damage": "6% (Disparition) + 10% (Apparition)",
+        "description": "Téléportation (très puissant pour tuer)"
+      },
+      {
+        "name": "Phantom Slash",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Invoque un chevalier fantôme (chargeable)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11% (Multi-hit)",
+        "description": "Tourbillon magique"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "24% (Sweetspot) / 4% (Sour)",
+        "description": "Lightning Kick (Coup de pied éclair)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "24% (Sweetspot) / 4% (Sour)",
+        "description": "Lightning Kick arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "15%",
+        "description": "Explosion magique vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16%",
+        "description": "Meteor Smash avec le talon"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "12%",
+        "description": "Poussée magique"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière magique (tue à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "11%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Décharge magique au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

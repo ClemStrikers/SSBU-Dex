@@ -1,0 +1,240 @@
+{
+  "id": "81",
+  "name": "Kazuya",
+  "series": "Tekken",
+  "isEcho": false,
+  "description": "L'héritier du Devil Gene. Personnage extrêmement technique avec de nombreux 'Command Inputs'. Il possède une armure passive (Tough Body) et un mode 'Rage' à 100% qui booste ses dégâts (x1.1) et débloque le Rage Drive (Heaven's Door surpuissant).",
+  "thumbnail": "kazuya_icon.png",
+  "image": "kazuya.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "10-Hit Combo",
+        "input": "A (Maintenir ou tapoter)",
+        "damage": "45% (Total)",
+        "description": "Enchaînement de 10 coups classique de Tekken. Le dernier coup brise les boucliers."
+      },
+      {
+        "name": "Flash Punch Combo",
+        "input": "A, A, Pause, A",
+        "damage": "15% (Total)",
+        "description": "Jab, Jab, Direct du droit (éjecte loin)."
+      },
+      {
+        "name": "Oni Front Kick",
+        "input": "→ + A",
+        "damage": "13%",
+        "description": "Coup de pied frontal qui éjecte horizontalement."
+      },
+      {
+        "name": "Twin Pistons",
+        "input": "↑ + A, A",
+        "damage": "14% (Total)",
+        "description": "Double uppercut (mid et high). Excellent anti-air et combo starter."
+      },
+      {
+        "name": "Nejiri Uraken",
+        "input": "↓ + A",
+        "damage": "12%",
+        "description": "Coup de poing tournoyant bas. Invincible au début."
+      },
+      {
+        "name": "Stature Smash",
+        "input": "↙ + A",
+        "damage": "11%",
+        "description": "Coup de pied bas qui fait trébucher l'ennemi (Tech chase)."
+      },
+      {
+        "name": "Flash Tornado",
+        "input": "← + A",
+        "damage": "12%",
+        "description": "Coup de pied retourné rapide."
+      },
+      {
+        "name": "Jump Side Kick",
+        "input": "↖ + A",
+        "damage": "15%",
+        "description": "Coup de pied sauté qui traverse l'ennemi."
+      },
+      {
+        "name": "Roundhouse to Triple Spin Kicks",
+        "input": "↗ + A, A, A, A",
+        "damage": "21% (Total)",
+        "description": "Enchaînement de 4 coups de pied rotatifs."
+      },
+      {
+        "name": "Tsunami Kick",
+        "input": "↘ + A, A",
+        "damage": "19% (Total)",
+        "description": "Double coup de pied (Mid, Low). Casse souvent les boucliers."
+      },
+      {
+        "name": "Crouch Jab / Tombstone Crusher / Crouch Spin Kick",
+        "input": "Accroupi + (↓+A / ↘+A / ↙+A)",
+        "damage": "5% / 16% / 10%",
+        "description": "Coups depuis l'accroupissement. Tombstone Crusher est très puissant."
+      },
+      {
+        "name": "Demon God Fist",
+        "input": "Se relever + A",
+        "damage": "14% (Stun)",
+        "description": "Coup de poing en se relevant. Étourdit l'ennemi (Crumple)."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Glorious Demon God Fist",
+        "input": "→ + Smash",
+        "damage": "21% (Sweetspot)",
+        "description": "Direct du droit dévastateur (Sweetspot au poing). Super Armor."
+      },
+      {
+        "name": "Devil Twister",
+        "input": "↑ + Smash",
+        "damage": "22%",
+        "description": "Uppercut tourbillonnant. Transforme en Devil. Très puissant."
+      },
+      {
+        "name": "Lion Slayer",
+        "input": "↓ + Smash",
+        "damage": "19%",
+        "description": "Coup de poing descendant. Casse les boucliers et Meteor les ennemis au sol."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Devil Blaster",
+        "input": "B",
+        "damage": "11-20%",
+        "description": "Rayon laser longue portée (Devil). Peut tirer en l'air ou vers le haut/bas."
+      },
+      {
+        "name": "Devil Fist",
+        "input": "→ + B",
+        "damage": "13% (Stun)",
+        "description": "Coup de poing traversant. Étourdit l'ennemi (Crumple) pour un combo."
+      },
+      {
+        "name": "Devil Wings",
+        "input": "↑ + B",
+        "damage": "18% (Décollage)",
+        "description": "S'envole avec des ailes. Puissant au décollage."
+      },
+      {
+        "name": "Heaven's Door",
+        "input": "↓ + B",
+        "damage": "19%",
+        "description": "Command Grab. Saisit l'ennemi, s'envole et l'écrase au sol."
+      },
+      {
+        "name": "Rage Drive",
+        "input": "Rage + (↓ + B ou Grab ou Input)",
+        "damage": "Max 36%",
+        "description": "Version surpuissante de Heaven's Door. Disponible une fois par stock à 100% de dégâts."
+      }
+    ],
+    "command_inputs": [
+      {
+        "name": "Electric Wind God Fist (EWGF)",
+        "input": "→, N, ↓, ↘ + A (Just Frame)",
+        "damage": "14% (Stun)",
+        "description": "Uppercut électrique. Invincible, positif sur bouclier, étourdit l'ennemi. Outil principal de combo."
+      },
+      {
+        "name": "Wind God Fist",
+        "input": "→, N, ↓, ↘ + A",
+        "damage": "11%",
+        "description": "Version non-électrique (ratée). Moins puissante, pas de stun."
+      },
+      {
+        "name": "Dragon Uppercut",
+        "input": "→, N, ↓, ↘ + A (Maintenir)",
+        "damage": "23% (Sweetspot)",
+        "description": "Uppercut très puissant qui tue tôt (Dragon Punch)."
+      },
+      {
+        "name": "Spinning Demon to Left Hook",
+        "input": "→, N, ↓, ↘ + B",
+        "damage": "20% (Total)",
+        "description": "Balayage rotatif suivi d'un crochet (Hellsweep)."
+      },
+      {
+        "name": "Crouch Dash",
+        "input": "→, N, ↓, ↘",
+        "damage": "0%",
+        "description": "Dash rapide invincible sur le haut du corps. Permet d'approcher."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Jumping Knuckle. Meteor Smash diagonal."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12%",
+        "description": "Searing Edge. Coup de pied sauté."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "16%",
+        "description": "Jumping Sobat. Coup de pied arrière très puissant."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Rising Toe Kick. Coup de pied vertical."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16%",
+        "description": "Demon Scissors. Plongeon pied (Stall-then-fall)."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "12%",
+        "description": "Double Face Kick. Jette l'ennemi en avant."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "14%",
+        "description": "Steel Pedal Drop. Jette en arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "13%",
+        "description": "Air Inferno. Tire un laser sur l'ennemi en l'air."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "11%",
+        "description": "Stonehead. Coup de tête (Combo starter)."
+      },
+      {
+        "name": "Gates of Hell",
+        "input": "↘, ↓, ↘ + Grab",
+        "damage": "16%",
+        "description": "Command Grab spécial. Jette l'ennemi derrière au sol (Tech chase)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "41",
+  "name": "Lucario",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "Le maître de l'Aura. Plus il subit de dégâts, plus il frappe fort (Aura Sphere tue à 0% si Lucario a 150%). Mécanique de 'Comeback'.",
+  "thumbnail": "lucario_icon.png",
+  "image": "lucario.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 6%",
+        "description": "Combo poing, poing, pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8% (Aura)",
+        "description": "Coup de paume en avançant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-30% (Aura)",
+        "description": "Explosion d'Aura à deux mains (portée moyenne)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "13-25% (Aura)",
+        "description": "Uppercut d'Aura"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "11-22% (Aura)",
+        "description": "Frappe le sol des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Aura Sphere",
+        "input": "B",
+        "damage": "10-35% (Charge)",
+        "description": "Projectile bleu chargeable (grossit avec les dégâts)"
+      },
+      {
+        "name": "Force Palm",
+        "input": "→ + B",
+        "damage": "9-25% (Grab ou Flamme)",
+        "description": "Choppe à courte portée ou tir à moyenne portée"
+      },
+      {
+        "name": "Extreme Speed",
+        "input": "↑ + B",
+        "damage": "0% (Attaque à la fin)",
+        "description": "Dash très rapide contrôlable (va plus loin avec l'Aura)"
+      },
+      {
+        "name": "Double Team",
+        "input": "↓ + B",
+        "damage": "Variable (Counter)",
+        "description": "Contre qui téléporte et frappe"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8-18% (Aura)",
+        "description": "Tourbillon d'Aura"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "5-12% (Aura)",
+        "description": "Coup de pied sauté"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12-25% (Aura)",
+        "description": "Coup de paume arrière (très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7-16% (Aura)",
+        "description": "Coup de pied vertical"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "6-14% (Aura)",
+        "description": "Double piétinement (stoppe en l'air)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8% (Aura)",
+        "description": "Coup de paume avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10% (Aura)",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9% (Aura)",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7% (Aura)",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

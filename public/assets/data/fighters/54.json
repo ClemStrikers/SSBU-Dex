@@ -1,0 +1,136 @@
+{
+  "id": "54",
+  "name": "Palutena",
+  "series": "Kid Icarus",
+  "isEcho": false,
+  "description": "La Déesse de la Lumière. Très polyvalente, elle possède d'excellents outils aériens, des attaques invincibles et des projectiles à guidage automatique.",
+  "thumbnail": "palutena_icon.png",
+  "image": "palutena.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "3% + 2% + Multi",
+        "description": "Coups de bâton et rotation rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Invincible)",
+        "description": "Coup d'épaule avec bouclier (bloque les coups)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (+Windbox)",
+        "description": "Coup d'ailes (repousse même sans toucher)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Total)",
+        "description": "Pilier de lumière immense (très haut)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15%",
+        "description": "Coup d'ailes des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Autoreticle",
+        "input": "B",
+        "damage": "2.5% x3",
+        "description": "Vise l'adversaire et tire 3 lasers (Portée limitée)"
+      },
+      {
+        "name": "Explosive Flame",
+        "input": "→ + B",
+        "damage": "11-15%",
+        "description": "Crée une explosion à distance (Zoning puissant)"
+      },
+      {
+        "name": "Warp",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Téléportation (invulnérable)"
+      },
+      {
+        "name": "Counter / Reflect",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Agit comme Contre (CàC) ET Réflecteur (Projectiles)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11% (Multi-hit)",
+        "description": "Tourne son bâton (Excellent combo tool)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9%",
+        "description": "Coup de pied chassé"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12% (Invincible)",
+        "description": "Coup de bouclier (bloque et frappe)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "9% (Multi-hit)",
+        "description": "Auréole de lumière (Jonglage, tue à haut %)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10%",
+        "description": "Coup de pied vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Lévitation et tir"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Rebond au sol (Combo starter : NAir loops)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

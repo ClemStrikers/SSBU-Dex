@@ -1,0 +1,136 @@
+{
+    "id": "01",
+    "name": "Mario",
+    "series": "Super Mario",
+    "isEcho": false,
+    "description": "Le héros du Royaume Champignon ! Mario est un combattant équilibré, parfait pour les débutants comme les experts.",
+    "thumbnail": "mario_icon.png",
+    "image": "mario.png",
+    "moves": {
+      "neutral": [
+        { 
+            "name": "Jab", 
+            "input": "A", 
+            "damage": "2.2% -> 1.6% -> 4%", 
+            "description": "Enchaînement de coups de poing rapides" 
+        },
+        { 
+            "name": "Dash Attack", 
+            "input": "Dash + A", 
+            "damage": "8%", 
+            "description": "Glissade au sol" 
+        }
+      ],
+      "smash": [
+        { 
+            "name": "Forward Smash", 
+            "input": "→ + Smash", 
+            "damage": "14-17.8%", 
+            "description": "Coup de poing enflammé puissant" 
+        },
+        { 
+            "name": "Up Smash", 
+            "input": "↑ + Smash", 
+            "damage": "14%", 
+            "description": "Coup de tête vers le haut" 
+        },
+        { 
+            "name": "Down Smash", 
+            "input": "↓ + Smash", 
+            "damage": "10-12%", 
+            "description": "Breakdance balayant" 
+        }
+      ],
+      "specials": [
+        { 
+            "name": "Boule de feu", 
+            "input": "B", 
+            "damage": "5-6%", 
+            "description": "Lance une boule de feu rebondissante" 
+        },
+        { 
+            "name": "Cape", 
+            "input": "→ + B", 
+            "damage": "7%", 
+            "description": "Retourne les adversaires et reflète les projectiles" 
+        },
+        { 
+            "name": "Super Jump Punch", 
+            "input": "↑ + B", 
+            "damage": "5-12%", 
+            "description": "Uppercut avec pièces" 
+        },
+        { 
+            "name": "F.L.U.D.D.", 
+            "input": "↓ + B", 
+            "damage": "0%", 
+            "description": "Jet d'eau qui repousse les ennemis" 
+        }
+      ],
+      "aerials": [
+         { 
+            "name": "Neutral Air", 
+            "input": "Air + A", 
+            "damage": "8%", 
+            "description": "Coup de pied tournoyant" 
+         },
+         { 
+            "name": "Forward Air", 
+            "input": "Air → + A", 
+            "damage": "12-14%", 
+            "description": "Meteor Smash avec le poing" 
+         },
+         { 
+            "name": "Back Air", 
+            "input": "Air ← + A", 
+            "damage": "10.5%", 
+            "description": "Coup de pied arrière" 
+         },
+         { 
+            "name": "Up Air", 
+            "input": "Air ↑ + A", 
+            "damage": "7%", 
+            "description": "Coup de pied en arc" 
+         },
+         { 
+            "name": "Down Air", 
+            "input": "Air ↓ + A", 
+            "damage": "1.4% x5 + 5.5%", 
+            "description": "Drill Kick rotatif" 
+         }
+      ],
+      "throws": [
+         { 
+            "name": "Forward Throw", 
+            "input": "Grab → + A", 
+            "damage": "8%", 
+            "description": "Lance l'adversaire en avant" 
+         },
+         { 
+            "name": "Back Throw", 
+            "input": "Grab ← + A", 
+            "damage": "11%", 
+            "description": "Rotation et lancer arrière" 
+         },
+         { 
+            "name": "Up Throw", 
+            "input": "Grab ↑ + A", 
+            "damage": "7%", 
+            "description": "Lance vers le haut" 
+         },
+         { 
+            "name": "Down Throw", 
+            "input": "Grab ↓ + A", 
+            "damage": "5%", 
+            "description": "Slam au sol" 
+         }
+      ]
+    },
+  "matchups" : {
+    "winning_hard": ["12", "23", "39", "02", "06", "32", "73", "70", "52", "67", "36"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+  }

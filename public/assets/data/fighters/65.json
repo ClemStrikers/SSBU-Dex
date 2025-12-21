@@ -1,0 +1,136 @@
+{
+  "id": "65",
+  "name": "Ridley",
+  "series": "Metroid",
+  "isEcho": false,
+  "description": "Le commandant des Pirates de l'Espace. Un poids lourd sadique avec une excellente portée, des sauts multiples et des attaques brutales comme le 'Skewer' qui inflige des dégâts massifs.",
+  "thumbnail": "ridley_icon.png",
+  "image": "ridley.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "2% + 2% + 5% / Multi",
+        "description": "Griffure, griffure, morsure (ou rafale de coups de queue)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13%",
+        "description": "Morsure en fonçant (très puissante)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "20% (Explosion)",
+        "description": "Explosion de feu dévastatrice à courte portée"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17%",
+        "description": "Coup de pied retourné au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "16%",
+        "description": "Saut et écrasement violent avec les ailes"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Plasma Breath",
+        "input": "B",
+        "damage": "4-28% (Chargeable)",
+        "description": "Crache des boules de feu qui rebondissent au sol"
+      },
+      {
+        "name": "Space Pirate Rush",
+        "input": "→ + B",
+        "damage": "22% (Total)",
+        "description": "Attrape et traîne l'adversaire au sol (Command Grab)"
+      },
+      {
+        "name": "Wing Blitz",
+        "input": "↑ + B",
+        "damage": "15-18%",
+        "description": "Charge et fonce (4 directions possibles)"
+      },
+      {
+        "name": "Skewer",
+        "input": "↓ + B",
+        "damage": "60% (Sweetspot)",
+        "description": "Coup de queue précis. Si le bout touche : dégâts critiques et met à genoux."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Tourbillonne avec sa queue (grande portée)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "17% (Total)",
+        "description": "Triple coup de queue vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "16%",
+        "description": "Coup de pied arrière puissant (bon kill move)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "14%",
+        "description": "Coup d'ailes vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Plongeon rapide (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Jette l'adversaire violemment"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12%",
+        "description": "Jette en l'air et empale avec la queue"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase l'adversaire au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "32",
+  "name": "Ike",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le mercenaire radiant. Il manie la lourde épée Ragnell à deux mains. Ses attaques sont lentes mais couvrent une zone immense et tuent très tôt.",
+  "thumbnail": "ike_icon.png",
+  "image": "ike.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 4% + 5%",
+        "description": "Combo coup de poing, pied, épée"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "14%",
+        "description": "Coup d'épée en courant (tue bien)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19%",
+        "description": "Frappe verticale lourde (énorme portée)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17%",
+        "description": "Large arc au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (avant) + 17% (arrière)",
+        "description": "Balayage épée (couvre les deux côtés)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Eruption",
+        "input": "B",
+        "damage": "10-35%",
+        "description": "Explosion de feu au sol (chargeable)"
+      },
+      {
+        "name": "Quick Draw",
+        "input": "→ + B",
+        "damage": "6-13%",
+        "description": "Charge rapide en avant (pour revenir sur le stage)"
+      },
+      {
+        "name": "Aether",
+        "input": "↑ + B",
+        "damage": "6% + 3% xN + 6%",
+        "description": "Lance l'épée, saute et retombe (Super Armor)"
+      },
+      {
+        "name": "Counter",
+        "input": "↓ + B",
+        "damage": "Variable (x1.2)",
+        "description": "Contre lent mais puissant"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Coup circulaire large (lance tous les combos)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12%",
+        "description": "Coup vertical devant lui"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Coup horizontal arrière (très rapide)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Hélicoptère épée (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15%",
+        "description": "Plante l'épée vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Coup de pied et coup d'épée"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Uppercut (bon pour combo à bas %)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase et piétine (combo principal)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

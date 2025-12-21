@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSBU Codex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content" style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+          
+          <a href="#" class="logo" data-link="home">SSBU DEX</a>
+          
+          <button class="burger-menu" id="burgerBtn" style="background: transparent; border: none; color: white; font-size: 2rem; cursor: pointer; display: none;">☰</button>
+
+          <nav>
+            <ul class="nav-links" id="navLinks">
+              <li><a href="#" data-link="home" id="nav-home">Accueil</a></li>
+              <li><a href="#" data-link="roster" id="nav-roster">Personnages</a></li>
+              <li><a href="#" data-link="matchups" id="nav-matchups">Matchups</a></li>
+            </ul>
+          </nav>
+      </div>
+    </header>
+    <main id="app"></main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

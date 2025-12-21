@@ -1,0 +1,136 @@
+{
+  "id": "23",
+  "name": "Ganondorf",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "Le Roi Démon. Un poids lourd terrifiant qui utilise enfin son épée pour ses attaques Smash. Très lent mais tue en quelques coups.",
+  "thumbnail": "ganondorf_icon.png",
+  "image": "ganondorf.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "11%",
+        "description": "Poussée de la paume (très forte pour un jab)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "15%",
+        "description": "Coup d'épaule en avant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "24-29%",
+        "description": "Grand coup d'épée dévastateur (brise le moral)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "21-24%",
+        "description": "Large coup d'épée au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "16% (avant) + 18% (arrière)",
+        "description": "Estocade avant puis balayage arrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Warlock Punch",
+        "input": "B",
+        "damage": "30-37% (Super Armor)",
+        "description": "Le coup de poing violet. Lent mais mortel."
+      },
+      {
+        "name": "Flame Choke",
+        "input": "→ + B",
+        "damage": "12%",
+        "description": "Étrangle l'ennemi et le plaque au sol (imblocable)"
+      },
+      {
+        "name": "Dark Dive",
+        "input": "↑ + B",
+        "damage": "14% (Grab)",
+        "description": "Saut et électrocution (choppe l'adversaire)"
+      },
+      {
+        "name": "Wizard's Foot",
+        "input": "↓ + B",
+        "damage": "14%",
+        "description": "Coup de pied glissé enveloppé de magie noire"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% + 12%",
+        "description": "Double coup de pied (très bon outil)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "17% (Sweetspot)",
+        "description": "Le 'Dunk' (Coup de poing marteau)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "17%",
+        "description": "Coup de poing arrière (rapide et puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Jambe retournée vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "19%",
+        "description": "Stomp électrique (Meteor Smash surpuissant)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "13%",
+        "description": "Uppercut au corps à corps"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Coup de poing vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

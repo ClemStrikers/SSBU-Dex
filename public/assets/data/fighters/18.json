@@ -1,0 +1,136 @@
+{
+  "id": "18",
+  "name": "Dr. Mario",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "Mario avec un diplôme. Plus lent et plus lourd, mais frappe beaucoup plus fort. Ses pilules ont une trajectoire différente des boules de feu.",
+  "thumbnail": "drmario_icon.png",
+  "image": "drmario.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.7% + 1.9% + 4.8%",
+        "description": "Combo 3 coups (plus fort que Mario)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Glissade au sol"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "17-20%",
+        "description": "Coup de décharge électrique"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Balayage style breakdance"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Megavitamin",
+        "input": "B",
+        "damage": "5.6%",
+        "description": "Lance une pilule rebondissante"
+      },
+      {
+        "name": "Super Sheet",
+        "input": "→ + B",
+        "damage": "8.4%",
+        "description": "Reflecteur (Cape blanche)"
+      },
+      {
+        "name": "Super Jump Punch",
+        "input": "↑ + B",
+        "damage": "14% (Sweetspot)",
+        "description": "Uppercut violent (un seul coup fort)"
+      },
+      {
+        "name": "Dr. Tornado",
+        "input": "↓ + B",
+        "damage": "10% (Total)",
+        "description": "Tourbillonne (très bon pour sortir du terrain)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (début)",
+        "description": "Coup de pied tournoyant (Sex Kick)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15% (Sweetspot)",
+        "description": "Gros coup de poing (Meteor Smash)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Double pied arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "8%",
+        "description": "Coup de pied en arc"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Drill Kick (ne piège pas, éjecte fort)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Lancer avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "13%",
+        "description": "Grand tour et lancer (très fort)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Slam au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

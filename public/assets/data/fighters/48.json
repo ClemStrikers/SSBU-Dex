@@ -1,0 +1,136 @@
+{
+  "id": "48",
+  "name": "Rosalina & Luma",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "La gardienne du cosmos. Personnage 'Marionnettiste' : elle contrôle Luma à distance pour attaquer de deux endroits à la fois.",
+  "thumbnail": "rosalinaluma_icon.png",
+  "image": "rosalinaluma.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4% (+Luma)",
+        "description": "Coups de baguette (Luma frappe aussi)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "7% (+Luma)",
+        "description": "Plane vers l'avant (multi-hit)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "12% (Rosa) + 8% (Luma)",
+        "description": "Explosion galactique (énorme portée avec Luma)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "10% (Rosa) + 6% (Luma)",
+        "description": "Spirale ascendante"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "8% (Rosa) + 5% (Luma)",
+        "description": "Balayage des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Luma Shot",
+        "input": "B",
+        "damage": "10-16% (Charge)",
+        "description": "Tire Luma en avant (ou le rappelle)"
+      },
+      {
+        "name": "Star Bits",
+        "input": "→ + B",
+        "damage": "3% x3",
+        "description": "Luma tire des fragments d'étoiles (Zoning)"
+      },
+      {
+        "name": "Launch Star",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "S'envole très loin (pas de hitbox)"
+      },
+      {
+        "name": "Gravitational Pull",
+        "input": "↓ + B",
+        "damage": "0%",
+        "description": "Aspire les objets et annule les projectiles"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (+Luma)",
+        "description": "Rotation complète (couvre tout autour)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9% (+Luma)",
+        "description": "Coup de galaxie avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "11% (+Luma)",
+        "description": "Coup de robe arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10% (+Luma)",
+        "description": "Auréole vers le haut (Jonglage ultime)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12% (+Luma)",
+        "description": "Coup de pied météore (Luma frappe aussi)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Lévitation et poussée"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Lancer arrière (Kill throw puissant)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

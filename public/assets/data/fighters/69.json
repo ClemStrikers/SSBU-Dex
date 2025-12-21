@@ -1,0 +1,136 @@
+{
+  "id": "69",
+  "name": "Incineroar",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "Le Pokémon Catcheur. Très lent mais extrêmement puissant. Il joue sur les poses de victoire (Cancelables) et sa mécanique unique de 'Revenge' qui booste sa prochaine attaque.",
+  "thumbnail": "incineroar_icon.png",
+  "image": "incineroar.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.5% + 2.8% + 6.7%",
+        "description": "Coup de tranchant, genou, et coup de coude uppercut"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup de genou sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "20% (Pied) / 16% (Jambe)",
+        "description": "Coup de pied sauté retourné (Enzuigiri)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17%",
+        "description": "Coup de poing marteau au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "17%",
+        "description": "Grand saut et écrasement ventral (Body Splash)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Darkest Lariat",
+        "input": "B",
+        "damage": "17% (Début) / 13% (Fin)",
+        "description": "Tourbillon de bras (Invincible au début)"
+      },
+      {
+        "name": "Alolan Whip",
+        "input": "→ + B",
+        "damage": "20% (Lariat) / 12% (Back Body Drop)",
+        "description": "Projette dans les cordes. Timing requis pour le coup final."
+      },
+      {
+        "name": "Cross Chop",
+        "input": "↑ + B",
+        "damage": "13% (Chute) + 10% (Explosion)",
+        "description": "Saut et plongeon croisé (Meteor Smash à la descente)"
+      },
+      {
+        "name": "Revenge",
+        "input": "↓ + B",
+        "damage": "Stack Dégâts",
+        "description": "Encaisse un coup et stocke la puissance pour la prochaine attaque"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Plat ventre (Splash). Reste actif longtemps."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13%",
+        "description": "Dropkick à deux pieds"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de pied arrière (très rapide)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied en arc de cercle"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Coup de pied écrasant (Meteor Smash violent)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "14%",
+        "description": "Giant Swing (Tourbillon et lancer)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "16%",
+        "description": "German Suplex (Kill throw le plus puissant du jeu)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "14%",
+        "description": "Brise-reins (Backbreaker)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "13%",
+        "description": "Chokeslam (Combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

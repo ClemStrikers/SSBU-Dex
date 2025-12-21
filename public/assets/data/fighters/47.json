@@ -1,0 +1,136 @@
+{
+  "id": "47",
+  "name": "Wii Fit Trainer",
+  "series": "Wii Fit",
+  "isEcho": false,
+  "description": "L'entraîneuse fitness. Elle frappe avec des poses de yoga. Sa 'Deep Breathing' (Respiration profonde) booste sa vitesse et sa puissance temporairement.",
+  "thumbnail": "wiifittrainer_icon.png",
+  "image": "wiifittrainer.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 2% + 3% (Enterre)",
+        "description": "Combo 3 coups (le dernier enterre l'ennemi)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8%",
+        "description": "Coup de genou sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Avant) / 13% (Arrière)",
+        "description": "Fente du guerrier (frappe aussi derrière)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "18% (Sweetspot)",
+        "description": "Pose de l'arbre (invincible au début)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Coup de pied bas (très rapide)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Sun Salutation",
+        "input": "B",
+        "damage": "5-18% (Soigne 2%)",
+        "description": "Projectile solaire chargeable (soigne au tir)"
+      },
+      {
+        "name": "Header",
+        "input": "→ + B",
+        "damage": "15% (Ballon) + 10% (Tête)",
+        "description": "Frappe un ballon de foot (Spike puissant)"
+      },
+      {
+        "name": "Super Hoop",
+        "input": "↑ + B",
+        "damage": "5% xN",
+        "description": "S'envole avec des cerceaux (multi-hit)"
+      },
+      {
+        "name": "Deep Breathing",
+        "input": "↓ + B",
+        "damage": "Boost Stats",
+        "description": "Mini-jeu de rythme. Si réussi : +Attaque, +Vitesse, Soigne."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "9% (Sweetspot)",
+        "description": "Coup de genou et main (excellent combo)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10% (Jambe) / 13% (Pied)",
+        "description": "Coup de pied arrière (frappe aussi derrière)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Dropkick puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup de talon (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "3%",
+        "description": "Pousse du doigt (très faible)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Jette en l'air"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

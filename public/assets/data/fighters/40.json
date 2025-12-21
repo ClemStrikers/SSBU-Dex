@@ -1,0 +1,136 @@
+{
+  "id": "40",
+  "name": "Olimar",
+  "series": "Pikmin",
+  "isEcho": false,
+  "description": "Le capitaine et ses Pikmins. Sa puissance dépend des Pikmins qu'il a (Rouge=Feu, Jaune=Élec, Bleu=Grab, Blanc=Poison/Léger, Violet=Lourd/Fort).",
+  "thumbnail": "olimar_icon.png",
+  "image": "olimar.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "4% + 5%",
+        "description": "Double coup de poing"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8%",
+        "description": "Roulade maladroite"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "11-20% (Selon Pikmin)",
+        "description": "Lance un Pikmin (Violet = Très fort)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "12-18% (Selon Pikmin)",
+        "description": "Pikmin saute vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10-15% (Selon Pikmin)",
+        "description": "Envoie un Pikmin de chaque côté"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Pikmin Pluck",
+        "input": "B",
+        "damage": "0%",
+        "description": "Déterre des Pikmins (Max 3, ordre fixe)"
+      },
+      {
+        "name": "Pikmin Throw",
+        "input": "→ + B",
+        "damage": "Variable (Blanc = colle)",
+        "description": "Jette un Pikmin qui s'accroche et gratte des dégâts"
+      },
+      {
+        "name": "Winged Pikmin",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "S'envole (plus lourd si beaucoup de Pikmins)"
+      },
+      {
+        "name": "Pikmin Order",
+        "input": "↓ + B",
+        "damage": "0% (Super Armor)",
+        "description": "Rappelle les Pikmins et change l'ordre"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% (Multi-hit)",
+        "description": "Tourbillonne avec ses Pikmins"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10-14%",
+        "description": "Lance un Pikmin en l'air (portée moyenne)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12-16%",
+        "description": "Coup de Pikmin arrière (tue fort avec Rouge/Violet)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10-13%",
+        "description": "Coup de Pikmin vers le haut (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10-14%",
+        "description": "Coup vers le bas (Meteor avec certains Pikmins)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7-11%",
+        "description": "Pikmin jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9-13%",
+        "description": "Pikmin jette en arrière (Bleu = Kill throw puissant)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8-12%",
+        "description": "Pikmin jette en l'air (Bleu = Kill)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6-9%",
+        "description": "Combo throw"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

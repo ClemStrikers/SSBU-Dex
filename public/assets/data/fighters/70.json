@@ -1,0 +1,136 @@
+{
+  "id": "70",
+  "name": "Piranha Plant",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "Une plante carnivore en pot. Elle possède une portée de frappe surprenante et utilise du poison et des boules à piques pour contrôler l'espace. Son 'Ptooie' est l'un des meilleurs outils de ledge trapping du jeu.",
+  "thumbnail": "piranhaplant_icon.png",
+  "image": "piranhaplant.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "2.4% + 2.2% + 4.4% / Multi",
+        "description": "Coup de feuille, coup de feuille, coup de tête (ou morsures multiples)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Clean) / 7% (Late)",
+        "description": "Saut et coup de pot en avant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19% (Tête) / 15% (Tige)",
+        "description": "Coup de tête épineux (Prickly Piranha Plant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "3% + 12%",
+        "description": "Morsure vers le haut (2 coups)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12% (Avant) / 14% (Arrière)",
+        "description": "Tourbillonne dans son pot (touche des deux côtés)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Ptooie",
+        "input": "B",
+        "damage": "14-18% (Boule)",
+        "description": "Crache une boule à piques qui flotte au-dessus de sa tête"
+      },
+      {
+        "name": "Poison Breath",
+        "input": "→ + B",
+        "damage": "Charge (Max 26%)",
+        "description": "Crache un nuage de poison qui inflige des dégâts massifs (chargeable)"
+      },
+      {
+        "name": "Piranhacopter",
+        "input": "↑ + B",
+        "damage": "13% (Total)",
+        "description": "S'envole en faisant tourner ses feuilles"
+      },
+      {
+        "name": "Long-Stem Strike",
+        "input": "↓ + B",
+        "damage": "8-26% (Chargeable)",
+        "description": "Rentre dans son pot et mord très loin (Super Armor quand chargé)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8% (Total)",
+        "description": "Tourbillonne avec ses feuilles"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "11% (Pot) / 9% (Corps)",
+        "description": "Coup de pot vers le haut (jonglage)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14.5%",
+        "description": "Crache du feu vers l'arrière (très puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Renverse son pot vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "11%",
+        "description": "Coup de tête"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Jette en arrière (Kill throw à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12%",
+        "description": "Jette vers le haut (Kill throw très fort)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5.5%",
+        "description": "Plaque au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

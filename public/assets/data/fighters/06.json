@@ -1,0 +1,136 @@
+{
+  "id": "06",
+  "name": "Kirby",
+  "series": "Kirby",
+  "isEcho": false,
+  "description": "La petite boule rose vorace. Il peut copier les capacités neutres de ses adversaires et possède une excellente récupération.",
+  "thumbnail": "kirby_icon.png",
+  "image": "kirby.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + Multi",
+        "description": "Vulcan Jab (enchaînement rapide)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12% (feu) / 8% (fin)",
+        "description": "Burning (transforme en boule de feu)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15%",
+        "description": "Smash Kick (coup de pied sauté)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15%",
+        "description": "Somersault Kick (coup de pied retourné)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14%",
+        "description": "Propeller Kick (toupie au sol)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Inhale",
+        "input": "B",
+        "damage": "0% (Copie) / 10% (Crachat)",
+        "description": "Avale et copie le spécial neutre"
+      },
+      {
+        "name": "Hammer Flip",
+        "input": "→ + B",
+        "damage": "19-35%",
+        "description": "Coup de marteau chargeable (feu)"
+      },
+      {
+        "name": "Final Cutter",
+        "input": "↑ + B",
+        "damage": "8% (total)",
+        "description": "Monte et retombe avec une lame"
+      },
+      {
+        "name": "Stone",
+        "input": "↓ + B",
+        "damage": "18%",
+        "description": "Se change en pierre lourde invulnérable"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (début) / 6% (fin)",
+        "description": "Twinkle Star (tourne sur lui-même)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "4% x3",
+        "description": "Triple coup de pied"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Drop Kick arrière puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied retourné"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "1% xN (Multi)",
+        "description": "Drill Kick (vrille vers le bas)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Power Bomb (piledriver)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Suplex arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Air Drop (monte et écrase au sol)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "10%",
+        "description": "Fury Stomp (piétinement rapide)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

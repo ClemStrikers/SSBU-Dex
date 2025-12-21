@@ -1,0 +1,136 @@
+{
+  "id": "77",
+  "name": "Steve",
+  "series": "Minecraft",
+  "isEcho": false,
+  "description": "Le mineur cubique. Il doit gérer ses ressources (minage) pour fabriquer des outils et poser des blocs. La puissance de ses coups dépend du matériau de son arme (Bois < Pierre < Fer < Or < Diamant).",
+  "thumbnail": "steve_icon.png",
+  "image": "steve.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A (Maintenir pour marcher)",
+        "damage": "2.7% (Main) / 3.4% (Bois) / 4% (Fer) / 4.6% (Diamant)",
+        "description": "Coup d'épée rapide. Peut marcher et sauter tout en attaquant (Walking Jab)."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10-14% (Selon outil)",
+        "description": "Coup de pioche en courant. Très bonne éjection."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Bois) / 18% (Fer) / 20% (Diamant)",
+        "description": "Coup d'épée balayage (Sweep Attack). Très puissant avec le Diamant."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Total)",
+        "description": "Pose un Magma Block au-dessus de lui (Multi-hit) puis le brise."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (Seau de lave)",
+        "description": "Vide un seau de lave des deux côtés. Reste actif longtemps et éjecte horizontalement."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Mine / Craft / Create Block",
+        "input": "B",
+        "damage": "0%",
+        "description": "Sol: Mine des ressources. Près de l'établi: Fabrique des outils (Craft). Air: Crée un bloc sous ses pieds (Coût variable)."
+      },
+      {
+        "name": "Minecart",
+        "input": "→ + B",
+        "damage": "15-19% (Chariot) / Command Grab",
+        "description": "Roule en chariot (coûte du Fer/Bois/Or). Capture l'ennemi s'il est vide (Command Grab)."
+      },
+      {
+        "name": "Elytra",
+        "input": "↑ + B",
+        "damage": "5%",
+        "description": "S'envole avec les Élytres. Peut planer et remonter. Feux d'artifice au décollage."
+      },
+      {
+        "name": "TNT",
+        "input": "↓ + B",
+        "damage": "28% (Explosion max)",
+        "description": "Pose une TNT (coûte beaucoup de ressources). Explose si frappée ou via redstone (plaque de pression)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "3-5% (Selon outil)",
+        "description": "Coup d'épée rapide en l'air (similaire au Jab)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10-14% (Selon outil)",
+        "description": "Coup de pioche vers l'avant. Météore (Spike) puissant."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12-15% (Selon outil)",
+        "description": "Coup de pioche vers l'arrière. Tue très tôt avec le Diamant."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "6-9% (Selon outil)",
+        "description": "Coup de hache vers le haut. Idéal pour jongler (Ladder combos)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "18%",
+        "description": "Invoque une Enclume (coûte 1 Fer). Chute lourde et puissante (Meteor)."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Piston qui pousse l'ennemi."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Jette avec la canne à pêche."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "11%",
+        "description": "Éjection verticale avec un piston (Kill throw à très haut %)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "15%",
+        "description": "Écrase avec une enclume (coûte du Fer). Combo starter."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

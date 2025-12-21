@@ -1,0 +1,136 @@
+{
+  "id": "12",
+  "name": "Jigglypuff",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "Le Pokémon Ballon (Rondoudou). Maître du combat aérien, il peut endormir ses ennemis avec 'Rest' pour un KO instantané.",
+  "thumbnail": "jigglypuff_icon.png",
+  "image": "jigglypuff.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "3% + 3%",
+        "description": "Doubles baffes"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Coup de tête en tombant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Poussée du corps vers l'avant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "11%",
+        "description": "Grand écart"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Rollout",
+        "input": "B",
+        "damage": "14-20%",
+        "description": "Charge une roulade rapide (difficile à contrôler)"
+      },
+      {
+        "name": "Pound",
+        "input": "→ + B",
+        "damage": "11%",
+        "description": "Baffe qui brise les boucliers"
+      },
+      {
+        "name": "Sing",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Endort les ennemis proches (3 ondes)"
+      },
+      {
+        "name": "Rest",
+        "input": "↓ + B",
+        "damage": "20% (Flower) + 25% (Impact)",
+        "description": "S'endort. Si touche : explosion mortelle"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11% (début)",
+        "description": "Pied sorti (dure longtemps)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9%",
+        "description": "Double pied chassé"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de pied arrière retourné"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "9%",
+        "description": "Balayage au dessus de la tête"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "1.5% xN",
+        "description": "Drill kick (vrille)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Gonfle et expulse"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Suplex arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Tourbillon vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "8%",
+        "description": "Écrase l'ennemi (machouillage)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

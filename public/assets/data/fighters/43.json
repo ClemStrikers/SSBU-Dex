@@ -1,0 +1,136 @@
+{
+  "id": "43",
+  "name": "Toon Link",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "Le Héros du Vent. Plus flottant et rapide que Link adulte. Ses projectiles sont rapides et parfaits pour le zoning.",
+  "thumbnail": "toonlink_icon.png",
+  "image": "toonlink.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 4%",
+        "description": "Combo d'épée rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10%",
+        "description": "Coup d'épée en tombant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "10% + 14%",
+        "description": "Double coup d'épée puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15%",
+        "description": "Coup d'épée vertical"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (avant) + 12% (arrière)",
+        "description": "Balayage devant et derrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Hero's Bow",
+        "input": "B",
+        "damage": "4-12%",
+        "description": "Flèche rapide mais moins puissante"
+      },
+      {
+        "name": "Boomerang",
+        "input": "→ + B",
+        "damage": "8% (Aller) / 3% (Retour)",
+        "description": "Boomerang simple (ne fait pas de tornade)"
+      },
+      {
+        "name": "Spin Attack",
+        "input": "↑ + B",
+        "damage": "12% (Sol) / Multi-hit (Air)",
+        "description": "Attaque tourbillon (tue bien au sol)"
+      },
+      {
+        "name": "Bomb",
+        "input": "↓ + B",
+        "damage": "4-7%",
+        "description": "Bombe à mèche (explose vite)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8.5%",
+        "description": "Coup d'épée avant puis arrière (rapide)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13%",
+        "description": "Slash aérien puissant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "11%",
+        "description": "Coup vertical arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Lame vers le haut (dure longtemps)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16% (Sweetspot)",
+        "description": "Plongeon rapide (Meteor Smash puissant)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Coup d'épaule"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Coup de coude au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

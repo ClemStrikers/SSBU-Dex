@@ -1,0 +1,136 @@
+{
+  "id": "15",
+  "name": "Ice Climbers",
+  "series": "Ice Climber",
+  "isEcho": false,
+  "description": "Popo et Nana, le duo inséparable. Si Nana meurt, Popo devient très faible. Connus pour leurs combos de désynchronisation.",
+  "thumbnail": "iceclimbers_icon.png",
+  "image": "iceclimbers.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "2% + 3% (x2)",
+        "description": "Double coup de marteau"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "7% (x2)",
+        "description": "Coup d'épaule en avant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "13% (Popo) + 7% (Nana)",
+        "description": "Double coup de marteau lourd"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "10% + 7%",
+        "description": "Coups de marteau vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10% (avant) + 8% (arrière)",
+        "description": "Balayage au sol (avant et arrière)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Ice Shot",
+        "input": "B",
+        "damage": "4% (x2)",
+        "description": "Lance des glaçons qui glissent au sol"
+      },
+      {
+        "name": "Squall Hammer",
+        "input": "→ + B",
+        "damage": "14% (total)",
+        "description": "Tourbillon de marteaux (hélicoptère)"
+      },
+      {
+        "name": "Belay",
+        "input": "↑ + B",
+        "damage": "8%",
+        "description": "Lancer de corde (nécessite Nana pour monter haut)"
+      },
+      {
+        "name": "Blizzard",
+        "input": "↓ + B",
+        "damage": "Variable (Gèle)",
+        "description": "Souffle de glace (peut geler l'ennemi)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6% (x2)",
+        "description": "Rotation en l'air"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10% (Sweetspot)",
+        "description": "Météor Smash avec le marteau"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "8% (x2)",
+        "description": "Coup de marteau arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7% (x2)",
+        "description": "Coup de marteau vers le haut (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8%",
+        "description": "Chute avec le marteau (ne stoppe pas la chute)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Petit coup de marteau"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "6%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "4%",
+        "description": "Écrase au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

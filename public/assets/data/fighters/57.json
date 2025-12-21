@@ -1,0 +1,136 @@
+{
+  "id": "57",
+  "name": "Shulk",
+  "series": "Xenoblade Chronicles",
+  "isEcho": false,
+  "description": "Le porteur de la Monado. Il peut changer ses stats à volonté avec les 'Arts Monado' (Saut, Vitesse, Bouclier, Dégâts, Éjection). Immense portée.",
+  "thumbnail": "shulk_icon.png",
+  "image": "shulk.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3.5% + 3.5% + 5.5%",
+        "description": "Poing, pied, coup d'épée"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Large coup d'épée horizontal"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "5.5% + 13%",
+        "description": "Déploie la lame d'énergie (très longue portée)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "4.5% + 13.5%",
+        "description": "Pic d'énergie vertical (aspire au sol)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "11% (x3)",
+        "description": "Tourbillonne au sol (très long)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Monado Arts",
+        "input": "B",
+        "damage": "0%",
+        "description": "Change de mode : Saut, Vitesse, Bouclier, Buster, Smash"
+      },
+      {
+        "name": "Back Slash",
+        "input": "→ + B",
+        "damage": "10% (Face) / 16% (Dos)",
+        "description": "Saut et frappe (Critique si frappe le dos)"
+      },
+      {
+        "name": "Air Slash",
+        "input": "↑ + B",
+        "damage": "6% + 5.5%",
+        "description": "Uppercut épée (2ème coup optionnel)"
+      },
+      {
+        "name": "Vision",
+        "input": "↓ + B",
+        "damage": "Variable (x1.3)",
+        "description": "Contre qui ralentit le temps (très longue fenêtre)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% (Lame)",
+        "description": "Coup circulaire large (immense hitbox)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7.5%",
+        "description": "Coup d'épée descendant (bonne portée)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Estocade arrière (portée ridiculeusement grande)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "5% + 8.5%",
+        "description": "Estocade vers le haut (tue tôt)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "7% + 11%",
+        "description": "Estocade vers le bas (Meteor Smash au bout)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "3% + 7%",
+        "description": "Coup d'épée"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "3% + 8%",
+        "description": "Empale et jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "3% + 6%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "3% + 4%",
+        "description": "Plaque au sol (combo en mode Buster)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

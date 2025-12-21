@@ -1,0 +1,136 @@
+{
+  "id": "03",
+  "name": "Link",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "Le héros d'Hyrule équipé de l'épée de légende et d'un arsenal varié d'armes.",
+  "thumbnail": "link_icon.png",
+  "image": "link.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "2.5% + 2.5% + 4%",
+        "description": "Combo d'épée à 3 coups"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13%",
+        "description": "Slash horizontal en courant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "7% + 13%",
+        "description": "Double slash puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "4% + 11%",
+        "description": "Arc d'épée vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13-17%",
+        "description": "Slash devant et derrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Bow and Arrow",
+        "input": "B",
+        "damage": "4-12%",
+        "description": "Tire une flèche chargeable"
+      },
+      {
+        "name": "Boomerang",
+        "input": "→ + B",
+        "damage": "7-10%",
+        "description": "Lance un boomerang"
+      },
+      {
+        "name": "Spin Attack",
+        "input": "↑ + B",
+        "damage": "14-16%",
+        "description": "Attaque tourbillon signature"
+      },
+      {
+        "name": "Remote Bomb",
+        "input": "↓ + B",
+        "damage": "7.2-12%",
+        "description": "Place une bombe télécommandée"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Coup de pied tournoyant"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "8% + 10%",
+        "description": "Double slash aérien"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "5% + 7%",
+        "description": "Double slash arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "15%",
+        "description": "Thrust vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15-18%",
+        "description": "Plongeon avec l'épée"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "3% + 3.5%",
+        "description": "Kick avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "3% + 3.5%",
+        "description": "Kick arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5.5%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "3% + 3%",
+        "description": "Elbow drop"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

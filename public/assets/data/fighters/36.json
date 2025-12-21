@@ -1,0 +1,136 @@
+{
+  "id": "36",
+  "name": "Diddy Kong",
+  "series": "Donkey Kong",
+  "isEcho": false,
+  "description": "Le petit compagnon de DK. Agile et farceur, il contrôle le terrain avec ses bananes. Un maître du jeu neutre et des pièges.",
+  "thumbnail": "diddykong_icon.png",
+  "image": "diddykong.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Gifle, gifle, coup de queue"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8% (Multi-hit)",
+        "description": "Roulade (bon combo starter)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Double coup de poing sauté"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Multi-hit)",
+        "description": "Coup de pied en appui sur les mains"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Breakdance (frappe des deux côtés)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Peanut Popgun",
+        "input": "B",
+        "damage": "4-15%",
+        "description": "Tire une cacahuète (chargeable, peut exploser)"
+      },
+      {
+        "name": "Monkey Flip",
+        "input": "→ + B",
+        "damage": "12% (Kick) / 10% (Grab)",
+        "description": "Saut acrobatique (peut frapper ou chopper)"
+      },
+      {
+        "name": "Rocketbarrel Boost",
+        "input": "↑ + B",
+        "damage": "4-18% (Explosion)",
+        "description": "Jetpack (difficile à contrôler, charge nécessaire)"
+      },
+      {
+        "name": "Banana Peel",
+        "input": "↓ + B",
+        "damage": "4% (Lancer)",
+        "description": "Sort une banane (fait trébucher l'ennemi)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6%",
+        "description": "Roue aérienne (très rapide)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12%",
+        "description": "Dropkick à deux pieds"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "9%",
+        "description": "Coup de pied arrière (très rapide)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "8%",
+        "description": "Coup de pied retourné"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Double poing marteau (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Jette en arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Jette en l'air (combo à bas %)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (combo principal)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

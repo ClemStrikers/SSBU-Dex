@@ -1,0 +1,136 @@
+{
+  "id": "08",
+  "name": "Pikachu",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "La mascotte électrique de Pokémon. Petit, très rapide et excellent pour enchaîner les combos aériens.",
+  "thumbnail": "pikachu_icon.png",
+  "image": "pikachu.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "1.4%",
+        "description": "Coup de tête rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6% (début) / 10% (fin)",
+        "description": "Coup de tête en courant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15-18%",
+        "description": "Décharge électrique vers l'avant (multi-hit)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "13-14%",
+        "description": "Coup de queue retourné"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Tourbillon électrique au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Thunder Jolt",
+        "input": "B",
+        "damage": "4-6%",
+        "description": "Boule électrique qui longe le sol"
+      },
+      {
+        "name": "Skull Bash",
+        "input": "→ + B",
+        "damage": "6-24%",
+        "description": "Charge latérale (fusée)"
+      },
+      {
+        "name": "Quick Attack",
+        "input": "↑ + B",
+        "damage": "2-3%",
+        "description": "Double téléportation rapide"
+      },
+      {
+        "name": "Thunder",
+        "input": "↓ + B",
+        "damage": "8% (éclair) / 15% (impact)",
+        "description": "Appelle la foudre du ciel"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8% (total)",
+        "description": "Boule d'électricité statique"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "1.7% x5",
+        "description": "Vrille électrique vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "0.8% xN",
+        "description": "Roue arrière multi-hits (Pancake)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "5-6%",
+        "description": "Coup de queue en l'air"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Vrille électrique vers le sol"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Met l'ennemi sur son dos et l'électrocute"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Roulade arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "8%",
+        "description": "Écrase l'ennemi au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

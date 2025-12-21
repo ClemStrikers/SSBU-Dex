@@ -1,0 +1,136 @@
+{
+  "id": "71",
+  "name": "Joker",
+  "series": "Persona",
+  "isEcho": false,
+  "description": "Le leader des Voleurs Fantômes. Il accumule une jauge de Rébellion en subissant des dégâts ou en utilisant 'Rebel's Guard'. Une fois pleine, il invoque **Arsène**, ce qui booste considérablement la puissance de toutes ses attaques et change ses spéciaux.",
+  "thumbnail": "joker_icon.png",
+  "image": "joker.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 1.5% + 4%",
+        "description": "Coup de couteau, revers, et coup final"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "2% + 6%",
+        "description": "Double coup de pied glissé (le 2ème éjecte)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14% (Joker) / 22% (Arsène)",
+        "description": "Coup de couteau violent (Arsène ajoute une énorme attaque)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "12% (Joker) / 17% (Arsène)",
+        "description": "Coup de couteau vers le haut (Arsène couvre une grande zone)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12% (Joker) / 18% (Arsène)",
+        "description": "Balayage avant/arrière (Arsène frappe fort des deux côtés)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Gun / Gun Special",
+        "input": "B",
+        "damage": "1-5% (Tir) / 6% (Spécial)",
+        "description": "Tire avec son pistolet (peut sauter/esquiver en tirant). Avec Arsène : Tire 3 balles puissantes."
+      },
+      {
+        "name": "Eiha / Eigaon",
+        "input": "→ + B",
+        "damage": "1% (Impact) + DoT / 17% (Eigaon)",
+        "description": "Lance un projectile maudit (dégâts sur la durée). Avec Arsène : Grosse explosion qui éjecte."
+      },
+      {
+        "name": "Grappling Hook / Wings of Rebellion",
+        "input": "↑ + B",
+        "damage": "11% (Sol) / 0% (Arsène)",
+        "description": "Grappin vers le haut (attrape ennemis ou bords). Avec Arsène : S'envole très haut (invincible au début)."
+      },
+      {
+        "name": "Rebel's Guard / Tetrakarn / Makarakarn",
+        "input": "↓ + B",
+        "damage": "Charge Jauge / Reflect x1.6",
+        "description": "Encaisse les coups pour charger Arsène. Avec Arsène : Contre (CàC) ou Réflecteur (Projectiles)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% (Clean)",
+        "description": "Coup circulaire en l'air (Arsène frappe aussi)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "2% + 5%",
+        "description": "Double coup de pied (Combo tool). Arsène ajoute des dégâts."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "9% (Joker) / 16% (Arsène)",
+        "description": "Coup de couteau arrière. Avec Arsène : Kill move dévastateur."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "0.75% xN + 3%",
+        "description": "Vrille vers le haut (multi-hit, piège l'ennemi)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8% (Joker) / 16% (Arsène)",
+        "description": "Coup vers le bas. Avec Arsène : Meteor Smash puissant."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Croc-en-jambe vers l'arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Jette vers le haut (Combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol (Principal combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

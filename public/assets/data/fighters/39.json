@@ -1,0 +1,136 @@
+{
+  "id": "39",
+  "name": "King Dedede",
+  "series": "Kirby",
+  "isEcho": false,
+  "description": "Le Roi autoproclamé de Dream Land. Un poids lourd avec une excellente survie (sauts multiples). Il contrôle l'espace avec ses Gordos (oursins).",
+  "thumbnail": "kingdedede_icon.png",
+  "image": "kingdedede.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "4% + 4% + Multi",
+        "description": "Coups de marteau et rotation"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "16% (Sweetspot)",
+        "description": "Trébuche et tombe (très puissant, tue tôt)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "24-30%",
+        "description": "Écrasement de marteau lent mais dévastateur"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Coup de marteau vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Balayage rotatif au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Inhale",
+        "input": "B",
+        "damage": "10% (Crachat)",
+        "description": "Avale l'adversaire et le recrache (ou avale projectiles)"
+      },
+      {
+        "name": "Gordo Throw",
+        "input": "→ + B",
+        "damage": "15%",
+        "description": "Lance un oursin rebondissant (peut être renvoyé)"
+      },
+      {
+        "name": "Super Dedede Jump",
+        "input": "↑ + B",
+        "damage": "15% (Atterrissage) + 5% (Étoiles)",
+        "description": "Grand saut et écrasement (Super Armor à la montée)"
+      },
+      {
+        "name": "Jet Hammer",
+        "input": "↓ + B",
+        "damage": "11-38%",
+        "description": "Marteau à réaction (chargeable en bougeant)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Body Splash (gonfle son ventre)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12%",
+        "description": "Coup de marteau vertical (Meteor)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "16%",
+        "description": "Dropkick arrière (très puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "12% (Multi-hit)",
+        "description": "Toupie marteau vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15%",
+        "description": "Coup de marteau vers le bas (Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Jette comme une balle de baseball"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Volley-ball vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Slam au sol (combo principal)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "27",
+  "name": "Meta Knight",
+  "series": "Kirby",
+  "isEcho": false,
+  "description": "Le rival mystérieux de Kirby. Armé de l'épée Galaxia, il possède une vitesse d'attaque incroyable et le meilleur jeu aérien grâce à ses multiples sauts.",
+  "thumbnail": "metaknight_icon.png",
+  "image": "metaknight.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, Multi",
+        "damage": "1.2% xN",
+        "description": "Flurry (coups d'épée ultra rapides)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "7%",
+        "description": "Coup de pied sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Coup d'épée horizontal (rapide, peu de lag)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "3% x3",
+        "description": "Triple coup vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "11% (avant) / 13% (arrière)",
+        "description": "Balayage rapide (quasi invisible)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Mach Tornado",
+        "input": "B",
+        "damage": "15% (Total)",
+        "description": "Tourbillon (mash B pour monter)"
+      },
+      {
+        "name": "Drill Rush",
+        "input": "→ + B",
+        "damage": "10-14%",
+        "description": "Vrille perforante (direction contrôlable)"
+      },
+      {
+        "name": "Shuttle Loop",
+        "input": "↑ + B",
+        "damage": "9% + 8%",
+        "description": "Looping aérien (2 coups)"
+      },
+      {
+        "name": "Dimensional Cape",
+        "input": "↓ + B",
+        "damage": "12%",
+        "description": "Téléportation (maintenir B pour attaquer)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Coup circulaire (grande hitbox)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "2% x3",
+        "description": "Triple slash aérien"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "2% x3",
+        "description": "Triple slash arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "4%",
+        "description": "Coup rapide vers le haut (Ladder Combo)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "6%",
+        "description": "Coup rapide vers le bas (edgeguard)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "4%",
+        "description": "Petit coup de pied"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Téléportation et slash arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Téléportation et slash vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Piétinement (lanceur de tech chase)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

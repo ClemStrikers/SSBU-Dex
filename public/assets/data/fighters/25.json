@@ -1,0 +1,136 @@
+{
+  "id": "25",
+  "name": "Roy",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le Jeune Lion. Contrairement à Marth, son épée est plus puissante à la base (le manche) qu'à la pointe. Un style de jeu très agressif et 'in-your-face'.",
+  "thumbnail": "roy_icon.png",
+  "image": "roy.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "5%",
+        "description": "Coup d'épée revers (très rapide, lance des combos)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup d'épée brutal en courant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "20% (Sweetspot)",
+        "description": "Coup circulaire violent (tue extrêmement tôt)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Multi-hit)",
+        "description": "Plante l'épée vers le haut (multiples explosions)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15% (avant) + 21% (arrière)",
+        "description": "Balayage rotatif (l'arrière est plus fort)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Flare Blade",
+        "input": "B",
+        "damage": "6-50% (One-Hit KO)",
+        "description": "Charge une explosion de feu (tue en un coup si chargé à fond)"
+      },
+      {
+        "name": "Double-Edge Dance",
+        "input": "→ + B",
+        "damage": "Variable",
+        "description": "Enchaînement de 4 coups (orientable haut/bas)"
+      },
+      {
+        "name": "Blazer",
+        "input": "↑ + B",
+        "damage": "16% (Total)",
+        "description": "Uppercut enflammé (Super Armor au sol)"
+      },
+      {
+        "name": "Counter",
+        "input": "↓ + B",
+        "damage": "Variable (x1.35)",
+        "description": "Bloque et riposte violemment"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6% + 9%",
+        "description": "Double coup circulaire (excellent combo starter)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "11%",
+        "description": "Coup rapide vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15%",
+        "description": "Coup d'épée retourné (puissant pour tuer)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Estocade vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15%",
+        "description": "Meteor Smash puissant avec le manche"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Petit coup de corps"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "5%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

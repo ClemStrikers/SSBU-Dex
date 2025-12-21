@@ -1,0 +1,136 @@
+{
+  "id": "44",
+  "name": "Wolf",
+  "series": "Star Fox",
+  "isEcho": false,
+  "description": "Le rival de Fox. Un style de combat sauvage, lourd et puissant. Son Blaster fait mal et ses griffes déchirent tout.",
+  "thumbnail": "wolf_icon.png",
+  "image": "wolf.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 5%",
+        "description": "Griffure, griffure, coup de paume"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup de pied sauté (tue très tôt)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15-18%",
+        "description": "Coup de paume en avançant (peu de lag)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Double coup de pied retourné (grande zone)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (avant) / 15% (arrière)",
+        "description": "Balayage des deux côtés (tue sur le côté)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Blaster",
+        "input": "B",
+        "damage": "6-9% (+Coup de crosse)",
+        "description": "Tir laser lent mais puissant (baïonnette au CàC)"
+      },
+      {
+        "name": "Wolf Flash",
+        "input": "→ + B",
+        "damage": "3% + 15% (Sweetspot)",
+        "description": "Dash ascendant (Meteor Smash si bien placé)"
+      },
+      {
+        "name": "Fire Wolf",
+        "input": "↑ + B",
+        "damage": "4% xN + 12%",
+        "description": "Charge et dash (angles multiples)"
+      },
+      {
+        "name": "Reflector",
+        "input": "↓ + B",
+        "damage": "4-10%",
+        "description": "Réflecteur qui frappe aussi les ennemis"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Coup de pied statique (excellent outil)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9%",
+        "description": "Coup de griffe avant (combo)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15% (Sweetspot)",
+        "description": "Coup de pied arrière surpuissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "12%",
+        "description": "Coup de pied retourné (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15%",
+        "description": "Meteor Smash violent"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Coup de genou"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (tue à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Lancer vers le haut (combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (combo principal)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

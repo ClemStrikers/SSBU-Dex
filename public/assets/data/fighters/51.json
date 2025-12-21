@@ -1,0 +1,202 @@
+{
+  "id": "51",
+  "name": "Mii Brawler",
+  "series": "Super Smash Bros",
+  "isEcho": false,
+  "description": "Le combattant au corps-à-corps par excellence. Très rapide et mobile, il excelle dans les combos et la pression. Il ne possède pas d'armes mais dispose de 3 choix pour chaque coup spécial, lui permettant de s'adapter à tous les styles de jeu (Zoning, Rushdown, Grappler).",
+  "thumbnail": "miibrawler_icon.png",
+  "image": "miibrawler.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "1.8% + 1% + 4% / Multi",
+        "description": "Combo rapide ou rafale de coups de poing. Excellent pour presser l'adversaire."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Début) / 6% (Fin)",
+        "description": "Coup de pied sauté en avant (Sex Kick). Reste actif longtemps."
+      },
+      {
+        "name": "Forward Tilt",
+        "input": "→ + A",
+        "damage": "8.5%",
+        "description": "Coup de pied circulaire. Rapide et bonne portée."
+      },
+      {
+        "name": "Up Tilt",
+        "input": "↑ + A",
+        "damage": "6%",
+        "description": "Uppercut rapide. Excellent anti-air et outil de combo (Jonglage)."
+      },
+      {
+        "name": "Down Tilt",
+        "input": "↓ + A",
+        "damage": "8%",
+        "description": "Balayage rotatif. Fait trébucher ou éjecte vers le haut (Combo starter)."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "18%",
+        "description": "Direct du droit très puissant. Rapide pour un Smash."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Coup de pied retourné (Somersault). Rapide, bonne éjection, touche autour de lui."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Coup de poing avant et coup de pied arrière simultanés. Très rapide."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Neutral B (Choix 1)",
+        "input": "B",
+        "damage": "15%",
+        "description": "Shot Put (Lancer de poids). Lance un boulet lourd qui tombe en arc. Excellent pour edgeguard et zoner."
+      },
+      {
+        "name": "Neutral B (Choix 2)",
+        "input": "B",
+        "damage": "18% (Total)",
+        "description": "Flashing Mach Punch. Rafale de coups de poing ultra-rapide. Tue tôt mais courte portée."
+      },
+      {
+        "name": "Neutral B (Choix 3)",
+        "input": "B",
+        "damage": "25% (Normal) / 27% (Retourné)",
+        "description": "Exploding Side Kick. Coup de pied enflammé dévastateur (Falcon Punch-like). Super Armor au début."
+      },
+      {
+        "name": "Side B (Choix 1)",
+        "input": "→ + B",
+        "damage": "15-20% (Total)",
+        "description": "Onslaught (Déchaînement). Fonce sur l'ennemi et enchaîne les coups. Vulnérable si bloqué."
+      },
+      {
+        "name": "Side B (Choix 2)",
+        "input": "→ + B",
+        "damage": "13-20% (Charge)",
+        "description": "Burning Dropkick. Coup de pied sauté enflammé. Traverse l'ennemi, bonne option de récupération."
+      },
+      {
+        "name": "Side B (Choix 3)",
+        "input": "→ + B",
+        "damage": "20%",
+        "description": "Suplex. Command Grab qui attrape l'ennemi et l'écrase au sol en arrière. Idéal contre les boucliers."
+      },
+      {
+        "name": "Up B (Choix 1)",
+        "input": "↑ + B",
+        "damage": "14%",
+        "description": "Soaring Axe Kick. S'élève puis retombe avec un coup de pied (Meteor à la descente). Bonne hauteur."
+      },
+      {
+        "name": "Up B (Choix 2)",
+        "input": "↑ + B",
+        "damage": "12-15%",
+        "description": "Helicopter Kick. Série de coups de pied latéraux. Excellent kill move en l'air et combo finisher."
+      },
+      {
+        "name": "Up B (Choix 3)",
+        "input": "↑ + B",
+        "damage": "13%",
+        "description": "Thrust Uppercut. Uppercut vertical très rapide et puissant (Kill move). Récupération verticale faible."
+      },
+      {
+        "name": "Down B (Choix 1)",
+        "input": "↓ + B",
+        "damage": "16% (Chute) / 6% (Montée)",
+        "description": "Head-On Assault (Casse-tête). S'élève puis plonge tête la première. Ensuit le bouclier et enterre (Bury)."
+      },
+      {
+        "name": "Down B (Choix 2)",
+        "input": "↓ + B",
+        "damage": "10% (Coup de pied)",
+        "description": "Feint Jump (Saut feinté). Saute en arc de cercle (Invincible au début). Peut enchaîner avec un coup de pied (A/B)."
+      },
+      {
+        "name": "Down B (Choix 3)",
+        "input": "↓ + B",
+        "damage": "Variable (Counter)",
+        "description": "Counter Throw. Contre une attaque et projette l'ennemi derrière lui. La puissance dépend du coup contré."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Clean) / 5% (Late)",
+        "description": "Sex Kick (Coup de pied statique). Excellent combo tool et option défensive (OoS)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9% (Total)",
+        "description": "Double coup de pied rapide. Bon pour les combos aériens."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "10%",
+        "description": "Coup de pied retourné. Rapide et puissant."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "8%",
+        "description": "Coup de pied retourné vers le haut. Excellent pour jongler."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Double poing marteau vers le bas. Meteor Smash puissant."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Lancer simple."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Lancer arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "11%",
+        "description": "Uppercut. Enchaîne avec Up Air à bas %."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol. Meilleur combo starter (vers Jab, Tilts, Aerials)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "45",
+  "name": "Villager",
+  "series": "Animal Crossing",
+  "isEcho": false,
+  "description": "Le Maire. Un zoner pur qui utilise des lance-pierres, des fusées Lloïd et plante des arbres. Il peut mettre n'importe quel projectile dans sa poche.",
+  "thumbnail": "villager_icon.png",
+  "image": "villager.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 4%",
+        "description": "Coups de poing rapides"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Chute)",
+        "description": "Trébuche avec un pot de fleur (tue tard)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Loin)",
+        "description": "Lâche une boule de bowling (tombe du bord)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "11-17% (Multi-hit)",
+        "description": "Feu d'artifice (très fort)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "9-13% (Enterre)",
+        "description": "Pelle qui enterre l'ennemi"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Pocket",
+        "input": "B",
+        "damage": "x1.9 (Renvoi)",
+        "description": "Met un projectile en poche (le ressort plus fort)"
+      },
+      {
+        "name": "Lloid Rocket",
+        "input": "→ + B",
+        "damage": "13% (Explosion)",
+        "description": "Lance une fusée gyroïde (peut monter dessus)"
+      },
+      {
+        "name": "Balloon Trip",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Vole avec des ballons (énorme distance)"
+      },
+      {
+        "name": "Timber",
+        "input": "↓ + B",
+        "damage": "25% (Arbre qui tombe)",
+        "description": "Plante, arrose, et coupe un arbre (dévastateur)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "9%",
+        "description": "Roue aérienne"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (Proche) / 4% (Loin)",
+        "description": "Tir de lance-pierre avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "9% (Proche) / 5% (Loin)",
+        "description": "Tir de lance-pierre arrière (plus fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "9-13% (Selon navets)",
+        "description": "Coups de navets (1, 2 ou 3 navets)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8-13% (Selon navets)",
+        "description": "Coups de navets vers le bas (Meteor si 3 navets)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Petit coup de filet"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "22",
+  "name": "Young Link",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "Link version Ocarina of Time. Plus rapide et léger que Link, il utilise des flèches de feu et excelle dans les combos de projectiles.",
+  "thumbnail": "younglink_icon.png",
+  "image": "younglink.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2% + 2% + Multi",
+        "description": "Coups d'épée rapides (infini)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Coup d'épée sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "5% + 11%",
+        "description": "Double coup d'épée (le 2ème éjecte fort)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "4% + 2% + 9%",
+        "description": "Triple coup vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10% (avant) + 12% (arrière)",
+        "description": "Balayage rapide au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Fire Bow",
+        "input": "B",
+        "damage": "4-12%",
+        "description": "Tire une flèche enflammée (lanceur de combo)"
+      },
+      {
+        "name": "Boomerang",
+        "input": "→ + B",
+        "damage": "8%",
+        "description": "Boomerang contrôlable (revient vers lui)"
+      },
+      {
+        "name": "Spin Attack",
+        "input": "↑ + B",
+        "damage": "12% (Sol) / Multi (Air)",
+        "description": "Attaque tourbillon (tue bien au sol)"
+      },
+      {
+        "name": "Bomb",
+        "input": "↓ + B",
+        "damage": "4-9%",
+        "description": "Sort une bombe qui explose au contact (multi-hits)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Début) / 6% (Fin)",
+        "description": "Coup de pied statique (Sex Kick)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "6% + 8%",
+        "description": "Double slash aérien"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "4% + 6%",
+        "description": "Double slash arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "14% (Late: 9%)",
+        "description": "Thrust vers le haut (tue à haut %)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "18% (Sweetspot)",
+        "description": "Plongeon épée (Pogo stick, Meteor Smash au début)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Petit coup de pied"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

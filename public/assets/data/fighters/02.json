@@ -1,0 +1,136 @@
+{
+  "id": "02",
+  "name": "Donkey Kong",
+  "series": "Donkey Kong",
+  "isEcho": false,
+  "description": "Le roi de la jungle ! DK est un poids lourd avec une force brute dévastatrice.",
+  "thumbnail": "donkeykong_icon.png",
+  "image": "donkeykong.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "4% + 6%",
+        "description": "Double coup de poing"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "9-11%",
+        "description": "Roulade puissante"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19-20%",
+        "description": "Clap des mains puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "18%",
+        "description": "Clap au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14-17%",
+        "description": "Double frappe au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Giant Punch",
+        "input": "B",
+        "damage": "10-28%",
+        "description": "Coup de poing chargeable dévastateur"
+      },
+      {
+        "name": "Headbutt",
+        "input": "→ + B",
+        "damage": "10%",
+        "description": "Enterre les adversaires au sol"
+      },
+      {
+        "name": "Spinning Kong",
+        "input": "↑ + B",
+        "damage": "10-18%",
+        "description": "Rotation des bras pour récupération"
+      },
+      {
+        "name": "Hand Slap",
+        "input": "↓ + B",
+        "damage": "14%",
+        "description": "Frappe le sol répétitivement"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11%",
+        "description": "Rotation en l'air"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "16%",
+        "description": "Meteor Smash avec les poings"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16%",
+        "description": "Stomp puissant"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Cargo Throw",
+        "input": "Grab → + A",
+        "damage": "Varie",
+        "description": "Porte l'adversaire sur l'épaule"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière puissant"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Slam au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "21e",
+  "name": "Lucina",
+  "series": "Fire Emblem",
+  "isEcho": true,
+  "description": "L'écho de Marth venue du futur. Son épée ne possède pas de 'Tipper' : les dégâts sont constants sur toute la lame, la rendant plus fiable.",
+  "thumbnail": "lucina_icon.png",
+  "image": "lucina.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "5% + 5.5%",
+        "description": "Deux coups d'épée standards"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10.5%",
+        "description": "Grand coup de taille en glissant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16.5%",
+        "description": "Coup vertical lourd (dégâts constants)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Estocade vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14%",
+        "description": "Balayage des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Shield Breaker",
+        "input": "B",
+        "damage": "8-23% (Brise bouclier)",
+        "description": "Estocade qui détruit les boucliers"
+      },
+      {
+        "name": "Dancing Blade",
+        "input": "→ + B",
+        "damage": "Variable",
+        "description": "Combo à 4 coups (plus facile à connecter que Marth)"
+      },
+      {
+        "name": "Dolphin Slash",
+        "input": "↑ + B",
+        "damage": "11%",
+        "description": "Uppercut ultra rapide (très bon hors du bouclier)"
+      },
+      {
+        "name": "Counter",
+        "input": "↓ + B",
+        "damage": "Variable (x1.3)",
+        "description": "Bloque et contre-attaque"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7% x2",
+        "description": "Double coup rotatif"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10.5%",
+        "description": "Coup d'épée en arc (excellent pour le edgeguard)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12.5%",
+        "description": "Coup d'épée retourné"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Arc vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Arc vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "4%",
+        "description": "Pousse l'adversaire"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "4%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "4%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

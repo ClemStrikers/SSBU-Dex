@@ -1,0 +1,136 @@
+{
+  "id": "14",
+  "name": "Bowser",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "Le Roi des Koopas. C'est le personnage le plus lourd du jeu, incroyablement résistant et puissant, mais facile à toucher.",
+  "thumbnail": "bowser_icon.png",
+  "image": "bowser.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "4% + 7%",
+        "description": "Deux coups de poing lourds"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Coup de pied sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "23-28%",
+        "description": "Dropkick à deux pieds (très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Landing)",
+        "description": "Saut et coup de carapace au sommet"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% x2",
+        "description": "Tourbillonne dans sa carapace"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Fire Breath",
+        "input": "B",
+        "damage": "Variable",
+        "description": "Crache du feu (diminue avec le temps)"
+      },
+      {
+        "name": "Flying Slam",
+        "input": "→ + B",
+        "damage": "18%",
+        "description": "Attrape l'ennemi et l'écrase (Command Grab)"
+      },
+      {
+        "name": "Whirling Fortress",
+        "input": "↑ + B",
+        "damage": "6% + 1% xN",
+        "description": "Tourbillonne dans sa carapace (bon hors du bouclier)"
+      },
+      {
+        "name": "Bowser Bomb",
+        "input": "↓ + B",
+        "damage": "4% (montée) + 20% (chute)",
+        "description": "Saut et écrasement lourd au sol"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6% x4",
+        "description": "Roue aérienne"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13%",
+        "description": "Coup de griffe vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "19%",
+        "description": "Dropkick arrière très puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "15%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16%",
+        "description": "S'écrase au sol avec les griffes"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "12%",
+        "description": "Lance avec ses cornes"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "12%",
+        "description": "Lancer arrière puissant"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Tourbillonne et lance vers le haut (combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "12%",
+        "description": "Plaque l'ennemi et l'écrase"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

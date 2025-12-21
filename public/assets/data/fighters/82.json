@@ -1,0 +1,136 @@
+{
+  "id": "82",
+  "name": "Sora",
+  "series": "Kingdom Hearts",
+  "isEcho": false,
+  "description": "Le héros de la Keyblade. Très léger et 'floaty' (flottant), il excelle dans les combats aériens et les combos. Ses attaques normales s'enchaînent souvent en combos de 3 coups.",
+  "thumbnail": "sora_icon.png",
+  "image": "sora.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab (3-Hit Combo)",
+        "input": "A, A, A (ou Maintenir)",
+        "damage": "2.8% + 2.6% + 4.2%",
+        "description": "Enchaînement fluide de 3 coups de Keyblade. Maintien possible pour auto-combo."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "9.6% (Début) / 7.2% (Fin)",
+        "description": "Glissade (Sliding Dash). Traverse l'ennemi."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15.4% (Sweetspot)",
+        "description": "Large coup de Keyblade horizontal. Très puissant."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14.6% (Explosion)",
+        "description": "Magic Flash. Invoque un pilier de lumière au-dessus de lui. Enorme portée verticale."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15.2% (Proche)",
+        "description": "Finishing Leap. Saute et frappe le sol (esquive les attaques basses)."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Magic (Cycle)",
+        "input": "B",
+        "damage": "Variable",
+        "description": "Cycle entre 3 sorts :\n1. Firaga (5.6%) : Tir rapide de boules de feu (Spammable).\n2. Thundaga (15%) : Trois éclairs devant lui (Zone, puissant).\n3. Blizzaga (2.4% xN) : Nuage de glace (Gèle l'ennemi)."
+      },
+      {
+        "name": "Sonic Blade",
+        "input": "→ + B",
+        "damage": "5.2% x3",
+        "description": "Charge rapide. Peut être réactivé 3 fois dans différentes directions (Cible auto)."
+      },
+      {
+        "name": "Aerial Sweep",
+        "input": "↑ + B",
+        "damage": "10% (Total)",
+        "description": "Tourbillon ascendant. Très bonne hauteur, peut enchaîner sur Side B."
+      },
+      {
+        "name": "Counterattack",
+        "input": "↓ + B",
+        "damage": "Reflect x1.4 / Counter x1.5",
+        "description": "Contre les coups (déséquilibre l'ennemi) et renvoie les projectiles derrière lui."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air (3-Hit Combo)",
+        "input": "Air + A, A, A",
+        "damage": "3.8% + 3.5% + 6.8%",
+        "description": "Combo aérien 3 coups. Excellent pour démarrer des combos ou edgeguard."
+      },
+      {
+        "name": "Forward Air (3-Hit Combo)",
+        "input": "Air → + A, A, A",
+        "damage": "4.8% + 4% + 6.8%",
+        "description": "Combo aérien vers l'avant. Pousse l'ennemi hors du terrain (Wall of Pain)."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13.2%",
+        "description": "Coup unique puissant vers l'arrière. Kill move fiable."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "12.2%",
+        "description": "Large coup de Keyblade en arc de cercle (Jonglage)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "9.8% (Chute) + 5.5% (Sol)",
+        "description": "Hurricane Blast. Tourbillon descendant. Pas de vrai Meteor Smash, mais piège l'ennemi."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Jette l'ennemi (peu de dégâts, pour positionnement)."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11.8%",
+        "description": "Tourne et jette l'ennemi (Kill throw puissant)."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6.8%",
+        "description": "Jette vers le haut (Combo)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "4.6%",
+        "description": "Plaque au sol (Meilleur combo starter)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

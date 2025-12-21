@@ -1,0 +1,136 @@
+{
+  "id": "61",
+  "name": "Cloud",
+  "series": "Final Fantasy",
+  "isEcho": false,
+  "description": "Le soldat 1ère classe. Il manie l'épée broyeuse (Buster Sword). Sa jauge de 'Limit' se charge en combattant : une fois pleine, ses coups spéciaux deviennent dévastateurs.",
+  "thumbnail": "cloud_icon.png",
+  "image": "cloud.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.5% + 2% + 3.5%",
+        "description": "Combo coup de pied, coup de corps, coup d'épée"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Coup d'épée en glissant (très rapide)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19% (3 coups)",
+        "description": "Triple coup d'épée (le dernier tue fort)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "13%",
+        "description": "Large coup d'épée vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "16% (2 coups)",
+        "description": "Balayage avant puis arrière (éjecte horizontalement)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Blade Beam",
+        "input": "B",
+        "damage": "8% (Air: 6%)",
+        "description": "Onde de choc verte (Limit: Multi-hits, très rapide)"
+      },
+      {
+        "name": "Cross Slash",
+        "input": "→ + B",
+        "damage": "19% (Total)",
+        "description": "Le caractère '凶' (Limit: Dévastateur, tue à 70%)"
+      },
+      {
+        "name": "Climhazzard",
+        "input": "↑ + B",
+        "damage": "13% (Total)",
+        "description": "Monte et redescend (Limit: Monte beaucoup plus haut)"
+      },
+      {
+        "name": "Limit Charge",
+        "input": "↓ + B",
+        "damage": "1% (Finishing Touch)",
+        "description": "Charge la jauge. Si pleine : Finishing Touch (Tue à 60%)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8%",
+        "description": "Coup large autour de lui (excellente portée)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup descendant (Meteor Smash au centre de l'épée)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup d'épée arrière (très rapide et puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Lame vers le haut (dure longtemps, jongle)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Plongeon épée (Meteor Smash au début, dure longtemps)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Petit coup de pied"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "6%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Coup de pied vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol (ne combo pas vraiment)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

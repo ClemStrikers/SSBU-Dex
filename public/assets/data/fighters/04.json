@@ -1,0 +1,136 @@
+{
+  "id": "04",
+  "name": "Samus",
+  "series": "Metroid",
+  "isEcho": false,
+  "description": "La chasseuse de primes galactique avec son Power Suit high-tech.",
+  "thumbnail": "samus_icon.png",
+  "image": "samus.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "3% + 7%",
+        "description": "Coup de poing et coup de canon"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6-10%",
+        "description": "Charge avec l'épaule"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "13-15%",
+        "description": "Coup de canon puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "3% + 12%",
+        "description": "Arc de flammes"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10-12%",
+        "description": "Balayage devant et derrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Charge Shot",
+        "input": "B",
+        "damage": "3-28%",
+        "description": "Tir d'énergie chargeable"
+      },
+      {
+        "name": "Missile",
+        "input": "→ + B",
+        "damage": "5-12%",
+        "description": "Lance un missile guidé ou super missile"
+      },
+      {
+        "name": "Screw Attack",
+        "input": "↑ + B",
+        "damage": "2% x5",
+        "description": "Rotation électrique ascendante"
+      },
+      {
+        "name": "Bomb",
+        "input": "↓ + B",
+        "damage": "4-9%",
+        "description": "Pose une bombe en morphball"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8-10%",
+        "description": "Coup de pied tournoyant"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "1% x4 + 5%",
+        "description": "Explosion de canon"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "1% x5 + 4%",
+        "description": "Drill kick ascendant"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10-14%",
+        "description": "Arc swing vers le bas"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Grapple Beam swing"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Slam au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

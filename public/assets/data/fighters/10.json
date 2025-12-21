@@ -1,0 +1,136 @@
+{
+  "id": "10",
+  "name": "Ness",
+  "series": "EarthBound",
+  "isEcho": false,
+  "description": "Un garçon aux pouvoirs psychiques (PSI). Connu pour son PK Fire et sa batte de baseball.",
+  "thumbnail": "ness_icon.png",
+  "image": "ness.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 5%",
+        "description": "Coups de poing et pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "4% x3",
+        "description": "Poussée psychique vers l'avant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "22%",
+        "description": "Coup de batte de baseball (renvoie projectiles)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "13%",
+        "description": "Yo-yo autour du monde"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "11% (avant) / 13% (arrière)",
+        "description": "Yo-yo au sol (peut bloquer le bord)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "PK Flash",
+        "input": "B",
+        "damage": "9-37%",
+        "description": "Lumière verte explosive contrôlable"
+      },
+      {
+        "name": "PK Fire",
+        "input": "→ + B",
+        "damage": "2% xN",
+        "description": "Pilier de feu qui piège l'ennemi"
+      },
+      {
+        "name": "PK Thunder",
+        "input": "↑ + B",
+        "damage": "8% (queue) / 25% (impact)",
+        "description": "Éclair dirigeable (se propulse avec)"
+      },
+      {
+        "name": "PSI Magnet",
+        "input": "↓ + B",
+        "damage": "N/A",
+        "description": "Absorbe les projectiles d'énergie"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11%",
+        "description": "Rotation psychique"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (total)",
+        "description": "Poussée PSI (multi-hits)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15%",
+        "description": "Drop kick arrière puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Coup de tête PSI"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12%",
+        "description": "Meteor Smash avec les pieds"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "11%",
+        "description": "Projection simple"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Le lancer le plus puissant du jeu (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Feu psychique au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

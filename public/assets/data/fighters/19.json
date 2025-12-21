@@ -1,0 +1,136 @@
+{
+  "id": "19",
+  "name": "Pichu",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "La pré-évolution de Pikachu. Encore plus petit et rapide, mais se blesse lui-même avec ses attaques électriques.",
+  "thumbnail": "pichu_icon.png",
+  "image": "pichu.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "1.5%",
+        "description": "Coup de tête rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "9% (Prend 1%)",
+        "description": "Coup de tête plongeant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Multi) (Prend 1.5%)",
+        "description": "Décharge électrique avant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Prend 1.2%)",
+        "description": "Coup de tête chargé"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (Multi) (Prend 1.5%)",
+        "description": "Tourbillon électrique au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Thunder Jolt",
+        "input": "B",
+        "damage": "6% (Prend 0.7%)",
+        "description": "Boule électrique (plus rapide que Pikachu)"
+      },
+      {
+        "name": "Skull Bash",
+        "input": "→ + B",
+        "damage": "23% (Max) (Prend 1-3%)",
+        "description": "Charge latérale risquée"
+      },
+      {
+        "name": "Agility",
+        "input": "↑ + B",
+        "damage": "0% (Prend 0.8% x2)",
+        "description": "Double téléportation (ne blesse pas l'ennemi)"
+      },
+      {
+        "name": "Thunder",
+        "input": "↓ + B",
+        "damage": "14% (Prend 3%)",
+        "description": "Appelle la foudre (très puissant)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Prend 0.5%)",
+        "description": "Boule d'électricité aérienne"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "3.5% (Multi) (Prend 1%)",
+        "description": "Vrille électrique avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "3.5% (Multi) (Prend 1%)",
+        "description": "Vrille électrique arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "4%",
+        "description": "Coup de queue vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13% (Prend 1.5%)",
+        "description": "Vrille vers le sol (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8% (Prend 0.5%)",
+        "description": "Lancer électrique avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Roulade arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Coup de tête vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

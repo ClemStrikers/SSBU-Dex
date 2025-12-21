@@ -1,0 +1,136 @@
+{
+  "id": "16",
+  "name": "Sheik",
+  "series": "The Legend of Zelda",
+  "isEcho": false,
+  "description": "L'alter ego ninja de Zelda. Très rapide, excellent frame data, mais faible puissance de frappe et très léger.",
+  "thumbnail": "sheik_icon.png",
+  "image": "sheik.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2.5% + 2% + 1% xN",
+        "description": "Enchaînement de coups de poing ultra rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "7% (début) / 6% (fin)",
+        "description": "Coup de paume en glissant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "5% + 8.5% (Sweetspot)",
+        "description": "Double coup de pied retourné"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Coup de poing vertical vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "5% (avant) + 9% (arrière)",
+        "description": "Balayage rotatif au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Needle Storm",
+        "input": "B",
+        "damage": "1.7% x6",
+        "description": "Lance des aiguilles paralysantes (chargeable)"
+      },
+      {
+        "name": "Burst Grenade",
+        "input": "→ + B",
+        "damage": "10% (Explosion)",
+        "description": "Lance une grenade retardée"
+      },
+      {
+        "name": "Vanish",
+        "input": "↑ + B",
+        "damage": "12% (Disparition)",
+        "description": "Téléportation explosive"
+      },
+      {
+        "name": "Bouncing Fish",
+        "input": "↓ + B",
+        "damage": "12%",
+        "description": "Coup de pied acrobatique (très bon kill move)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8% (Sweetspot)",
+        "description": "Coup de pied statique (très fort OOS)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "5%",
+        "description": "Coup de paume rapide (pour combos)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "7%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "1% xN + 4%",
+        "description": "Vrille vers le haut (très bon kill move)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8%",
+        "description": "Plongeon coup de pied (peut suicider)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Coup de coude en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Coup de talon (lanceur de combos)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

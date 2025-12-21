@@ -1,0 +1,136 @@
+{
+  "id": "21",
+  "name": "Marth",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le Prince d'Altea. Son épée (Falchion) inflige des dégâts critiques si vous touchez avec la pointe (le 'Tipper').",
+  "thumbnail": "marth_icon.png",
+  "image": "marth.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "4% + 5.5%",
+        "description": "Deux coups d'épée rapides"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Tipper) / 8% (Sour)",
+        "description": "Grand coup de taille en glissant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "20% (Tipper) / 14% (Sour)",
+        "description": "Coup vertical lourd (tue très tôt au Tipper)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "18% (Tipper)",
+        "description": "Estocade vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (avant) + 20% (arrière)",
+        "description": "Balayage des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Shield Breaker",
+        "input": "B",
+        "damage": "8-25% (Brise bouclier)",
+        "description": "Estocade chargeable qui détruit les boucliers"
+      },
+      {
+        "name": "Dancing Blade",
+        "input": "→ + B",
+        "damage": "3-5% x4",
+        "description": "Combo à 4 coups (orientable haut/bas)"
+      },
+      {
+        "name": "Dolphin Slash",
+        "input": "↑ + B",
+        "damage": "13% (Début)",
+        "description": "Uppercut ultra rapide (invincible au début)"
+      },
+      {
+        "name": "Counter",
+        "input": "↓ + B",
+        "damage": "Variable (x1.3)",
+        "description": "Bloque et contre-attaque"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "9% x2",
+        "description": "Double coup rotatif"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "13% (Tipper)",
+        "description": "Coup d'épée en arc (excellent pour espacer)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14% (Tipper)",
+        "description": "Coup d'épée retourné (très rapide)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13% (Tipper)",
+        "description": "Arc vers le haut (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15% (Tipper)",
+        "description": "Arc vers le bas (Meteor Smash au Tipper)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "4%",
+        "description": "Pousse l'adversaire"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "4%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "4%",
+        "description": "Lance vers le haut (combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

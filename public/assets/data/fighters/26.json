@@ -1,0 +1,136 @@
+{
+  "id": "26",
+  "name": "Mr. Game & Watch",
+  "series": "Game & Watch",
+  "isEcho": false,
+  "description": "Le maître de la 2D. Ses animations saccadées le rendent difficile à lire. Son 'Juge' (Side B) repose sur la chance avec des effets dévastateurs sur le 9.",
+  "thumbnail": "mrgamewatch_icon.png",
+  "image": "mrgamewatch.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, Multi",
+        "damage": "1% xN",
+        "description": "Greenhouse (Spray rapide de poison)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10%",
+        "description": "Chute avec casque (Helmet)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-19% (Sweetspot)",
+        "description": "Fire Attack (Coup de torche violent)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Scaphandre (Coup de tête, invulnérable)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (Sour) / 11% (Sweet)",
+        "description": "Vermin (Marteaux qui enterrent l'ennemi)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Chef",
+        "input": "B",
+        "damage": "4% (Bacon)",
+        "description": "Lance de la nourriture (trajectoire aléatoire)"
+      },
+      {
+        "name": "Judge",
+        "input": "→ + B",
+        "damage": "Variable (1-9)",
+        "description": "Marteau aléatoire. Le 9 tue instantanément (32%)."
+      },
+      {
+        "name": "Fire",
+        "input": "↑ + B",
+        "damage": "6%",
+        "description": "Parachute (Excellente récupération et combo breaker)"
+      },
+      {
+        "name": "Oil Panic",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Absorbe les projectiles (x3) puis renvoie de l'huile"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (total)",
+        "description": "Fishbowl (Bocal avec poisson, multi-hit)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10% (Bombe)",
+        "description": "Lance une bombe qui explose"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "3% xN",
+        "description": "Turtle Bridge (Tortue à plusieurs coups)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "5% x2",
+        "description": "Spitball Sparky (Souffle vers le haut)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Donkey Kong Jr. (Clé tombante, Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Jongle et lance"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "4%",
+        "description": "Jongle (lanceur de combos)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

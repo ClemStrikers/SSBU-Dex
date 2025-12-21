@@ -1,0 +1,136 @@
+{
+  "id": "59",
+  "name": "Duck Hunt",
+  "series": "Duck Hunt",
+  "isEcho": false,
+  "description": "Le Duo Chien et Canard. Un personnage de 'Zoning' extrême. Il utilise la boîte de conserve, les pigeons d'argile et les tireurs du Far West pour contrôler tout l'écran.",
+  "thumbnail": "duckhunt_icon.png",
+  "image": "duckhunt.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Coup de bec, coup de patte, coup de pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8%",
+        "description": "Coup de bec plongeant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "17% (3 coups)",
+        "description": "Salve de tirs de Zapper (grande portée)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (3 coups)",
+        "description": "Salve de tirs vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (3 coups)",
+        "description": "Tirs de chaque côté (rapide)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Trick Shot",
+        "input": "B",
+        "damage": "3-9% (Explosion)",
+        "description": "La boîte de conserve. Avance quand on la frappe (Piège ultime)."
+      },
+      {
+        "name": "Clay Shooting",
+        "input": "→ + B",
+        "damage": "2% (Disque) + 5% (Tir)",
+        "description": "Lance un pigeon d'argile puis tire dessus"
+      },
+      {
+        "name": "Duck Jump",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Le canard porte le chien et s'envole"
+      },
+      {
+        "name": "Wild Gunman",
+        "input": "↓ + B",
+        "damage": "4-12% (Tir)",
+        "description": "Invoque un tireur pixel (5 variantes différentes)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8%",
+        "description": "Vrille du chien (bon outil neutre)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10%",
+        "description": "Coup de bec avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de bec arrière (bon kill move)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10% (3 coups)",
+        "description": "Tirs vers le haut (Zapper)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "6% + 6%",
+        "description": "Double coup de bec vers le bas (2ème coup Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Jette en arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Jette dans une boîte qui explose"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "38",
+  "name": "Sonic",
+  "series": "Sonic the Hedgehog",
+  "isEcho": false,
+  "description": "Le hérisson bleu. Le personnage le plus rapide du jeu au sol. Il force l'adversaire à réagir vite avec ses multiples Spin Dashs.",
+  "thumbnail": "sonic_icon.png",
+  "image": "sonic.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Combo rapide poing/pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6% (multi-hit)",
+        "description": "Spin Dash court (très rapide)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14% (Sweetspot)",
+        "description": "Coup de poing en vrille (Wind-up Punch)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Multi-hit)",
+        "description": "Spin Dash vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Split Kick (Grand écart rotatif)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Homing Attack",
+        "input": "B",
+        "damage": "5-12%",
+        "description": "S'élève et fonce sur l'ennemi le plus proche"
+      },
+      {
+        "name": "Spin Dash",
+        "input": "→ + B",
+        "damage": "7-12%",
+        "description": "Charge une boule rapide (peut sauter ou canceller)"
+      },
+      {
+        "name": "Spring Jump",
+        "input": "↑ + B",
+        "damage": "0% (Le ressort blesse)",
+        "description": "Saut très haut avec un ressort (le ressort tombe)"
+      },
+      {
+        "name": "Spin Charge",
+        "input": "↓ + B",
+        "damage": "2% xN",
+        "description": "Charge sur place (multi-hits)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Boule rotative (très bon outil neutre)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (Multi-hit)",
+        "description": "Vrille vers l'avant (combo tool)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14% (Sweetspot)",
+        "description": "Coup de pied arrière (tue très tôt)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "9%",
+        "description": "Coup de pied ciseaux (jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8%",
+        "description": "Plongeon coup de pied (Meteor au début)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Coup de pied en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Roulade et lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12% (Piquants)",
+        "description": "Lance sur ses piquants (combo à bas %)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "8%",
+        "description": "Écrase au sol (Tech chase)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "30",
+  "name": "Wario",
+  "series": "WarioWare",
+  "isEcho": false,
+  "description": "L'anti-héros glouton. Il possède une mobilité aérienne étrange et peut manger n'importe quoi. Son 'Wario Waft' (pet) chargé tue à 60%.",
+  "thumbnail": "wario_icon.png",
+  "image": "wario.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "4% + 5%",
+        "description": "Double coup de poing"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Glissade sur le ventre (tue tard)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "20%",
+        "description": "Coup d'épaule chargé (très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15%",
+        "description": "Grosse tête tournoyante"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Tourbillon au sol (dure longtemps)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Chomp",
+        "input": "B",
+        "damage": "1.2% xN",
+        "description": "Mange l'ennemi (soigne Wario)"
+      },
+      {
+        "name": "Wario Bike",
+        "input": "→ + B",
+        "damage": "10%",
+        "description": "Roule en moto (peut être lancée)"
+      },
+      {
+        "name": "Corkscrew",
+        "input": "↑ + B",
+        "damage": "5% + 1% xN",
+        "description": "Tire-bouchon ascendant"
+      },
+      {
+        "name": "Wario Waft",
+        "input": "↓ + B",
+        "damage": "0-27%",
+        "description": "Pet explosif (charge passive sur le temps)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11% (Sweetspot)",
+        "description": "Gros ventre (combo starter)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7%",
+        "description": "Petit coup de pied"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de tête arrière (très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "13%",
+        "description": "Clap des mains (combo ladder)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13% (Total)",
+        "description": "Coup de tête vers le bas (multi-hits)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "12%",
+        "description": "Tourbillon et lancer (comme Mario)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Tourbillon et lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Lancer haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase avec les fesses"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

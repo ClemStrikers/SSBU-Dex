@@ -1,0 +1,136 @@
+{
+  "id": "73",
+  "name": "Banjo & Kazooie",
+  "series": "Banjo-Kazooie",
+  "isEcho": false,
+  "description": "L'ours et l'oiseau. Un duo polyvalent avec d'excellents outils de zoning (Oeufs) et une attaque invincible dévastatrice (Wonderwing), mais limitée à 5 utilisations par vie.",
+  "thumbnail": "banjokazooie_icon.png",
+  "image": "banjokazooie.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "2.2% + 2.2% + 3.7% / Multi",
+        "description": "Coups de griffes et uppercut (ou coups de bec multiples)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12% (Début) / 8% (Fin)",
+        "description": "Roulade avant (similaire à Donkey Kong)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Breegull Bash (Banjo frappe le sol avec Kazooie)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "13.6% (Multi-hit)",
+        "description": "Bill Drill (Kazooie fore vers le haut)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15%",
+        "description": "Coups d'ailes des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Egg Firing / Breegull Blaster",
+        "input": "B",
+        "damage": "5% (Oeuf) / 2% (Blaster)",
+        "description": "Tire un oeuf. Maintenir pour le mode Blaster (tir rapide en bougeant)."
+      },
+      {
+        "name": "Wonderwing",
+        "input": "→ + B",
+        "damage": "22% (Fort) / 16% (Faible)",
+        "description": "Charge invincible (traverse tout). 5 plumes dorées max par stock."
+      },
+      {
+        "name": "Shock Spring Jump",
+        "input": "↑ + B",
+        "damage": "0% (Saut) / 3% (Pad)",
+        "description": "Crée un tremplin (pad) pour sauter haut. Chargeable."
+      },
+      {
+        "name": "Rear Egg",
+        "input": "↓ + B",
+        "damage": "9-11%",
+        "description": "Kazooie pond une grenade vers l'arrière. Explose au contact ou temps."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Total)",
+        "description": "Tourbillon d'ailes (Multi-hit)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15% (Sweetspot)",
+        "description": "Coup de poing marteau (Météore possible? Non, juste puissant)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "8% (Multi-hit)",
+        "description": "Coups de bec rapides vers l'arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7.4% (2 coups)",
+        "description": "Coup d'ailes vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10% (Chute) + 2% (Sol)",
+        "description": "Beak Buster (Plongeon bec en avant, Meteor Smash au début)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8.4%",
+        "description": "Kazooie donne un coup de pattes"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11.4%",
+        "description": "Lancer tournoyant (Kill throw à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8.4%",
+        "description": "Lance en l'air et coup de bec"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5.6%",
+        "description": "Enterre l'adversaire (Bury)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

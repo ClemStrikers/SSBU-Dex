@@ -1,0 +1,136 @@
+{
+  "id": "63",
+  "name": "Bayonetta",
+  "series": "Bayonetta",
+  "isEcho": false,
+  "description": "La sorcière de l'Umbra. Elle possède des combos aériens dévastateurs et peut ralentir le temps. Ses attaques 'Bullet Arts' tirent des balles invisibles si le bouton est maintenu.",
+  "thumbnail": "bayonetta_icon.png",
+  "image": "bayonetta.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "1.4% + 1.4% + 2.2% / Multi",
+        "description": "Combo poing-poing-pied ou tir rapide (PKK)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Début) / 8% (Fin)",
+        "description": "Stiletto (Coup de talon glissé)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Coup de poing géant (Madama Butterfly)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Sweetspot)",
+        "description": "Uppercut géant (Couvre une grande zone)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "17%",
+        "description": "Coup de talon géant (Meteor Smash sur ennemis aériens)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Bullet Climax",
+        "input": "B",
+        "damage": "3-6% (Chargeable)",
+        "description": "Tire des balles (peut être chargé pour plus de dégâts)"
+      },
+      {
+        "name": "Heel Slide / After Burner Kick",
+        "input": "→ + B",
+        "damage": "7% (Slide) + 6% (Kick)",
+        "description": "Glissade au sol (suivie d'un kick) ou coup de pied aérien"
+      },
+      {
+        "name": "Witch Twist",
+        "input": "↑ + B",
+        "damage": "5% (Multi-hit)",
+        "description": "Vrille ascendante (utilisable 2 fois si saut entre)"
+      },
+      {
+        "name": "Witch Time",
+        "input": "↓ + B",
+        "damage": "0% (Ralentissement)",
+        "description": "Contre qui ralentit l'ennemi (durée dépend des %)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6.5% (Début)",
+        "description": "Coup de pied tournoyant (reste actif longtemps)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "4% + 3.3% + 7%",
+        "description": "Triple coup aérien (1-2-3)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13% (Sweetspot)",
+        "description": "Coup de pied arrière (Kill move puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7.5%",
+        "description": "Coup de pied vertical (spirale)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "6.5% (Talon) / 5% (Chute)",
+        "description": "Coup de talon plongeant (Meteor au début)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Coup de poing au corps"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Coup de pied vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "8%",
+        "description": "Écrase au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

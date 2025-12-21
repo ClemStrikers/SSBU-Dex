@@ -1,0 +1,136 @@
+{
+  "id": "78",
+  "name": "Sephiroth",
+  "series": "Final Fantasy",
+  "isEcho": false,
+  "description": "L'Ange à une aile. Il manie la Masamune, offrant une portée immense. Lorsqu'il est en difficulté (dégâts ou stocks), il déploie son Aile Noire : +Vitesse, +Dégâts, +1 Saut, et Super Armor sur les Smashs.",
+  "thumbnail": "sephiroth_icon.png",
+  "image": "sephiroth.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2.5% + 2.5% + 4%",
+        "description": "Coup de pied, coup de pommeau, estocade."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Estocade glissée rapide."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "18.5% (Sweetspot)",
+        "description": "Large coup horizontal. Portée immense. Sweetspot au bout de la lame."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Sweetspot)",
+        "description": "Estocade verticale. Couvre une zone énorme au-dessus de lui."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (Total)",
+        "description": "Plante l'épée au sol. Dégâts de bouclier massifs (Shield Break)."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Flare / Megaflare / Gigaflare",
+        "input": "B",
+        "damage": "9% / 17% / 37%",
+        "description": "Projectile explosif chargeable. Gigaflare (Max) crée une explosion massive qui tue très tôt."
+      },
+      {
+        "name": "Shadow Flare",
+        "input": "→ + B",
+        "damage": "Stackable",
+        "description": "Envoie des orbes d'ombre qui orbitent autour de l'ennemi et explosent après un délai. Stackable jusqu'à 5."
+      },
+      {
+        "name": "Blade Dash / Octaslash",
+        "input": "↑ + B",
+        "damage": "6% / 22% (Octaslash)",
+        "description": "Chargeable. Dash rapide (Non chargé) ou série de 8 coups (Chargé). Orientable dans 8 directions."
+      },
+      {
+        "name": "Scintilla",
+        "input": "↓ + B",
+        "damage": "Counter / 10% (Shield)",
+        "description": "Contre (bouclier hexagonal). Frappe même si non déclenché (mais moins fort). Casse les boucliers ennemis."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8.5%",
+        "description": "Explosion d'énergie autour de lui (claquement de doigts)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12.5% (Sweetspot)",
+        "description": "Estocade avant longue portée. Peut s'accrocher aux murs."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15.5% (Sweetspot)",
+        "description": "Large balayage arrière. Très puissant et grande portée."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Large balayage au-dessus (Portée énorme)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15% (Sweetspot)",
+        "description": "Hell's Gate. Plongeon lame vers le bas (Meteor). Traverse les plateformes."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Projection magique."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Téléportation derrière l'ennemi et coup."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Coup de pied puis coup d'épée vers le haut (Kill throw à haut %)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (peut combo)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

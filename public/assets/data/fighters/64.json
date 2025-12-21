@@ -1,0 +1,136 @@
+{
+  "id": "64",
+  "name": "Inkling",
+  "series": "Splatoon",
+  "isEcho": false,
+  "description": "Une forme de vie capable de se transformer en calamar. Son 'Encre' est une ressource unique : les ennemis recouverts d'encre subissent plus de dégâts.",
+  "thumbnail": "inkling_icon.png",
+  "image": "inkling.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A / Multi",
+        "damage": "2% + 2% + Multi",
+        "description": "Coup de poing, pied et tir rapide (Rapid Jab consomme de l'encre)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8% (Début) / 6% (Fin)",
+        "description": "Squid Elbow (Coup de coude en avant)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-16%",
+        "description": "Coup d'Épinceau (Inkbrush). Sweetspot au centre."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Tir d'Éclablaster (Blaster) au-dessus de la tête."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12.5% (Proche)",
+        "description": "Jette de l'encre avec le Seauceur (Slosher) des deux côtés."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Splattershot",
+        "input": "B",
+        "damage": "0.3% par tir",
+        "description": "Tir rapide (Liquidateur). Encre l'adversaire efficacement."
+      },
+      {
+        "name": "Splat Roller",
+        "input": "→ + B",
+        "damage": "4-11% (Enterre)",
+        "description": "Rouleau qui enterre les ennemis au sol (Bury)."
+      },
+      {
+        "name": "Super Jump",
+        "input": "↑ + B",
+        "damage": "8% (Décollage) / 6% (Atterrissage)",
+        "description": "Grand saut en calamar. Hitbox au départ et à l'arrivée."
+      },
+      {
+        "name": "Splat Bomb",
+        "input": "↓ + B",
+        "damage": "9-15%",
+        "description": "Bombe Splash triangulaire (explose au contact ou temps)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7%",
+        "description": "Tourbillonne en l'air (Coup de pied)."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Dropkick à deux pieds (Tue à haut %)."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12.5% (Sweetspot)",
+        "description": "Coup de Liquidateur arrière (Très grande portée)."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "4.5% + 6.5%",
+        "description": "Double coup de pied rotatif vers le haut."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12% (Sweetspot)",
+        "description": "Coup de Liquidateur vers le bas (Meteor Smash)."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Tir de Liquidateur à bout portant."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Lancer arrière (Kill throw correct)."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Lancer vers le haut (Combo)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "33_34_35",
+  "name": "Pokémon Trainer",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "Le maître de la polyvalence. Il commande trois Pokémon aux styles radicalement différents, interchangeables via le Spécial Bas.\n• Carapuce (Squirtle) : Rapide, petit, roi des combos.\n• Herbizarre (Ivysaur) : Zoner, excellente portée et éjection verticale.\n• Dracaufeu (Charizard) : Poids lourd, survie et puissance de feu.",
+  "thumbnail": "pokemontrainer_icon.png",
+  "image": "pokemontrainer.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "Sq: 8% / Iv: 11% / Ch: 12%",
+        "description": "• Sq : Rapide (Combo).\n• Iv : Fouets (Portée).\n• Ch : Griffes (Puissant)."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "Sq: 8% / Iv: 10% / Ch: 13%",
+        "description": "• Sq : Glissade (Traverse).\n• Iv : Coup de corps.\n• Ch : Coup de pied (Kill)."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "Sq: 14% / Iv: 15% / Ch: 19%",
+        "description": "• Sq : Coup d'eau (Portée courte).\n• Iv : Coup de liane (Portée moyenne).\n• Ch : Coup de tête (Portée longue, Super Armor)."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "Sq: 15% / Iv: 17% / Ch: 16%",
+        "description": "• Sq : Geyser d'eau (Multi-hit).\n• Iv : Explosion de poudre (TUE TRÈS TÔT).\n• Ch : Double coup d'aile."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "Sq: 13% / Iv: 14% / Ch: 16%",
+        "description": "• Sq : Tourbillon d'eau.\n• Iv : Fleurs des deux côtés.\n• Ch : Séisme (Très puissant)."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Neutral B",
+        "input": "B",
+        "damage": "Variable",
+        "description": "• Sq (Water Gun) : Pistolet à eau (Pousse l'ennemi sans dégâts, charge).\n• Iv (Bullet Seed) : Graines (Piège vertical multi-hit).\n• Ch (Flamethrower) : Lance-flammes (Dégâts continus, perd en portée)."
+      },
+      {
+        "name": "Side B",
+        "input": "→ + B",
+        "damage": "Variable",
+        "description": "• Sq (Withdraw) : Carapace (Armure, traverse).\n• Iv (Razor Leaf) : Feuille (Projectile lent de zoning).\n• Ch (Flare Blitz) : Boutefeu (Explosion dévastatrice, subit des dégâts de recul)."
+      },
+      {
+        "name": "Up B (Recovery)",
+        "input": "↑ + B",
+        "damage": "Variable",
+        "description": "• Sq (Waterfall) : Cascade (Multi-hit vertical).\n• Iv (Vine Whip) : Fouet (Tether, TUE TÔT en sweetspot).\n• Ch (Fly) : Vol (Super Armor au début, tue en haut)."
+      },
+      {
+        "name": "Pokémon Change",
+        "input": "↓ + B",
+        "damage": "0%",
+        "description": "Change de Pokémon (Invincibilité frame 1-25). Ordre : Carapuce -> Herbizarre -> Dracaufeu."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "Sq: 8% / Iv: 9% / Ch: 12%",
+        "description": "• Sq : Tourbillon.\n• Iv : Tourbillon de graines.\n• Ch : Coup de queue."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "Sq: 7% / Iv: 11% / Ch: 13%",
+        "description": "• Sq : Combo tool.\n• Iv : Portée excellente (Lianes).\n• Ch : Griffure (Sweetspot)."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "Sq: 9% / Iv: 10% / Ch: 15%",
+        "description": "• Sq : Kill move.\n• Iv : Portée.\n• Ch : Sweetspot dévastateur (Kill)."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "Sq: 6% / Iv: 12% / Ch: 13%",
+        "description": "• Sq : Jonglage.\n• Iv : Explosion (Propulse vers le bas !).\n• Ch : Coup puissant."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "Sq: 9% / Iv: 10% / Ch: 14%",
+        "description": "• Sq : Multi-hit.\n• Iv : Meteor Smash puissant.\n• Ch : Meteor Smash violent."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "Sq: 9% / Iv: 8% / Ch: 10%",
+        "description": "Projection avant."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "Sq: 10% / Iv: 9% / Ch: 12%",
+        "description": "• Sq : Kill throw correct.\n• Iv : Kill throw.\n• Ch : Kill throw."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "Sq: 7% / Iv: 10% / Ch: 13%",
+        "description": "• Sq : Combo.\n• Iv : Kill throw (très fort).\n• Ch : Frappe sismique (Le plus fort du jeu)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "Sq: 6% / Iv: 7% / Ch: 8%",
+        "description": "• Sq : Combo starter principal.\n• Iv : Combo.\n• Ch : Feux (Peu de combos)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

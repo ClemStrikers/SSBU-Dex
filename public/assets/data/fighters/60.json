@@ -1,0 +1,136 @@
+{
+  "id": "60",
+  "name": "Ryu",
+  "series": "Street Fighter",
+  "isEcho": false,
+  "description": "Le combattant errant. Il possède des commandes spéciales (Input) pour ses coups. Maintenir le bouton modifie la puissance (Léger, Moyen, Lourd).",
+  "thumbnail": "ryu_icon.png",
+  "image": "ryu.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab (Light/Heavy)",
+        "input": "A (Tap / Hold)",
+        "damage": "2% (Light) / 6% (Heavy)",
+        "description": "Coup de poing rapide ou coup de pied au corps"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Coup de pied sauté latéral"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Jodan Sokutou Geri (Coup de pied au visage)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Uppercut puissant"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Balayage rotatif au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Hadoken",
+        "input": "B (Input: ↓↘→ + A)",
+        "damage": "6% (Standard) / 8% (Input)",
+        "description": "Boule de feu bleue (Shakunetsu rouge si ←↙↓↘→ + A)"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": "→ + B (Input: ↓↙← + A)",
+        "damage": "9-12% (Input: plus fort)",
+        "description": "Coup de pied ouragan (traverse l'ennemi)"
+      },
+      {
+        "name": "Shoryuken",
+        "input": "↑ + B (Input: →↓↘ + A)",
+        "damage": "13% (Standard) / 16% (Input)",
+        "description": "Uppercut du dragon (Invincible au début, tue très tôt)"
+      },
+      {
+        "name": "Focus Attack",
+        "input": "↓ + B",
+        "damage": "12% (Niveau 2: Stun)",
+        "description": "Encaisse un coup (Armor) puis frappe (peut être annulé)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "4% (Light) / 8% (Heavy)",
+        "description": "Coup de poing ou coup de pied (reste actif longtemps)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15% (Sweetspot)",
+        "description": "Coup de pied sauté puissant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "16%",
+        "description": "Coup de pied retourné (Kill move)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Uppercut aérien (deux coups)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Coup de poing vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Projection par-dessus l'épaule"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Roulade arrière (Tomoe Nage)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Coup de pied vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Coup de talon au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

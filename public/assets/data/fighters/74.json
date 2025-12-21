@@ -1,0 +1,148 @@
+{
+  "id": "74",
+  "name": "Terry",
+  "series": "Fatal Fury",
+  "isEcho": false,
+  "description": "Le loup affamé légendaire. Un combattant technique qui possède des commandes spéciales (Inputs) pour renforcer ses coups. À 100% de dégâts, il débloque le mode 'GO' qui lui donne accès à deux Super Coups Spéciaux dévastateurs.",
+  "thumbnail": "terry_icon.png",
+  "image": "terry.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Jab 1, Jab 2, puis High Kick (anti-air) ou Low Kick (combo starter)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Power Charge (Coup d'épaule qui éjecte fort)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Back Knuckle (Revers du poing très puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15%",
+        "description": "Wild Upper (Coup de pied vertical, excellente hitbox)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14%",
+        "description": "Slide Kick (Balayage qui touche bas)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Power Wave",
+        "input": "B (ou ↓↘→ + A)",
+        "damage": "6% (Sol) / 5% (Air)",
+        "description": "Onde de choc au sol. Version Input (+A) va plus vite."
+      },
+      {
+        "name": "Burn Knuckle / Crack Shoot",
+        "input": "→ + B (Avant) / ← + B (Arrière)",
+        "damage": "15% (Burn) / 12% (Crack)",
+        "description": "Burn Knuckle (Poing foncé) vers l'avant. Crack Shoot (Coup de pied sauté) vers l'arrière."
+      },
+      {
+        "name": "Rising Tackle",
+        "input": "↑ + B (ou Charge ↓, ↑ + A)",
+        "damage": "14% (Total)",
+        "description": "Vrille ascendante (Invincible aux jambes). Version charge va plus haut."
+      },
+      {
+        "name": "Power Dunk",
+        "input": "↓ + B (ou →↓↘ + A)",
+        "damage": "14% (Total)",
+        "description": "Uppercut puis Smash au sol (Meteor). Excellent combo finisher."
+      },
+      {
+        "name": "[GO] Power Geyser",
+        "input": "↓↙←↙↓↘→ + A",
+        "damage": "28%",
+        "description": "Frappe le sol et crée un geyser d'énergie immense (Tue très tôt)."
+      },
+      {
+        "name": "[GO] Buster Wolf",
+        "input": "↓↘→↓↘→ + A",
+        "damage": "24%",
+        "description": "Charge rapide et tir d'énergie à bout portant (Are you okay? BUSTER WOLF!)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7%",
+        "description": "Coup de pied circulaire (Reste actif longtemps)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10%",
+        "description": "Coup de pied sauté classique"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de pied arrière (Bon kill move)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Somersault Kick (Jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Coup de poing vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Buster Throw (Jette au sol)"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Jette en arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Grasping Upper (Enchaîne sur Up Air)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Neck Breaker (Combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

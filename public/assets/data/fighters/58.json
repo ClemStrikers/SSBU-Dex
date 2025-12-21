@@ -1,0 +1,136 @@
+{
+  "id": "58",
+  "name": "Bowser Jr.",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "Le fils de Bowser dans sa Junior Clown Car. Il utilise des gadgets (canons, foreuses, méca-koopas) et subit moins de dégâts sur sa voiture que sur son corps.",
+  "thumbnail": "bowserjr_icon.png",
+  "image": "bowserjr.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2% + 2% + Multi",
+        "description": "Coups de griffe et rafale de poings"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (Multi-hit)",
+        "description": "Scie circulaire à l'avant du kart"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Doubles foreuses (dure longtemps)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Multi-hit)",
+        "description": "Hélice sous le kart (bonne couverture)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "18%",
+        "description": "Boulets de démolition des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Clown Cannon",
+        "input": "B",
+        "damage": "7-18% (Charge)",
+        "description": "Tire un boulet de canon (lent mais puissant)"
+      },
+      {
+        "name": "Clown Kart Dash",
+        "input": "→ + B",
+        "damage": "11% (Impact) + 7% (Spin)",
+        "description": "Fonce en kart (peut sauter, drifter ou tourner)"
+      },
+      {
+        "name": "Abandon Ship!",
+        "input": "↑ + B",
+        "damage": "13% (Explosion kart)",
+        "description": "S'éjecte du kart (le kart explose au sol)"
+      },
+      {
+        "name": "Mechakoopa",
+        "input": "↓ + B",
+        "damage": "6% (Morsure) + 8% (Explosion)",
+        "description": "Lâche un petit robot qui marche et mord"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "7%",
+        "description": "Gant de boxe rotatif"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "11%",
+        "description": "Boulet de démolition avant (bonne portée)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Boulet de démolition arrière (très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de marteau vers le haut (Jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12% (Multi-hit)",
+        "description": "Foreuse vers le bas"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Petit coup de kart"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Perceuse (dégâts, pas de combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

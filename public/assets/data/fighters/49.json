@@ -1,0 +1,136 @@
+{
+  "id": "49",
+  "name": "Little Mac",
+  "series": "Punch-Out!!",
+  "isEcho": false,
+  "description": "Le boxeur du Bronx. Incroyable vitesse et Super Armor au sol, mais inutile dans les airs. Son 'KO Punch' tue à 20%.",
+  "thumbnail": "littlemac_icon.png",
+  "image": "littlemac.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 5%",
+        "description": "Gauches-Droites rapides (Frame 1)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Direct du droit en avançant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "21-26% (Super Armor)",
+        "description": "Direct puissant (orientable haut/bas)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "20% (Super Armor)",
+        "description": "Uppercut montant (touche l'ennemi au sol)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (Super Armor)",
+        "description": "Coup au corps (casse les boucliers)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Straight Lunge / KO Punch",
+        "input": "B",
+        "damage": "12-35% (KO: Mortel)",
+        "description": "Charge un coup. Si jauge pleine : KO Punch (Imblocable)."
+      },
+      {
+        "name": "Jolt Haymaker",
+        "input": "→ + B",
+        "damage": "12%",
+        "description": "Saut et crochet (passe au travers des projectiles)"
+      },
+      {
+        "name": "Rising Uppercut",
+        "input": "↑ + B",
+        "damage": "10% (Multi-hit)",
+        "description": "Tire-bouchon vertical (mauvaise récupération)"
+      },
+      {
+        "name": "Slip Counter",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Esquive et contre-attaque"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "2%",
+        "description": "Petit coup de poing (très faible)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "4%",
+        "description": "Crochet aérien (combo starter)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "5%",
+        "description": "Revers du poing"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "5%",
+        "description": "Coup vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "4%",
+        "description": "Coup vers le bas (Spike très faible)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Uppercut au corps"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Uppercut vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

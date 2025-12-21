@@ -1,0 +1,136 @@
+{
+  "id": "42",
+  "name": "R.O.B.",
+  "series": "R.O.B.",
+  "isEcho": false,
+  "description": "Le robot jouet. Un maître du zoning avec sa toupie (Gyro) et son laser. Très lourd et excellente récupération, mais une grosse cible.",
+  "thumbnail": "rob_icon.png",
+  "image": "rob.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "3% + 3%",
+        "description": "Deux coups de bras robotiques"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "7% (Multi-hit)",
+        "description": "Mise à mort (coups rapides des bras)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Double laser à bout portant (lent mais puissant)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Ouvre sa tête et frappe vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "5% (Multi-hit)",
+        "description": "Tourne sur lui-même (très rapide)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Robo Beam",
+        "input": "B",
+        "damage": "4-12%",
+        "description": "Tir laser (rebondit si super chargé)"
+      },
+      {
+        "name": "Arm Rotor",
+        "input": "→ + B",
+        "damage": "10% (Reflect)",
+        "description": "Tourbillon de bras (renvoie les projectiles)"
+      },
+      {
+        "name": "Robo Burner",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Vole (consomme du fuel qui se recharge au sol)"
+      },
+      {
+        "name": "Gyro",
+        "input": "↓ + B",
+        "damage": "7-13%",
+        "description": "Charge et lance une toupie (reste au sol, item)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "14%",
+        "description": "Saut périlleux et flamme (énorme hitbox)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7%",
+        "description": "Petit coup de bras rapide"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de propulseur arrière (espace)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10% (Multi-hit)",
+        "description": "Hélicoptère de bras (très fort en combo)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Coup de feu vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Catapulte en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Suplex arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12%",
+        "description": "Piledriver (le plus puissant de ses lancers)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Enterre l'ennemi (très bon setup)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

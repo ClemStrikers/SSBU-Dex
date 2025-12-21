@@ -1,0 +1,136 @@
+{
+  "id": "09",
+  "name": "Luigi",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "Le frère peureux de Mario. Il glisse beaucoup mais possède des combos dévastateurs et un uppercut fatal.",
+  "thumbnail": "luigi_icon.png",
+  "image": "luigi.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Enchaînement de coups maladroits"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8% (total)",
+        "description": "Moulinet de poings en courant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15%",
+        "description": "Piqure avec la main"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Coup de tête vers l'arrière"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15%",
+        "description": "Balayage Breakdance"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Fireball",
+        "input": "B",
+        "damage": "6%",
+        "description": "Boule de feu verte (va tout droit)"
+      },
+      {
+        "name": "Green Missile",
+        "input": "→ + B",
+        "damage": "6-25%",
+        "description": "Se lance comme une fusée (parfois explosif)"
+      },
+      {
+        "name": "Super Jump Punch",
+        "input": "↑ + B",
+        "damage": "25% (Sweetspot) / 1% (Sour)",
+        "description": "Uppercut dévastateur si collé à l'ennemi"
+      },
+      {
+        "name": "Luigi Cyclone",
+        "input": "↓ + B",
+        "damage": "1.5% xN",
+        "description": "Tourbillonne (peut monter en l'air)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "12% (début) / 6% (fin)",
+        "description": "Coup de pied statique (très fort)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "8%",
+        "description": "Chop (coup de main)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Drop kick arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Flip kick"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10%",
+        "description": "Drill kick (peut Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Tourne et lance"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Grand tourbillon et lancer (kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol (début de combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

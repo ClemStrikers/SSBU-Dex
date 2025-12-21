@@ -1,0 +1,136 @@
+{
+  "id": "46",
+  "name": "Mega Man",
+  "series": "Mega Man",
+  "isEcho": false,
+  "description": "Le bombardier bleu. Il utilise les armes des Robot Masters. Son Jab, Ftilt et Nair sont des tirs de citron (Lemons). Très fort à distance.",
+  "thumbnail": "megaman_icon.png",
+  "image": "megaman.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab / Buster",
+        "input": "A (en marchant aussi)",
+        "damage": "2% x3",
+        "description": "Tir de Mega Buster (Citrons) tout en bougeant"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8% (Multi-hit)",
+        "description": "Top Spin (Toupie au sol)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19-37% (Charge)",
+        "description": "Mega Buster chargé (portée énorme)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15-20% (Multi-hit)",
+        "description": "Spark Shock (Électrocution aux mains)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "17%",
+        "description": "Flame Blast (Piliers de feu)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Metal Blade",
+        "input": "B",
+        "damage": "6% (Lancer)",
+        "description": "Disque de métal (peut être lancé dans 8 directions)"
+      },
+      {
+        "name": "Crash Bomber",
+        "input": "→ + B",
+        "damage": "3% (Colle) + 8% (Explose)",
+        "description": "Bombe collante à retardement"
+      },
+      {
+        "name": "Rush Coil",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Invoque Rush pour un grand saut"
+      },
+      {
+        "name": "Leaf Shield",
+        "input": "↓ + B",
+        "damage": "2% x4 + 4% (Lancer)",
+        "description": "Feuilles tournantes (protège et peut être lancé)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "2% x3",
+        "description": "Tir de Mega Buster aérien"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "8%",
+        "description": "Flame Sword (Épée de feu)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "10-12% x3",
+        "description": "Slash Claw (Griffe tranchante, tue fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "4% (Tornade)",
+        "description": "Air Shooter (Tornade qui pousse vers le haut)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Hard Knuckle (Poing fusée, Meteor)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Lancer simple"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "4%",
+        "description": "Plaque au sol (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

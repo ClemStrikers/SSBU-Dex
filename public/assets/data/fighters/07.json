@@ -1,0 +1,136 @@
+{
+  "id": "07",
+  "name": "Fox",
+  "series": "Star Fox",
+  "isEcho": false,
+  "description": "Le leader de l'équipe Star Fox. Extrêmement rapide, il excelle dans le jeu de pression et les combos verticaux.",
+  "thumbnail": "fox_icon.png",
+  "image": "fox.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + Multi",
+        "description": "Rapid Kick (coups de pied rapides)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6% (début) / 4% (fin)",
+        "description": "Coup de pied sauté"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14%",
+        "description": "Coup de pied acrobatique"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16%",
+        "description": "Flip Kick (très puissant pour KO)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14%",
+        "description": "Grand écart au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Blaster",
+        "input": "B",
+        "damage": "2-3% (par tir)",
+        "description": "Tirs laser rapides (ne stoppe pas l'ennemi)"
+      },
+      {
+        "name": "Fox Illusion",
+        "input": "→ + B",
+        "damage": "3%",
+        "description": "Dash instantané traversant l'ennemi"
+      },
+      {
+        "name": "Fire Fox",
+        "input": "↑ + B",
+        "damage": "2% (charge) + 14% (dash)",
+        "description": "Se charge de feu et fonce"
+      },
+      {
+        "name": "Reflector (Shine)",
+        "input": "↓ + B",
+        "damage": "5% (activation)",
+        "description": "Renvoie les projectiles"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "9% (début) / 6% (fin)",
+        "description": "Sex Kick (très bon pour combos)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (total)",
+        "description": "Tornado Kick (multi-hits)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de pied arrière puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "16% (si 2 coups)",
+        "description": "Double coup de pied retourné"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "2% x7",
+        "description": "Drill (vrille multi-hits)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Coup de poing au ventre"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Jette l'ennemi derrière et tire au blaster"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Jette en l'air et tire (bon pour combos)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol et tire"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

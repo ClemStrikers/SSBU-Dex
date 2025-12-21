@@ -1,0 +1,371 @@
+/* =========================================
+   RESET & GLOBAL STYLES - Style SSBU
+   ========================================= */
+:root {
+    /* Palette de couleurs inspirée de l'interface du jeu */
+    --ssbu-red: #e60012;
+    --ssbu-dark-red: #900000;
+    --ssbu-orange: #ff7b00;
+    --ssbu-black: #0a0a0a;
+    --ssbu-dark-grey: #1f1f1f;
+    --ssbu-light-grey: #e0e0e0;
+    --ssbu-white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Fond sombre avec un subtil dégradé radial rouge pour donner de la profondeur,
+       comme les menus du jeu */
+    background: radial-gradient(circle at center, var(--ssbu-dark-grey) 0%, var(--ssbu-black) 100%);
+    color: var(--ssbu-white);
+    font-family: 'Arial Black', 'Impact', sans-serif; /* Police épaisse par défaut */
+    min-height: 100vh;
+    overflow-x: hidden; /* Empêche le scroll horizontal dû aux éléments inclinés */
+}
+
+/* =========================================
+   TYPOGRAPHIE "SMASH"
+   ========================================= */
+h1, h2, h3, a, button {
+    text-transform: uppercase;
+    font-style: italic; /* Donne une impression de mouvement */
+    letter-spacing: 1px;
+}
+
+/* Titre Principal avec effet "Logo Smash" */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--ssbu-white);
+    /* Contour noir épais et ombre portée rouge */
+    text-shadow: 
+        3px 3px 0px var(--ssbu-black),
+        -3px -3px 0px var(--ssbu-black),
+        3px -3px 0px var(--ssbu-black),
+        -3px 3px 0px var(--ssbu-black),
+        5px 5px 0px var(--ssbu-red);
+    transform: skewX(-10deg); /* Inclinaison dynamique */
+}
+
+/* Sous-titre */
+p {
+    font-family: 'Arial', sans-serif; /* Police plus lisible pour le corps de texte */
+    font-size: 1.2rem;
+    color: var(--ssbu-light-grey);
+    margin-bottom: 3rem;
+}
+
+/* =========================================
+   HEADER & NAVIGATION
+   ========================================= */
+header {
+    /* Bannière inclinée avec dégradé rouge/orange vif */
+    background: linear-gradient(90deg, var(--ssbu-dark-red), var(--ssbu-red), var(--ssbu-orange));
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    transform: skewY(-3deg); /* Inclinaison globale de la barre */
+    margin-top: -10px; /* Remonte pour cacher le bord haut */
+    border-bottom: 3px solid var(--ssbu-white);
+}
+
+/* On redresse le contenu à l'intérieur de la barre inclinée */
+.header-content, nav {
+    transform: skewY(3deg); 
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--ssbu-white);
+    text-shadow: 2px 2px var(--ssbu-black);
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--ssbu-white);
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Effet de survol sur les liens du menu */
+nav a:hover {
+    color: var(--ssbu-orange);
+    text-shadow: 0 0 10px var(--ssbu-red);
+}
+
+/* Petite barre sous les liens au survol */
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: var(--ssbu-white);
+    transition: width 0.3s ease;
+    transform: skewX(-20deg);
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* =========================================
+   MAIN CONTENT & HOME
+   ========================================= */
+main {
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+#home {
+    max-width: 800px;
+    /* Ajout d'un conteneur subtil */
+    background: rgba(255, 255, 255, 0.05);
+    padding: 3rem;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(230, 0, 18, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+/* =========================================
+   BOUTONS STYLE SSBU
+   ========================================= */
+/* Le bouton principal "Voir le Roster" */
+#home button, .ssbu-button {
+    background: linear-gradient(45deg, var(--ssbu-red), var(--ssbu-orange));
+    border: none;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--ssbu-white);
+    cursor: pointer;
+    /* Forme trapézoïdale inclinée grâce à clip-path */
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transition: all 0.2s ease-in-out;
+    text-shadow: 1px 1px 2px var(--ssbu-black);
+    box-shadow: 0 0 10px var(--ssbu-red);
+}
+
+#home button:hover, .ssbu-button:hover {
+    transform: scale(1.05) skewX(-5deg); /* Léger agrandissement et inclinaison */
+    background: linear-gradient(45deg, var(--ssbu-orange), var(--ssbu-red));
+    box-shadow: 0 0 25px var(--ssbu-orange);
+    color: var(--ssbu-black);
+    text-shadow: none;
+}
+
+#home button:active {
+    transform: scale(0.95);
+}
+
+/* =========================================
+   RESPONSIVE
+   ========================================= */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    nav ul {
+        gap: 1rem;
+    }
+}
+/* =========================================
+   MATCHUP CHART / TIER LIST STYLE
+   ========================================= */
+
+.tier-list-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 3rem;
+}
+
+.tier-row {
+    display: flex;
+    background: rgba(0, 0, 0, 0.6); /* Fond sombre pour les icônes */
+    border: 2px solid var(--ssbu-dark-grey);
+    min-height: 80px;
+}
+
+/* Étiquette à gauche (+2, +1...) */
+.tier-label {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    color: #000; /* Texte noir pour contraste sur couleurs vives */
+    text-transform: uppercase;
+    flex-shrink: 0;
+    text-shadow: none;
+    box-shadow: inset -5px 0 10px rgba(0,0,0,0.2);
+}
+
+/* Zone des icônes à droite */
+.tier-content {
+    flex-grow: 1;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.tier-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px; /* Carré arrondi comme SSBU */
+    border: 2px solid rgba(255,255,255,0.2);
+    transition: transform 0.2s;
+    background: #000;
+}
+
+.tier-icon:hover {
+    transform: scale(1.2);
+    border-color: var(--ssbu-white);
+    z-index: 10;
+}
+
+/* Couleurs des Tiers (Style SSBU/Gaming) */
+.bg-green-dark {
+    background: #2ecc71; /* Vert vif */
+}
+.bg-green-light {
+    background: #a9dfbf; /* Vert pâle */
+}
+.bg-yellow {
+    background: #f1c40f; /* Jaune */
+}
+.bg-orange {
+    background: #e67e22; /* Orange */
+}
+.bg-red {
+    background: #e74c3c; /* Rouge */
+    color: white; /* Texte blanc sur rouge */
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .tier-row {
+        flex-direction: column;
+    }
+    .tier-label {
+        width: 100%;
+        height: 40px;
+    }
+}
+/* =========================================
+   STYLE DES CARTES PERSONNAGES (ROSTER)
+   ========================================= */
+
+/* On cible la classe générée par roster.ts */
+.fighter-card {
+    /* 1. Utilisation de la variable couleur injectée par le JS */
+    /* Si le JS échoue, on met une couleur de secours (blanc) */
+    border: 3px solid var(--char-color, #ffffff);
+    box-shadow: 0 0 10px var(--char-color, #ffffff);
+    
+    /* 2. Mise en forme de la carte */
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Effet au survol : la lueur s'intensifie */
+.fighter-card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 25px var(--char-color, #ffffff);
+    z-index: 10;
+}
+
+/* En-tête de la carte (Numéro) */
+.fighter-card .card-header {
+    background-color: var(--char-color, #333);
+    color: white; /* Ou noir selon le contraste, mais blanc passe souvent */
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Zone image */
+.fighter-card .card-image-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0) 70%);
+}
+
+/* Nom du personnage */
+.fighter-card .fighter-name {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0 5px;
+    margin: 5px 0;
+    text-shadow: 0 0 5px var(--char-color);
+}
+
+/* Bouton (Optionnel si tu l'as gardé) */
+.fighter-card .btn-select {
+    margin: 10px auto;
+    display: block;
+    background: transparent;
+    border: 1px solid var(--char-color);
+    color: var(--char-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fighter-card .btn-select:hover {
+    background-color: var(--char-color);
+    color: white; /* Texte blanc sur fond coloré */
+}

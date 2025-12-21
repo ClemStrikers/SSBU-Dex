@@ -1,0 +1,136 @@
+{
+  "id": "13",
+  "name": "Peach",
+  "series": "Super Mario",
+  "isEcho": false,
+  "description": "La princesse du Royaume Champignon. Elle peut flotter dans les airs et utilise des navets, un club de golf et une poêle pour se battre.",
+  "thumbnail": "peach_icon.png",
+  "image": "peach.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "2% + 2.5%",
+        "description": "Deux claques royales"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6% + 6%",
+        "description": "Poussée des deux mains (multi-hits)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Golf) / 18% (Poêle) / 13% (Raquette)",
+        "description": "Frappe aléatoire (Golf, Poêle ou Raquette)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Sweetspot)",
+        "description": "Tourbillonne avec un ruban"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "2% xN (Max ~14%)",
+        "description": "Tourbillon au sol (très bon piège)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Toad",
+        "input": "B",
+        "damage": "Variable (Counter)",
+        "description": "Utilise Toad comme bouclier et contre-attaque"
+      },
+      {
+        "name": "Peach Bomber",
+        "input": "→ + B",
+        "damage": "12%",
+        "description": "Se lance en avant avec une explosion de hanche"
+      },
+      {
+        "name": "Peach Parasol",
+        "input": "↑ + B",
+        "damage": "3% xN",
+        "description": "Saute haut et redescend lentement"
+      },
+      {
+        "name": "Vegetable",
+        "input": "↓ + B",
+        "damage": "Variable (selon le visage)",
+        "description": "Déterre un navet (parfois une bombe ou Mr. Saturn)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "13%",
+        "description": "Tourbillon avec sa robe"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "14% (Sweetspot)",
+        "description": "Coup de couronne (très puissant)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de hanche arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied arc-en-ciel"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "2% x4",
+        "description": "Coups de pieds multiples vers le bas"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Gifle l'adversaire"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière avec la hanche"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Lancer à deux mains vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase l'adversaire au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "52",
+  "name": "Mii Swordfighter",
+  "series": "Super Smash Bros",
+  "isEcho": false,
+  "description": "L'épéiste polyvalent. Il utilise une épée pour zoner et punir. Ses coups spéciaux personnalisables lui permettent de devenir un zoner de projectiles (Tornade, Chakram) ou un combattant de corps-à-corps (Hero's Spin, Gale Stab).",
+  "thumbnail": "miiswordfighter_icon.png",
+  "image": "miiswordfighter.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 5%",
+        "description": "Combo 3 coups d'épée classique. Bon pour repousser."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10%",
+        "description": "Fente glissée en avant. Bonne portée."
+      },
+      {
+        "name": "Forward Tilt",
+        "input": "→ + A",
+        "damage": "12%",
+        "description": "Coup horizontal simple. Efficace pour spacer."
+      },
+      {
+        "name": "Up Tilt",
+        "input": "↑ + A",
+        "damage": "7%",
+        "description": "Coup d'épée en arc au-dessus de la tête. Bon anti-air."
+      },
+      {
+        "name": "Down Tilt",
+        "input": "↓ + A",
+        "damage": "8%",
+        "description": "Pique les pieds de l'adversaire. Envoie en l'air pour combo."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Pointe)",
+        "description": "Coup d'épée vertical puissant. Portée correcte."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "4% + 3% + 7% (Multi-hit)",
+        "description": "Triple coup d'épée vers le haut. Bon pour attraper les atterrissages."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12% (Avant) / 15% (Arrière)",
+        "description": "Coup bas avant puis arrière. Le coup arrière est plus puissant."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Neutral B (Choix 1)",
+        "input": "B",
+        "damage": "13-17% (Tornade)",
+        "description": "Gale Strike. Lance une tornade qui traverse l'écran et éjecte vers le haut. Excellent combo starter à distance."
+      },
+      {
+        "name": "Neutral B (Choix 2)",
+        "input": "B",
+        "damage": "2-12% (Multi-hit)",
+        "description": "Shuriken of Light. Lance un shuriken d'énergie (plus fort à distance). Peut spammer."
+      },
+      {
+        "name": "Neutral B (Choix 3)",
+        "input": "B",
+        "damage": "2-19% (Charge)",
+        "description": "Blurring Blade. Charge une série de coups d'épée de feu (Marth-like). Très puissant si chargé."
+      },
+      {
+        "name": "Side B (Choix 1)",
+        "input": "→ + B",
+        "damage": "11% (Début)",
+        "description": "Airborne Assault. S'envole en tourbillonnant vers l'avant (Ike-like). Vulnérable si bloqué."
+      },
+      {
+        "name": "Side B (Choix 2)",
+        "input": "→ + B",
+        "damage": "8-18% (Charge)",
+        "description": "Gale Stab. Charge une estocade rapide (Link-like). Traverse l'ennemi."
+      },
+      {
+        "name": "Side B (Choix 3)",
+        "input": "→ + B",
+        "damage": "8% (Fort) / 1.1% (Faible)",
+        "description": "Chakram. Lance un disque. Smash input = Rapide et droit. Tilt input = Lent et stationnaire (Combo)."
+      },
+      {
+        "name": "Up B (Choix 1)",
+        "input": "↑ + B",
+        "damage": "4-8% (Total)",
+        "description": "Stone Scabbard. S'envole et retombe brutalement (Kirby/Ike-like). Meteor à la descente."
+      },
+      {
+        "name": "Up B (Choix 2)",
+        "input": "↑ + B",
+        "damage": "3-5% (Multi-hit)",
+        "description": "Skyward Slash Dash. Série de coups rapides dans n'importe quelle direction (Fox-like)."
+      },
+      {
+        "name": "Up B (Choix 3)",
+        "input": "↑ + B",
+        "damage": "12-14% (Sol) / 8-10% (Air)",
+        "description": "Hero's Spin. Tourbillon (Link-like). TUE TRÈS TÔT au sol ou en haut de l'écran."
+      },
+      {
+        "name": "Down B (Choix 1)",
+        "input": "↓ + B",
+        "damage": "Counter (x1.2)",
+        "description": "Blade Counter. Contre classique. Renvoie les dégâts."
+      },
+      {
+        "name": "Down B (Choix 2)",
+        "input": "↓ + B",
+        "damage": "6% (Reflect)",
+        "description": "Reversal Slash. Cap d'énergie (Mario-like). Renvoie les projectiles et retourne l'ennemi (Gimp)."
+      },
+      {
+        "name": "Down B (Choix 3)",
+        "input": "↓ + B",
+        "damage": "12-15%",
+        "description": "Power Thrust. Plongeon épée en avant (Falcon Kick-like). Traverse au sol, Meteor au début en l'air."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8%",
+        "description": "Coup d'épée circulaire. Couvre bien autour."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "3% + 3% + 5%",
+        "description": "Triple coup d'épée vers l'avant. Bon pour gratter des dégâts."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Coup d'épée arrière. Rapide et puissant (Kill move)."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "16% (Sweetspot)",
+        "description": "Coup d'épée vers le haut (Link-like). Tue très tôt en haut."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12%",
+        "description": "Plongeon épée vers le bas. Meteor Smash au début, reste actif longtemps."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Jette en avant."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Jette en arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Jette vers le haut (Combo vers Up Air)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

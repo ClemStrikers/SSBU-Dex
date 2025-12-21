@@ -1,0 +1,136 @@
+{
+  "id": "11",
+  "name": "Captain Falcon",
+  "series": "F-Zero",
+  "isEcho": false,
+  "description": "Pilote de F-Zero et combattant ultra rapide. Célèbre pour son 'Falcon Punch' et ses genoux aériens.",
+  "thumbnail": "captainfalcon_icon.png",
+  "image": "captainfalcon.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 5%",
+        "description": "Gentleman (3 coups) ou Rapid Jab"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10%",
+        "description": "Coup d'épaule"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19%",
+        "description": "Coup de coude puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "18%",
+        "description": "Double coup de pied vertical"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14% (avant) / 18% (arrière)",
+        "description": "Balayage devant et derrière"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Falcon Punch",
+        "input": "B",
+        "damage": "25%",
+        "description": "Le coup de poing légendaire (lent mais fatal)"
+      },
+      {
+        "name": "Raptor Boost",
+        "input": "→ + B",
+        "damage": "9%",
+        "description": "Uppercut enflammé en avançant"
+      },
+      {
+        "name": "Falcon Dive",
+        "input": "↑ + B",
+        "damage": "13%",
+        "description": "Saut et chope l'ennemi (explosion)"
+      },
+      {
+        "name": "Falcon Kick",
+        "input": "↓ + B",
+        "damage": "12%",
+        "description": "Glissade de feu (ou plongeon aérien)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6% + 6%",
+        "description": "Double coup de pied"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "19% (Knee)",
+        "description": "Le 'Knee of Justice' (Sweetspot électrique)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de poing retourné rapide"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Bicyclette (très bon jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Stomp (Meteor Smash violent)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Uppercut à bout portant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "6%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Coup de paume vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (lanceur de combos)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

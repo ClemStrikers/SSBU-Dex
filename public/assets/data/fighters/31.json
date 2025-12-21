@@ -1,0 +1,136 @@
+{
+  "id": "31",
+  "name": "Snake",
+  "series": "Metal Gear",
+  "isEcho": false,
+  "description": "Le soldat légendaire. Un spécialiste des explosifs et du contrôle de terrain. Il peut piéger tout le stage avec ses C4 et grenades.",
+  "thumbnail": "snake_icon.png",
+  "image": "snake.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "4% + 3% + 7%",
+        "description": "Combo 3 coups (poing, poing, coup de pied)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Roulade tactique (peut esquiver)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "22%",
+        "description": "Tir de lance-roquettes (vise le sol)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Tir de mortier vertical (retombe plus tard)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12%",
+        "description": "Pose une mine terrestre (explose au contact)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Hand Grenade",
+        "input": "B",
+        "damage": "12%",
+        "description": "Dégoupille une grenade (explose après 2.5s)"
+      },
+      {
+        "name": "Remote Missile",
+        "input": "→ + B",
+        "damage": "14%",
+        "description": "Missile Nikita téléguidé (contrôlable)"
+      },
+      {
+        "name": "Cypher",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "S'envole avec un drone (très haut)"
+      },
+      {
+        "name": "C4",
+        "input": "↓ + B",
+        "damage": "17%",
+        "description": "Pose un explosif collant (détonation manuelle)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "2% x4",
+        "description": "Coup de pied rotatif (4 touches)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15% (Meteor)",
+        "description": "Coup de talon hache (très lent mais mortel)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "16%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "14%",
+        "description": "Coup de pied vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "6% x4",
+        "description": "Piétinement rapide (bon pour les dégâts)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Coup de coude"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Suplex arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "12%",
+        "description": "Endort l'adversaire au sol (Tech Chase)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "05",
+  "name": "Yoshi",
+  "series": "Yoshi",
+  "isEcho": false,
+  "description": "Le fidèle compagnon de Mario. Yoshi attaque avec des œufs, sa longue langue et des coups de queue dévastateurs.",
+  "thumbnail": "yoshi_icon.png",
+  "image": "yoshi.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "3% + 4%",
+        "description": "Double coup de pied rapide"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11% (début) / 8% (fin)",
+        "description": "Coup de pied sauté en avant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-15.5%",
+        "description": "Puissant coup de tête vers l'avant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "12-14%",
+        "description": "Bicyclette (coup de pied retourné)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12% (avant) / 10% (arrière)",
+        "description": "Balayage de queue des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Egg Lay",
+        "input": "B",
+        "damage": "7%",
+        "description": "Avale l'adversaire et le transforme en œuf"
+      },
+      {
+        "name": "Egg Roll",
+        "input": "→ + B",
+        "damage": "10-13%",
+        "description": "Roule au sol dans un œuf géant"
+      },
+      {
+        "name": "Egg Throw",
+        "input": "↑ + B",
+        "damage": "6%",
+        "description": "Lance un œuf (direction contrôlable)"
+      },
+      {
+        "name": "Yoshi Bomb",
+        "input": "↓ + B",
+        "damage": "4% (étoiles) + 15% (chute)",
+        "description": "Écrase le sol lourdement"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (début) / 5% (fin)",
+        "description": "Sex Kick (coup de pied statique durable)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "15% (tête) / 14% (corps)",
+        "description": "Meteor Smash puissant avec la tête"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "3.5% x3",
+        "description": "Triple coup de queue"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "12%",
+        "description": "Coup de queue vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "30% (total)",
+        "description": "Flutter Kick (pédalage rapide)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Lancer simple vers l'avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Tourne sur lui-même et lance"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Lance l'adversaire vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "4%",
+        "description": "Plaque l'adversaire au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

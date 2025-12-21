@@ -1,0 +1,136 @@
+{
+  "id": "20",
+  "name": "Falco",
+  "series": "Star Fox",
+  "isEcho": false,
+  "description": "L'as du pilotage. Similaire à Fox mais préfère le combat aérien. Son saut est le plus haut du jeu.",
+  "thumbnail": "falco_icon.png",
+  "image": "falco.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, Multi",
+        "damage": "2% + 1% xN",
+        "description": "Coups d'aile rapides"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "9%",
+        "description": "Coup de pied volant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15-18%",
+        "description": "Coup de paume puissant"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14% (Multi)",
+        "description": "Double coup de pied retourné"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "15%",
+        "description": "Grand écart au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Blaster",
+        "input": "B",
+        "damage": "3% (par tir)",
+        "description": "Tir laser qui stoppe l'ennemi (Stun)"
+      },
+      {
+        "name": "Falco Phantasm",
+        "input": "→ + B",
+        "damage": "7%",
+        "description": "Dash rapide (Spike aérien)"
+      },
+      {
+        "name": "Fire Bird",
+        "input": "↑ + B",
+        "damage": "5% (Charge) + 12% (Dash)",
+        "description": "Se charge de feu (moins de portée que Fox)"
+      },
+      {
+        "name": "Reflector",
+        "input": "↓ + B",
+        "damage": "5%",
+        "description": "Envoie le réflecteur vers l'avant"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "3% x4",
+        "description": "Tourbillon multi-hits (combo)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "1.5% x5",
+        "description": "Vrille avant multi-hits"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup de pied arrière (très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "11%",
+        "description": "Flip kick (excellent jonglage)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Drill Kick (Meteor Smash puissant)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Petit coup de poing"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Jette derrière et tire laser"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Jette en l'air et tire (combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol et tire (combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

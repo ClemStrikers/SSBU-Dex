@@ -1,0 +1,136 @@
+{
+  "id": "04e",
+  "name": "Dark Samus",
+  "series": "Metroid",
+  "isEcho": true,
+  "description": "L'écho de Samus, flottante et utilisant le Phazon. Ses tirs sont plus bas et ses esquives différentes.",
+  "thumbnail": "darksamus_icon.png",
+  "image": "darksamus.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "3% + 8%",
+        "description": "Coup de canon direct"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (début) / 6% (fin)",
+        "description": "Shoulder Tackle (charge d'épaule)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "12-14%",
+        "description": "Explosion de canon Phazon"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (total)",
+        "description": "Barrage de tirs au-dessus de la tête"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10% (avant) / 12% (arrière)",
+        "description": "Balayage au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Charge Shot",
+        "input": "B",
+        "damage": "5-28%",
+        "description": "Tir de plasma chargeable"
+      },
+      {
+        "name": "Missile",
+        "input": "→ + B",
+        "damage": "5-12%",
+        "description": "Missile téléguidé ou Super Missile"
+      },
+      {
+        "name": "Screw Attack",
+        "input": "↑ + B",
+        "damage": "12% (total)",
+        "description": "Saut en vrille électrique"
+      },
+      {
+        "name": "Bomb",
+        "input": "↓ + B",
+        "damage": "4-9%",
+        "description": "Pose une bombe explosive"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Coup de pied latéral"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "1.6% x5",
+        "description": "Tirs multiples vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14%",
+        "description": "Coup de pied arrière puissant"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "4% x5",
+        "description": "Vrille vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "14%",
+        "description": "Meteor Smash avec le canon"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Grappin électrique vers l'avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Grappin électrique vers l'arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12%",
+        "description": "Tire l'ennemi et l'éjecte en l'air"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque l'ennemi au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

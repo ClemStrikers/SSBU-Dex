@@ -1,0 +1,136 @@
+{
+  "id": "50",
+  "name": "Greninja",
+  "series": "Pokémon",
+  "isEcho": false,
+  "description": "Le Pokémon Ninja. Très rapide et furtif. Ses combos aériens sont redoutables et son Hydro Pump lui permet de revenir de n'importe où.",
+  "thumbnail": "greninja_icon.png",
+  "image": "greninja.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 4%",
+        "description": "Coups de paume d'eau"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8%",
+        "description": "Coup de pied glissé (combo starter)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-16%",
+        "description": "Sabre d'eau (très rapide)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Deux sabres d'eau vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Explosion d'eau des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Water Shuriken",
+        "input": "B",
+        "damage": "3-12% (Charge)",
+        "description": "Projectile rapide (multi-hits si chargé)"
+      },
+      {
+        "name": "Shadow Sneak",
+        "input": "→ + B",
+        "damage": "10-14%",
+        "description": "Téléportation d'ombre (lâcher B pour frapper)"
+      },
+      {
+        "name": "Hydro Pump",
+        "input": "↑ + B",
+        "damage": "0% (Pousse)",
+        "description": "Propulsion d'eau (2 directions possibles)"
+      },
+      {
+        "name": "Substitute",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Contre (disparaît et attaque par surprise)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "11%",
+        "description": "Explosion d'eau autour de lui"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "14%",
+        "description": "Coup de sabre d'eau (Fair)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "3% x3",
+        "description": "Triple coup de pied (très bon drag-down)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "9% (Multi-hit)",
+        "description": "Coups de pied en vrille (Kill move)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "8%",
+        "description": "Plongeon pied (rebondit sur l'adversaire)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "8%",
+        "description": "Jette en arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Jette en l'air (Combo)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol (Principal combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

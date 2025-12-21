@@ -1,0 +1,136 @@
+{
+  "id": "29",
+  "name": "Zero Suit Samus",
+  "series": "Metroid",
+  "isEcho": false,
+  "description": "Samus sans son armure. Extrêmement agile, elle utilise ses bottes à propulsion et son pistolet paralysant pour des combos aériens impressionnants.",
+  "thumbnail": "zerosuitsamus_icon.png",
+  "image": "zerosuitsamus.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 5%",
+        "description": "Combo rapide paume/coude/genou"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "8%",
+        "description": "Coup de pied glissé"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Double coup de pied (le 2ème éjecte fort)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14%",
+        "description": "Fouet plasma vers le haut (grande portée)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10%",
+        "description": "Tir paralysant au sol (Paralyzer)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Paralyzer",
+        "input": "B",
+        "damage": "4-6% (Stun)",
+        "description": "Tir paralysant chargeable"
+      },
+      {
+        "name": "Plasma Whip",
+        "input": "→ + B",
+        "damage": "13% (Sweetspot)",
+        "description": "Fouet plasma (pousse l'ennemi)"
+      },
+      {
+        "name": "Boost Kick",
+        "input": "↑ + B",
+        "damage": "16% (Total)",
+        "description": "Coup de pied hélicoptère (excellent kill move)"
+      },
+      {
+        "name": "Flip Jump",
+        "input": "↓ + B",
+        "damage": "14% (Kick) / 10% (Bury)",
+        "description": "Saut acrobatique (peut enterrer ou éjecter)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Fouet plasma autour d'elle"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "5% + 7%",
+        "description": "Double coup de pied avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de pied retourné (très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "6%",
+        "description": "Coup de pied vertical (combo ladder)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10%",
+        "description": "Plongeon rapide (ne suicide pas)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "9%",
+        "description": "Coup de pied chassé"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Coup de pied arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied retourné vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Plaque au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

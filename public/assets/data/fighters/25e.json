@@ -1,0 +1,136 @@
+{
+  "id": "25e",
+  "name": "Chrom",
+  "series": "Fire Emblem",
+  "isEcho": true,
+  "description": "Le Prince d'Ylisse et père de Lucina. Écho de Roy sans la mécanique de 'Sweetspot' (épée constante) et avec le Aether de Ike comme récupération.",
+  "thumbnail": "chrom_icon.png",
+  "image": "chrom.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "6%",
+        "description": "Coup d'épée rapide (moins combo-heavy que Roy)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Grand coup de taille en glissant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Coup puissant (dégâts constants sur la lame)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Multi-hit)",
+        "description": "Plante l'épée vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (avant) + 18% (arrière)",
+        "description": "Balayage rotatif"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Flare Blade",
+        "input": "B",
+        "damage": "8-50%",
+        "description": "Charge une frappe (pas de feu, juste du vent/impact)"
+      },
+      {
+        "name": "Double-Edge Dance",
+        "input": "→ + B",
+        "damage": "Variable",
+        "description": "Combo à 4 coups (identique à Roy)"
+      },
+      {
+        "name": "Soaring Slash (Aether)",
+        "input": "↑ + B",
+        "damage": "18% (Total)",
+        "description": "Saute et retombe violemment (Super Armor au début)"
+      },
+      {
+        "name": "Counter",
+        "input": "↓ + B",
+        "damage": "Variable (x1.35)",
+        "description": "Bloque et riposte"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "6% + 8%",
+        "description": "Double coup circulaire"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10%",
+        "description": "Coup rapide vers l'avant"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Coup d'épée retourné"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Estocade vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Meteor Smash constant (plus facile que Roy)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "5%",
+        "description": "Petit coup de corps"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "5%",
+        "description": "Jette derrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "5%",
+        "description": "Lance vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

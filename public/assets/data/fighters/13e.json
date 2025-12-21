@@ -1,0 +1,136 @@
+{
+  "id": "13e",
+  "name": "Daisy",
+  "series": "Super Mario",
+  "isEcho": true,
+  "description": "La princesse de Sarasaland. Écho de Peach avec des différences mineures (animations plus énergiques, navets légèrement différents).",
+  "thumbnail": "daisy_icon.png",
+  "image": "daisy.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A",
+        "damage": "2% + 2.5%",
+        "description": "Deux claques rapides"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "6% + 6%",
+        "description": "Poussée des deux mains"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Golf) / 18% (Poêle) / 13% (Raquette)",
+        "description": "Frappe aléatoire (Golf, Poêle ou Raquette)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "17% (Sweetspot)",
+        "description": "Tourbillonne avec un ruban"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "2% xN",
+        "description": "Tourbillon au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Toad",
+        "input": "B",
+        "damage": "Variable (Counter)",
+        "description": "Utilise un Toad bleu comme bouclier"
+      },
+      {
+        "name": "Daisy Bomber",
+        "input": "→ + B",
+        "damage": "12%",
+        "description": "Explosion de fleurs à l'impact"
+      },
+      {
+        "name": "Daisy Parasol",
+        "input": "↑ + B",
+        "damage": "3% xN",
+        "description": "Saute haut et redescend lentement"
+      },
+      {
+        "name": "Vegetable",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Déterre un navet (probabilités identiques à Peach)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "13%",
+        "description": "Tourbillon avec sa robe"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "14%",
+        "description": "Coup de couronne vers le bas"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "12%",
+        "description": "Coup de hanche arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied arc-en-ciel"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "2% x4",
+        "description": "Coups de pieds multiples"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Gifle l'adversaire"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "8%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Écrase l'adversaire au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

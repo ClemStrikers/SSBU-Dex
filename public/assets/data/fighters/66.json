@@ -1,0 +1,136 @@
+{
+  "id": "66",
+  "name": "Simon",
+  "series": "Castlevania",
+  "isEcho": false,
+  "description": "Le chasseur de vampires légendaire. Il utilise son fouet (Vampire Killer) pour contrôler l'espace à mi-distance et ses armes secondaires pour piéger l'ennemi.",
+  "thumbnail": "simon_icon.png",
+  "image": "simon.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A (ou Maintenir)",
+        "damage": "2% + 2% + 2.5% (ou Multi)",
+        "description": "Coups de fouet. Si maintenu : fait tournoyer le fouet (bloque projectiles)."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12% (Total)",
+        "description": "Charge en faisant tourner le fouet autour de lui."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "14-18% (Sweetspot au bout)",
+        "description": "Grand coup de fouet avant. Portée immense pour un Smash."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "14-16% (Sweetspot au bout)",
+        "description": "Coup de fouet vertical vers le ciel (très étroit mais haut)."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "14-16%",
+        "description": "Balayage rotatif avec le fouet (touche des deux côtés)."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Axe",
+        "input": "B",
+        "damage": "15%",
+        "description": "Lance une hache en arc de cercle (traverse les murs)."
+      },
+      {
+        "name": "Cross",
+        "input": "→ + B",
+        "damage": "6-8% (Aller) / 5% (Retour)",
+        "description": "Lance une croix boomerang (longue portée)."
+      },
+      {
+        "name": "Uppercut",
+        "input": "↑ + B",
+        "damage": "14% (Total)",
+        "description": "Uppercut sauté avec le fouet (bonne éjection)."
+      },
+      {
+        "name": "Holy Water",
+        "input": "↓ + B",
+        "damage": "2.9% (Fiole) + 1.3% xN (Feu)",
+        "description": "Lance une fiole qui crée un pilier de feu rouge (piège)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Total)",
+        "description": "Tourbillon de fouet autour de lui."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "10-12%",
+        "description": "Coup de fouet vers l'avant (peut s'accrocher aux murs)."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "10-12%",
+        "description": "Coup de fouet vers l'arrière (peut s'accrocher aux murs)."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10-12%",
+        "description": "Coup de fouet vertical (tue haut, s'accroche)."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "12% (Début) / 7% (Fin)",
+        "description": "Coup de pied plongeant (Meteor Smash au début)."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Lancer simple."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "7%",
+        "description": "Lancer arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Lance l'ennemi et le frappe vers le haut."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "8%",
+        "description": "Plaque au sol (combo starter)."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

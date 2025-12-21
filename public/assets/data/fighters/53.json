@@ -1,0 +1,202 @@
+{
+  "id": "53",
+  "name": "Mii Gunner",
+  "series": "Super Smash Bros",
+  "isEcho": false,
+  "description": "Le maître des projectiles. Un zoner redoutable capable de tenir ses adversaires à distance grâce à une variété de tirs. Ses spéciaux personnalisables lui permettent de s'adapter (Dégâts, Vitesse, Pièges).",
+  "thumbnail": "miigunner_icon.png",
+  "image": "miigunner.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "2% + 2% + 5%",
+        "description": "Jab, coup de pied, tir. Repousse l'ennemi."
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "11%",
+        "description": "Coup de poing sauté avec explosion."
+      },
+      {
+        "name": "Forward Tilt",
+        "input": "→ + A",
+        "damage": "13% (Proche) / 8% (Loin)",
+        "description": "Tir rapide devant lui. Plus fort au corps-à-corps."
+      },
+      {
+        "name": "Up Tilt",
+        "input": "↑ + A",
+        "damage": "10%",
+        "description": "Uppercut explosif. Excellent anti-air."
+      },
+      {
+        "name": "Down Tilt",
+        "input": "↓ + A",
+        "damage": "14%",
+        "description": "Tir au sol qui crée une flamme. Éjecte vers le haut."
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "17% (Total)",
+        "description": "Gatling Shot. Rafale de tirs longue portée. Très puissant."
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Total)",
+        "description": "Barrage Shot. Série de tirs en arc au-dessus de la tête."
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "12% (Avant) / 14% (Arrière)",
+        "description": "Tir au sol devant puis derrière. Rapide."
+      }
+    ],
+    "specials": [
+      {
+        "name": "Neutral B (Choix 1)",
+        "input": "B",
+        "damage": "4-26% (Charge)",
+        "description": "Charge Blast. Tir chargé (Samus-like). Kill move puissant."
+      },
+      {
+        "name": "Neutral B (Choix 2)",
+        "input": "B",
+        "damage": "5%",
+        "description": "Laser Blaze. Tirs laser rapides (Falco-like). Fait flinch, excellent pour zoner."
+      },
+      {
+        "name": "Neutral B (Choix 3)",
+        "input": "B",
+        "damage": "12% (Total)",
+        "description": "Grenade Launch. Tire une grenade en cloche. Explose au contact ou après délai. Excellent ledge trap."
+      },
+      {
+        "name": "Side B (Choix 1)",
+        "input": "→ + B",
+        "damage": "2% xN (Multi-hit)",
+        "description": "Flame Pillar. Colonne de feu (Robin-like). Piège l'ennemi (PK Fire)."
+      },
+      {
+        "name": "Side B (Choix 2)",
+        "input": "→ + B",
+        "damage": "12-18% (Explosion)",
+        "description": "Stealth Burst. Missile invisible/discret (Zelda-like). Explose quand on relâche le bouton. Fort mais lent."
+      },
+      {
+        "name": "Side B (Choix 3)",
+        "input": "→ + B",
+        "damage": "7% (Homing) / 14% (Super)",
+        "description": "Gunner Missile. Smash = Super Missile (Puissant). Tilt = Homing Missile (Lent, guidé)."
+      },
+      {
+        "name": "Up B (Choix 1)",
+        "input": "↑ + B",
+        "damage": "7%",
+        "description": "Lunar Launch. Tire vers le bas pour s'envoler. Le projectile peut Meteor Smash (très risqué)."
+      },
+      {
+        "name": "Up B (Choix 2)",
+        "input": "↑ + B",
+        "damage": "8-9%",
+        "description": "Cannon Jump Kick. Uppercut sauté (Zero Suit-like). Rapide, bon OoS, Meteor au début."
+      },
+      {
+        "name": "Up B (Choix 3)",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "Arm Rocket. Vol contrôlable (ROB-like). Pas de hitbox, purement pour revenir."
+      },
+      {
+        "name": "Down B (Choix 1)",
+        "input": "↓ + B",
+        "damage": "Reflect (x1.5)",
+        "description": "Echo Reflector. Réflecteur de projectiles (Fox-like). Active frame 3."
+      },
+      {
+        "name": "Down B (Choix 2)",
+        "input": "↓ + B",
+        "damage": "9% (Explosion)",
+        "description": "Bomb Drop. Pose une petite bombe (Link-like). Explose au contact ou temps. Très bon pour piéger."
+      },
+      {
+        "name": "Down B (Choix 3)",
+        "input": "↓ + B",
+        "damage": "Soin",
+        "description": "Absorbing Vortex. Absorbe les projectiles d'énergie pour soigner (Ness-like)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10%",
+        "description": "Coup de canon circulaire. Bonne portée."
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "4-8%",
+        "description": "Tir en l'air. Vous propulse en arrière (Recul). Excellent pour zoner et revenir (Recovery)."
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Explosion arrière. Puissant kill move."
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10% (Total)",
+        "description": "Rafale de tirs vers le haut. Jonglage."
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10-15%",
+        "description": "Tir explosif vers le bas. Meteor Smash puissant (Sweetspot)."
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Lancer simple."
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Lancer arrière."
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Jette vers le haut (Combo)."
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol."
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

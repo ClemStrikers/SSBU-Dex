@@ -1,0 +1,136 @@
+{
+  "id": "68",
+  "name": "Isabelle",
+  "series": "Animal Crossing",
+  "isEcho": false,
+  "description": "L'assistante du Maire. Experte en contrôle de terrain, elle utilise des pièges (Gyroïde) et sa canne à pêche pour zoner l'adversaire. Elle partage certains coups avec le Villageois mais possède son propre style.",
+  "thumbnail": "isabelle_icon.png",
+  "image": "isabelle.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A",
+        "damage": "2%",
+        "description": "Coup de marteau jouet (très rapide, peut bloquer)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Début) / 6% (Fin)",
+        "description": "Trébuche et brise un pot (le pot est un projectile)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "17% (Sweetspot)",
+        "description": "Tire un gros pétard de fête (Fête surprise)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "2% (Sol) + 12% (Coup)",
+        "description": "Fait sortir un panneau Stop du sol (très bonne portée)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "10% (Avant) / 8% (Arrière)",
+        "description": "Jette un seau d'eau des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Pocket",
+        "input": "B",
+        "damage": "x1.9 (Renvoi)",
+        "description": "Met un projectile en poche pour le renvoyer plus fort"
+      },
+      {
+        "name": "Fishing Rod",
+        "input": "→ + B",
+        "damage": "15-18% (Projection)",
+        "description": "Lance une ligne qui attrape l'ennemi (Command Grab à distance)"
+      },
+      {
+        "name": "Balloon Trip",
+        "input": "↑ + B",
+        "damage": "0%",
+        "description": "S'envole avec des ballons (très longue distance)"
+      },
+      {
+        "name": "Lloid Trap",
+        "input": "↓ + B",
+        "damage": "12-14% (Explosion)",
+        "description": "Enterre une mine Gyroïde qui décolle si on marche dessus"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Clean)",
+        "description": "Tourbillonne avec des pompons"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "7% (Clean)",
+        "description": "Tir de lance-pierre avant (bon zoning)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "9% (Clean)",
+        "description": "Tir de lance-pierre arrière (plus fort que le forward)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de navets vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "10% (Sweetspot)",
+        "description": "Coup de navets vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "10%",
+        "description": "Jette avec le filet"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "13%",
+        "description": "Lancer arrière (Kill throw puissant)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "12%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "7%",
+        "description": "Plaque au sol (lanceur de combo)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

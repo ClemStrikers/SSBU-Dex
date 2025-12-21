@@ -1,0 +1,136 @@
+{
+  "id": "72",
+  "name": "Hero",
+  "series": "Dragon Quest",
+  "isEcho": false,
+  "description": "Le héros de Dragon Quest. Il possède une jauge de MP (100 max) pour lancer ses sorts. Ses attaques Smash ont 1/8 chance d'être des 'Coups Critiques' (dégâts doublés).",
+  "thumbnail": "hero_icon.png",
+  "image": "hero.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 3% + 4%",
+        "description": "Coups d'épée et de bouclier (Régénère MP)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "15%",
+        "description": "Saut et coup d'épée descendant"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "19% (Critique: 38%)",
+        "description": "Coup d'épée à deux mains (Peut être critique)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Critique: 32%)",
+        "description": "Coup d'épée vertical (Peut être critique)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (Critique: 26%)",
+        "description": "Double coup au sol (Peut être critique)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Frizz / Frizzle / Kafrizz",
+        "input": "B",
+        "damage": "9% / 18% / 31%",
+        "description": "Boule de feu chargeable. Coût: 6 / 16 / 36 MP."
+      },
+      {
+        "name": "Zap / Zapple / Kazap",
+        "input": "→ + B",
+        "damage": "12% / 20% / 38%",
+        "description": "Éclair (Ligne, Distance ou Tornade). Coût: 8 / 18 / 42 MP."
+      },
+      {
+        "name": "Woosh / Swoosh / Kaswoosh",
+        "input": "↑ + B",
+        "damage": "7% / 12% / 18%",
+        "description": "Tornade ascendante (Récupération). Coût: 5 / 9 / 18 MP."
+      },
+      {
+        "name": "Command Selection",
+        "input": "↓ + B",
+        "damage": "Variable",
+        "description": "Ouvre un menu de 4 sorts aléatoires. LISTE COMPLÈTE: \n[OFFENSIFS] Sizz (8MP, feu rapide), Sizzle (20MP, gros feu), Bang (9MP, explosion), Kaboom (37MP, grosse explosion), Whack (10MP, chance KO), Thwack (30MP, grande chance KO), Flame Slash (12MP, large coup feu), Kacrackle Slash (11MP, glace), Hatchet Man (15MP, critique garanti), Metal Slash (6MP, tue métal), Magic Burst (Tout MP, explosion géante), Kamikazee (1MP, suicide explosif).\n[BUFFS] Oomph (16MP, +Attaque), Psyche Up (14MP, +Prochain coup), Acceleratle (13MP, +Vitesse), Bounce (14MP, Réflecteur).\n[UTILES] Heal (7MP, soigne 11%), Snooze (16MP, endort), Zoom (8MP, retour sur scène), Kaclang (6MP, invulnérable métal), Hocus Pocus (4MP, effet aléatoire)."
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "9%",
+        "description": "Coup d'épée circulaire"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "12%",
+        "description": "Coup d'épée descendant (bonne portée)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "14% (Critique impossible)",
+        "description": "Coup d'épée ascendant arrière"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "7%",
+        "description": "Petit coup de pied vers le haut"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "16%",
+        "description": "Plongeon épée (Meteor Smash violent)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Jette en avant"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "9%",
+        "description": "Jette en arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "7%",
+        "description": "Jette vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Plaque au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

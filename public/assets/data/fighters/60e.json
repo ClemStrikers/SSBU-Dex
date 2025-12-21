@@ -1,0 +1,136 @@
+{
+  "id": "60e",
+  "name": "Ken",
+  "series": "Street Fighter",
+  "isEcho": true,
+  "description": "Le rival flamboyant de Ryu. Plus rapide, il excelle au corps à corps avec des coups de pied multiples et un Shoryuken enflammé.",
+  "thumbnail": "ken_icon.png",
+  "image": "ken.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab (Light/Heavy)",
+        "input": "A (Tap / Hold)",
+        "damage": "2% (Light) / 6% (Heavy)",
+        "description": "Coup de poing rapide ou coup de pied circulaire"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "12%",
+        "description": "Coup de pied sauté (différent de Ryu)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Coup de pied au visage (plus rapide que Ryu)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15%",
+        "description": "Uppercut puissant (identique à Ryu)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Balayage rotatif au sol"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Hadoken",
+        "input": "B (Input: ↓↘→ + A)",
+        "damage": "5-7%",
+        "description": "Boule de feu (forme différente, moins puissante)"
+      },
+      {
+        "name": "Tatsumaki Senpukyaku",
+        "input": "→ + B (Input: ↓↙← + A)",
+        "damage": "10-14% (Multi-hit)",
+        "description": "Coup de pied ouragan (frappe plusieurs fois, combo)"
+      },
+      {
+        "name": "Shoryuken",
+        "input": "↑ + B (Input: →↓↘ + A)",
+        "damage": "16-19% (Enflammé)",
+        "description": "Uppercut enflammé (tue extrêmement tôt)"
+      },
+      {
+        "name": "Focus Attack",
+        "input": "↓ + B",
+        "damage": "12% (Stun)",
+        "description": "Encaisse un coup puis donne un coup de pied"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "5% (Light) / 9% (Heavy)",
+        "description": "Coup de genou ou coup de pied (bon combo starter)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "14%",
+        "description": "Coup de pied circulaire"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "15%",
+        "description": "Coup de pied retourné (Kill move)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Uppercut aérien"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "13%",
+        "description": "Coup de poing vers le bas (Meteor Smash)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "8%",
+        "description": "Projection par-dessus l'épaule"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Hell Wheel (Roulade arrière et jet)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "9%",
+        "description": "Coup de pied vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "5%",
+        "description": "Coup de talon au sol"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

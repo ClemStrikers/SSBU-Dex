@@ -1,0 +1,136 @@
+{
+  "id": "55",
+  "name": "Pac-Man",
+  "series": "Pac-Man",
+  "isEcho": false,
+  "description": "La légende du jeu vidéo. Un personnage très créatif qui utilise des fruits, des bouches d'incendie et des fantômes pour piéger ses adversaires.",
+  "thumbnail": "pac-man_icon.png",
+  "image": "pac-man.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, A",
+        "damage": "3% + 2% + 4%",
+        "description": "Coup de poing gauche, droit, et coup de pied"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "9% (Multi-hit)",
+        "description": "Se transforme en Pac-Man classique et mange"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "16%",
+        "description": "Blinky (Fantôme rouge) - Coup direct"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "15% (Multi-hit)",
+        "description": "Inky (Fantôme bleu) - Coup vers le haut"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13%",
+        "description": "Pinky & Clyde - Balayage des deux côtés"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Bonus Fruit",
+        "input": "B",
+        "damage": "Variable",
+        "description": "Charge différents fruits/objets (Clé = très fort, Cloche = Stun)"
+      },
+      {
+        "name": "Power Pellet",
+        "input": "→ + B",
+        "damage": "4-16% (Charge)",
+        "description": "Suit une ligne de pac-gommes (Super Armor)"
+      },
+      {
+        "name": "Pac-Jump",
+        "input": "↑ + B",
+        "damage": "7% (Trampoline)",
+        "description": "Trampoline (3 sauts max, devient rouge et casse)"
+      },
+      {
+        "name": "Fire Hydrant",
+        "input": "↓ + B",
+        "damage": "9% (Chute) / 13% (Eau)",
+        "description": "Lâche une bouche d'incendie (peut être éjectée)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "10% (Début)",
+        "description": "Se met en boule (très rapide, sort des combos)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "5%",
+        "description": "Coup de pied sauté rapide"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "11%",
+        "description": "Double dropkick (puissant)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Coup de pied retourné"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "1.5% x4",
+        "description": "Coups de pieds multiples vers le bas"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "6%",
+        "description": "Petit coup de fantôme"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "11%",
+        "description": "Lancer arrière (Kill throw)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "6%",
+        "description": "Lancer vers le haut"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "10%",
+        "description": "Grignote l'ennemi (soigne un peu)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}

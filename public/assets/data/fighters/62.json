@@ -1,0 +1,136 @@
+{
+  "id": "62",
+  "name": "Corrin",
+  "series": "Fire Emblem",
+  "isEcho": false,
+  "description": "Le dragon du destin. Il transforme ses membres en lances de dragon. Son 'Pin' (Side B) est un outil unique pour contrôler le sol et surprendre l'ennemi.",
+  "thumbnail": "corrin_icon.png",
+  "image": "corrin.png",
+  "moves": {
+    "neutral": [
+      {
+        "name": "Jab",
+        "input": "A, A, Multi",
+        "damage": "2% + 2% + Multi",
+        "description": "Coups de griffes et rotation de l'épée (Yato)"
+      },
+      {
+        "name": "Dash Attack",
+        "input": "Dash + A",
+        "damage": "10% (Multi-hit)",
+        "description": "Coup de main transformé (multiples touches)"
+      }
+    ],
+    "smash": [
+      {
+        "name": "Forward Smash",
+        "input": "→ + Smash",
+        "damage": "15% (Sweetspot)",
+        "description": "Lance dragon (portée immense, paralyse au bout)"
+      },
+      {
+        "name": "Up Smash",
+        "input": "↑ + Smash",
+        "damage": "16% (Sweetspot)",
+        "description": "Lance dragon verticale (très puissante au bout)"
+      },
+      {
+        "name": "Down Smash",
+        "input": "↓ + Smash",
+        "damage": "13% (Avant) / 15% (Arrière)",
+        "description": "Frappe devant (Yato) et derrière (Jambe dragon)"
+      }
+    ],
+    "specials": [
+      {
+        "name": "Dragon Fang Shot",
+        "input": "B",
+        "damage": "11% (Boule) + 12% (Morsure)",
+        "description": "Tire une boule paralysante puis mord (chargeable)"
+      },
+      {
+        "name": "Dragon Lunge",
+        "input": "→ + B",
+        "damage": "12% (Pin) + 12% (Kick)",
+        "description": "Plante sa lance au sol (Pin). Peut enchainer avec un coup de pied."
+      },
+      {
+        "name": "Draconic Ascent",
+        "input": "↑ + B",
+        "damage": "13% (Multi-hit)",
+        "description": "S'envole avec des ailes d'eau (tue très tôt)"
+      },
+      {
+        "name": "Counter Surge",
+        "input": "↓ + B",
+        "damage": "Variable (x1.2)",
+        "description": "Se transforme en dragon et inonde l'ennemi (éjecte verticalement)"
+      }
+    ],
+    "aerials": [
+      {
+        "name": "Neutral Air",
+        "input": "Air + A",
+        "damage": "8%",
+        "description": "Coup circulaire (couvre une large zone)"
+      },
+      {
+        "name": "Forward Air",
+        "input": "Air → + A",
+        "damage": "9%",
+        "description": "Coup de l'épée Yato (rapide, combo)"
+      },
+      {
+        "name": "Back Air",
+        "input": "Air ← + A",
+        "damage": "13%",
+        "description": "Ailes de dragon dans le dos (pousse Corrin, très fort)"
+      },
+      {
+        "name": "Up Air",
+        "input": "Air ↑ + A",
+        "damage": "10%",
+        "description": "Arc au-dessus de la tête (Jonglage principal)"
+      },
+      {
+        "name": "Down Air",
+        "input": "Air ↓ + A",
+        "damage": "15% (Multi-hit)",
+        "description": "Plongeon pieds transformés (Meteor au début)"
+      }
+    ],
+    "throws": [
+      {
+        "name": "Forward Throw",
+        "input": "Grab → + A",
+        "damage": "7%",
+        "description": "Coup de torse"
+      },
+      {
+        "name": "Back Throw",
+        "input": "Grab ← + A",
+        "damage": "10%",
+        "description": "Lancer arrière (Kill throw à haut %)"
+      },
+      {
+        "name": "Up Throw",
+        "input": "Grab ↑ + A",
+        "damage": "10%",
+        "description": "Lancer vers le haut (Kill throw)"
+      },
+      {
+        "name": "Down Throw",
+        "input": "Grab ↓ + A",
+        "damage": "6%",
+        "description": "Écrase au sol (combo starter)"
+      }
+    ]
+  },
+  "matchups" : {
+    "winning_hard": ["76", "69"],
+    "winning_soft": ["01", "02", "33_34_35"],
+    "even": ["03", "09", "10"],
+    "losing_soft": ["25", "71", "79_80"],
+    "losing_hard": ["28", "53"]
+  }
+}
