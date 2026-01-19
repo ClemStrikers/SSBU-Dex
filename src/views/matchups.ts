@@ -4,44 +4,62 @@ interface Fighter {
   id: string;
   name: string;
   thumbnail: string;
+  // Si tu as une couleur dans ton JSON, ajoute-la ici : color?: string;
 }
 
 interface FighterDetails {
   id: string;
   name: string;
   matchups?: {
-    winning_hard: string[]; // +2
-    winning_soft: string[]; // +1
-    even: string[];         // 0
-    losing_soft: string[];  // -1
-    losing_hard: string[];  // -2
+    winning_hard: string[];
+    winning_soft: string[];
+    even: string[];
+    losing_soft: string[];
+    losing_hard: string[];
   };
 }
 
-// On garde le roster en mémoire pour retrouver les images des adversaires
 let globalRoster: Fighter[] = [];
+
+// Fonction utilitaire pour donner une couleur style Smash si elle n'est pas dans le JSON
+function getFighterColor(id: string): string {
+  // Palette de couleurs inspirée des series Smash (Mario Red, Link Green, etc.)
+  const colors = ["#e60012", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#1abc9c", "#e91e63"];
+  // On utilise l'ID pour toujours avoir la même couleur pour le même perso
+  const index = id.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0) % colors.length;
+  return colors[index];
+}
 
 export async function renderMatchups() {
   const app = document.getElementById("app");
   if (!app) return;
 
-  // 1. Charger le Roster global si pas encore fait
   if (globalRoster.length === 0) {
     try {
       const response = await fetch("/assets/data/roster.json");
       globalRoster = await response.json();
     } catch (error) {
       console.error("Erreur chargement roster", error);
-      app.innerHTML = "<p>Erreur de chargement des données.</p>";
       return;
     }
   }
 
-  // 2. Afficher la grille de sélection (Titre + Grille)
+  function getCleanFileName(name: string): string {
+  return name
+    .toLowerCase()                   // Tout en minuscule
+    .replace(/\./g, '')              // Enlève les points (Dr.)
+    .replace(/\s+/g, '')             // Enlève tous les espaces
+    .replace(/&/g, '')               // Enlève les esperluettes (Pyra & Mythra)
+    .replace(/[^a-z0-9]/g, '');      // Sécurité : enlève tout ce qui n'est pas lettre ou chiffre
+}
+
+  // Structure principale
   app.innerHTML = `
     <div class="fade-in">
-      <h1 style="text-align:center;">SÉLECTIONNEZ UN COMBATTANT</h1>
-      <p style="text-align:center; margin-bottom:2rem;">Pour voir son tableau des matchups</p>
+      <div style="text-align:center; margin-bottom: 2rem;">
+        <h1>SÉLECTIONNEZ UN COMBATTANT</h1>
+        <p>Analysez les pourcentages de victoire et les contres</p>
+      </div>
       <div class="roster-grid" id="matchup-selection-grid"></div>
     </div>
     <div id="matchup-chart-container" style="display:none;"></div>
@@ -49,77 +67,116 @@ export async function renderMatchups() {
 
   const grid = document.getElementById("matchup-selection-grid");
   
-  // Générer les cartes
-  globalRoster.forEach((fighter) => {
-    const card = document.createElement("div");
-    card.classList.add("fighter-card");
-    card.innerHTML = `
-      <div class="card-image" style="background-image: url('/assets/images/${fighter.thumbnail}')"></div>
-      <div class="card-name">${fighter.name}</div>
-    `;
-    // Au clic, on lance l'affichage du chart
-    card.addEventListener("click", () => showMatchupChart(fighter.id));
-    grid?.appendChild(card);
-  });
-}
+  globalRoster.forEach((fighter, index) => {
+  const card = document.createElement("div");
+  card.classList.add("fighter-card");
+  
+  const color = getFighterColor(fighter.id);
+  card.style.setProperty('--char-color', color);
 
-// Fonction pour afficher le tableau (Tier List)
+  // --- CORRECTION DU NOM DE FICHIER ---
+  // 1. On met en minuscule
+  // 2. On enlève les points (ex: Dr. -> dr)
+  // 3. On enlève les espaces (ex: dark samus -> darksamus)
+  const cleanId = fighter.name
+    .toLowerCase()
+    .replace(/\./g, '') 
+    .replace(/\s+/g, '');
+    
+  const cleanName = getCleanFileName(fighter.name);
+  const imagePath = `/assets/images/${cleanName}_icon.png`;
+
+  card.innerHTML = `
+    <div class="card-header">#${index + 1}</div>
+    <div class="card-image-container">
+      <img src="${imagePath}" 
+           alt="${fighter.name}" 
+           style="width: 100%; height: auto; display:block;"
+           onerror="this.src='/assets/images/placeholder_icon.png'">
+    </div>
+    <div class="fighter-name">${fighter.name}</div>
+  `;
+
+  card.innerHTML = `
+    <div class="card-header">#${index + 1}</div>
+    <div class="card-image-container">
+      <img src="${imagePath}" alt="${fighter.name}" style="width: 100%; height: auto; display:block;">
+    </div>
+    <div class="fighter-name">${fighter.name}</div>
+  `;
+  
+  card.addEventListener("click", () => showMatchupChart(fighter.id));
+  grid?.appendChild(card);
+});
+
 async function showMatchupChart(fighterId: string) {
   const container = document.getElementById("matchup-chart-container");
   const selectionGrid = document.querySelector(".fade-in") as HTMLElement;
   
   if (!container || !selectionGrid) return;
 
-  // Masquer la grille, afficher le loader ou vide
   selectionGrid.style.display = "none";
   container.style.display = "block";
-  container.innerHTML = "<p style='text-align:center;'>Analyse des données...</p>";
+  
+  // Loader temporaire
+  container.innerHTML = "<p style='text-align:center; font-size:2rem;'>LOADING...</p>";
 
   try {
-    // Récupérer les détails du perso (avec ses matchups)
     const res = await fetch(`/assets/data/fighters/${fighterId}.json`);
     const data: FighterDetails = await res.json();
 
+    // Bouton retour générique
+    const backButtonHtml = `<button class="ssbu-button" id="back-btn-chart" style="margin-top:2rem;">RETOUR AU ROSTER</button>`;
+
     if (!data.matchups) {
       container.innerHTML = `
-        <h2 style="text-align:center; margin-top:2rem;">Données indisponibles</h2>
-        <p style="text-align:center;">Aucun matchup enregistré pour ${data.name}.</p>
-        <button class="ssbu-button" id="back-btn" style="display:block; margin: 2rem auto;">RETOUR</button>
+        <div style="text-align:center; padding: 4rem;">
+            <h2>Données manquantes</h2>
+            <p>Pas de données pour ${data.name}</p>
+            ${backButtonHtml}
+        </div>
       `;
-      document.getElementById("back-btn")?.addEventListener("click", renderMatchups);
+      document.getElementById("back-btn-chart")?.addEventListener("click", renderMatchups);
       return;
     }
 
-    // Construire le HTML du Chart
-    // On utilise une fonction helper pour générer chaque ligne (row)
     const renderRow = (label: string, ids: string[], colorClass: string) => {
       const iconsHtml = ids.map(id => {
         const opponent = globalRoster.find(r => r.id === id);
-        if (!opponent) return ""; // Si ID inconnu
-        return `<img src="/assets/images/${opponent.thumbnail}" alt="${opponent.name}" title="${opponent.name}" class="tier-icon">`;
+        if (!opponent) return "";
+        return `
+            <img src="/assets/images/${opponent.thumbnail}" 
+                 alt="${opponent.name}" 
+                 title="${opponent.name}" 
+                 class="tier-icon">
+        `;
       }).join("");
 
       return `
         <div class="tier-row">
           <div class="tier-label ${colorClass}">${label}</div>
-          <div class="tier-content">${iconsHtml || "<span style='opacity:0.3; padding-left:1rem;'>-</span>"}</div>
+          <div class="tier-content">${iconsHtml}</div>
         </div>
       `;
     };
 
+    // Affichage du tableau
     container.innerHTML = `
-      <div class="matchup-header" style="text-align:center; margin-bottom:2rem;">
-        <h1 class="char-name">${data.name.toUpperCase()}</h1>
-        <p>Tableau des Matchups</p>
-        <button class="ssbu-button" id="back-btn-chart" style="padding: 0.5rem 1.5rem; font-size:1rem;">Changer de perso</button>
+      <div style="text-align:center; margin-bottom:3rem;">
+        <h1 style="font-size: 3rem; text-shadow: 4px 4px 0px var(--ssbu-red);">${data.name}</h1>
+        <p style="color:white;">TABLEAU DES MATCHUPS</p>
       </div>
 
       <div class="tier-list-wrapper">
-        ${renderRow("WINNING (+2)", data.matchups.winning_hard, "bg-green-dark")}
-        ${renderRow("WINNING (+1)", data.matchups.winning_soft, "bg-green-light")}
-        ${renderRow("EVEN (0)", data.matchups.even, "bg-yellow")}
-        ${renderRow("LOSING (-1)", data.matchups.losing_soft, "bg-orange")}
-        ${renderRow("LOSING (-2)", data.matchups.losing_hard, "bg-red")}
+        ${renderRow("+2 / AVANTAGE", data.matchups.winning_hard, "bg-green-dark")}
+        ${renderRow("+1 / LÉGER", data.matchups.winning_soft, "bg-green-light")}
+        ${renderRow("0 / ÉGAL", data.matchups.even, "bg-yellow")}
+        ${renderRow("-1 / DIFFICILE", data.matchups.losing_soft, "bg-orange")}
+        ${renderRow("-2 / CONTRE", data.matchups.losing_hard, "bg-red")}
+      </div>
+      
+      <div style="text-align:center;">
+        ${backButtonHtml}
       </div>
     `;
 
@@ -127,6 +184,5 @@ async function showMatchupChart(fighterId: string) {
 
   } catch (error) {
     console.error(error);
-    container.innerHTML = "<p>Erreur lors du chargement du fichier personnage.</p>";
   }
-}
+}}
