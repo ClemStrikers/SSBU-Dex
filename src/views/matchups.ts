@@ -11,11 +11,15 @@ interface FighterDetails {
   id: string;
   name: string;
   matchups?: {
+    winning_very_hard: string[];
     winning_hard: string[];
+    winning: string[];
     winning_soft: string[];
     even: string[];
     losing_soft: string[];
+    losing: string[];
     losing_hard: string[];
+    losing_very_hard: string[];
   };
 }
 
@@ -140,41 +144,42 @@ async function showMatchupChart(fighterId: string) {
       return;
     }
 
-    const renderRow = (label: string, ids: string[], colorClass: string) => {
-      const iconsHtml = ids.map(id => {
-        const opponent = globalRoster.find(r => r.id === id);
-        if (!opponent) return "";
-        return `
-            <img src="/assets/images/${opponent.thumbnail}" 
-                 alt="${opponent.name}" 
-                 title="${opponent.name}" 
-                 class="tier-icon">
-        `;
-      }).join("");
+    const renderRow = (label: string, ids: string[], color: string) => {
+  const iconsHtml = ids.map(id => {
+    const opponent = globalRoster.find(r => r.id === id);
+    if (!opponent) return "";
+    
+    // Nettoyage de l'ID pour l'image
+    const cleanOpponentId = opponent.name.toLowerCase().replace(/\./g, '').replace(/\s+/g, '');
+    const iconPath = `/assets/images/${cleanOpponentId}_icon.png`;
 
-      return `
-        <div class="tier-row">
-          <div class="tier-label ${colorClass}">${label}</div>
-          <div class="tier-content">${iconsHtml}</div>
-        </div>
-      `;
-    };
+    return `<img src="${iconPath}" alt="${opponent.name}" title="${opponent.name}" class="tier-icon">`;
+  }).join("");
+
+  return `
+    <div class="tier-row">
+      <div class="tier-label" style="background-color: ${color}; color: #000; font-weight: bold;">
+        ${label}
+      </div>
+      <div class="tier-content">${iconsHtml}</div>
+    </div>
+  `;
+};
 
     // Affichage du tableau
     container.innerHTML = `
-      <div style="text-align:center; margin-bottom:3rem;">
-        <h1 style="font-size: 3rem; text-shadow: 4px 4px 0px var(--ssbu-red);">${data.name}</h1>
-        <p style="color:white;">TABLEAU DES MATCHUPS</p>
-      </div>
+  <div class="tier-list-wrapper">
+    ${renderRow("+2 / Gros Avantage", data.matchups.winning_very_hard, "#0e56f0ff")}
+    ${renderRow("+1.5 / Avantage", data.matchups.winning_hard, "#28ecfaff")} 
+    ${renderRow("+1 / Léger avantage", data.matchups.winning, "#2af857ff")}
+    ${renderRow("+0.5 / Très léger", data.matchups.winning_soft, "#a7f52aff")}
+    ${renderRow("0 / Even", data.matchups.even, "#ffef0cff")}
+    ${renderRow("-0.5 / Très léger", data.matchups.losing_soft, "#f1aa40ff")}
+    ${renderRow("-1 / Léger désavantage", data.matchups.losing, "#f58320ff")}
+    ${renderRow("-1.5 / Désavantage", data.matchups.losing_hard, "#e74c3c")}
+    ${renderRow("-2 / Gros désavantage", data.matchups.losing_very_hard, "#ff0c0cff")}
+  </div>
 
-      <div class="tier-list-wrapper">
-        ${renderRow("+2 / AVANTAGE", data.matchups.winning_hard, "bg-green-dark")}
-        ${renderRow("+1 / LÉGER", data.matchups.winning_soft, "bg-green-light")}
-        ${renderRow("0 / ÉGAL", data.matchups.even, "bg-yellow")}
-        ${renderRow("-1 / DIFFICILE", data.matchups.losing_soft, "bg-orange")}
-        ${renderRow("-2 / CONTRE", data.matchups.losing_hard, "bg-red")}
-      </div>
-      
       <div style="text-align:center;">
         ${backButtonHtml}
       </div>
