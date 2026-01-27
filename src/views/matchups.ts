@@ -11,6 +11,7 @@ interface FighterDetails {
   id: string;
   name: string;
   matchups?: {
+    winning_absolute: string[];
     winning_very_hard: string[];
     winning_hard: string[];
     winning: string[];
@@ -20,6 +21,7 @@ interface FighterDetails {
     losing: string[];
     losing_hard: string[];
     losing_very_hard: string[];
+    losing_absolute: string[];
   };
 }
 
@@ -169,15 +171,17 @@ async function showMatchupChart(fighterId: string) {
     // Affichage du tableau
     container.innerHTML = `
   <div class="tier-list-wrapper">
-    ${renderRow("+2 / Gros Avantage", data.matchups.winning_very_hard, "#0e56f0ff")}
-    ${renderRow("+1.5 / Avantage", data.matchups.winning_hard, "#28ecfaff")} 
-    ${renderRow("+1 / Léger avantage", data.matchups.winning, "#2af857ff")}
-    ${renderRow("+0.5 / Très léger", data.matchups.winning_soft, "#a7f52aff")}
+    ${renderRow("+2.5 / Absolute Victory", data.matchups.winning_absolute, "#5f0909ff")}
+    ${renderRow("+2 / Gros Avantage", data.matchups.winning_very_hard, "#f00e0eff")}
+    ${renderRow("+1.5 / Avantage", data.matchups.winning_hard, "#fa6328ff")} 
+    ${renderRow("+1 / Léger avantage", data.matchups.winning, "#f8982aff")}
+    ${renderRow("+0.5 / Très léger", data.matchups.winning_soft, "#f5bf2aff")}
     ${renderRow("0 / Even", data.matchups.even, "#ffef0cff")}
-    ${renderRow("-0.5 / Très léger", data.matchups.losing_soft, "#f1aa40ff")}
-    ${renderRow("-1 / Léger désavantage", data.matchups.losing, "#f58320ff")}
-    ${renderRow("-1.5 / Désavantage", data.matchups.losing_hard, "#e74c3c")}
-    ${renderRow("-2 / Gros désavantage", data.matchups.losing_very_hard, "#ff0c0cff")}
+    ${renderRow("-0.5 / Très léger", data.matchups.losing_soft, "#d1f140ff")}
+    ${renderRow("-1 / Léger désavantage", data.matchups.losing, "#92f520ff")}
+    ${renderRow("-1.5 / Désavantage", data.matchups.losing_hard, "#43f833ff")}
+    ${renderRow("-2 / Gros désavantage", data.matchups.losing_very_hard, "#0cff79ff")}
+    ${renderRow("-2.5 / Absolute Defeat", data.matchups.losing_absolute, "#96f8c2ff")}
   </div>
 
       <div style="text-align:center;">
